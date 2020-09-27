@@ -16,9 +16,11 @@ function App() {
       </div>
       <nav>
         <Link to="/">Order of service</Link>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link" target="_blank">Visitor Form</a>
         <Link to="/announcement-flyer">Announcement Flyer</Link>
         <Link to="/facebook-feed">Facebook page</Link>
         <Link to="/stone-soup">Support Stone Soup</Link>
+        <Link to="/sermons">Sermons</Link>
       </nav>
       <div className="lc-content">
         <React.Suspense fallback={<em>Loading...</em>}>

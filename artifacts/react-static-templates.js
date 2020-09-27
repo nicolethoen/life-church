@@ -8,6 +8,7 @@ export default {
 '__react_static_root__/src/pages/blog.tsx': require('__react_static_root__/src/pages/blog.tsx').default,
 '__react_static_root__/src/pages/facebook-feed.tsx': require('__react_static_root__/src/pages/facebook-feed.tsx').default,
 '__react_static_root__/src/pages/index.tsx': require('__react_static_root__/src/pages/index.tsx').default,
+'__react_static_root__/src/pages/sermons.tsx': require('__react_static_root__/src/pages/sermons.tsx').default,
 '__react_static_root__/src/pages/stone-soup.tsx': require('__react_static_root__/src/pages/stone-soup.tsx').default,
 '__react_static_root__/src/containers/Post': require('__react_static_root__/src/containers/Post').default
 }

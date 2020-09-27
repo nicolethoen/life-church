@@ -3,9 +3,9 @@ import {Link} from "@reach/router";
 
 export default () => (
     <div className="lc-stone-soup">
-        <h2><a href="https://www.facebook.com/FeedJust1" className="lc-stone-soup__website-link">Stone Soup Kitchen Ministry's Website</a></h2>
+        <h2><a href="https://www.facebook.com/FeedJust1" className="lc-stone-soup__website-link" target="_blank">Stone Soup Kitchen Ministry's Website</a></h2>
         <div className="lc-stone-soup__donate">
-            To contribute monetarily to weekly produce delivery, donate to Nicole: <a href="https://www.paypal.com/paypalme/nicolethoen">Paypal</a> and <a href="https://venmo.com/code?user_id=1771019337465856685">Venmo</a>
+            To contribute monetarily to weekly produce delivery, donate to Nicole: <a href="https://www.paypal.com/paypalme/nicolethoen" target="_blank">Paypal</a> and <a href="https://venmo.com/code?user_id=1771019337465856685" target="_blank">Venmo</a>
         </div>
         <div className="lc-stone-soup__donation-details">
             <p>List of items Stone Soup is always collection:</p>

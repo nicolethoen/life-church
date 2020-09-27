@@ -92,6 +92,34 @@ nav a:hover {
 
 .lc-order-of-worship__date {
   color: #c11010;
+  margin-bottom: 0;
+}
+
+.lc-order-of-worship__faithlife-bulletin {
+  margin-bottom: .83em;
+  font-style: italic;
+}
+
+.lc-sermons {
+  width: 700px;
+  margin: 0 auto 20px auto;
+
+}
+
+.lc-sermons__date{
+
+}
+
+.lc-sermons__video {
+
+}
+
+.lc-sermons__link {
+  display: block;
+}
+
+.lc-sermons__previous {
+
 }
 
 footer {
