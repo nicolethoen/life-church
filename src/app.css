@@ -1,0 +1,135 @@
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+    'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #c11010;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #bf4545;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+  background: #606060;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+}
+
+nav a:hover {
+  background-color: #909090;
+  color: white;
+  text-decoration: none;
+}
+
+.lc-service-item {
+  padding-bottom: .7rem;
+}
+
+.lc-service-item__item {
+  font-size: 1.2em;
+}
+
+.lc-service-item__person {
+  font-style: italic;
+  padding-left: 1em;
+}
+
+.lc-service-item__subtext {
+  padding-left: 2em;
+}
+
+.lc-facebook-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lc-facebook-feed__post {
+  align-self: center;
+  padding: 2em;
+  background-color: #bbbbbb;
+  margin-top: 1em;
+}
+
+.lc-announcement-flyer {
+  text-align: center;
+}
+
+.lc-announcement-flyer img {
+  width: 600px;
+  border: 25px #bbbbbb solid;
+  margin-top: 10px;
+}
+
+.lc-stone-soup {
+  width: 700px;
+  margin: auto;
+}
+
+.lc-order-of-worship {
+  width: 700px;
+  margin: auto;
+}
+
+.lc-order-of-worship__date {
+  color: #c11010;
+}
+
+footer {
+  background-color: #bbbbbb;
+  color: white;
+  padding: 2em;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .lc-logo img {
+    height: 80px;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    padding-left: .2em;
+  }
+  nav a {
+    padding: 0.35rem;
+  }
+
+  .lc-announcement-flyer img {
+    width: 80%;
+    border: 25px #bbbbbb solid;
+    margin-top: 10px;
+  }
+
+  .lc-stone-soup {
+    width: 90%;
+    margin: auto;
+  }
+
+  .lc-order-of-worship {
+    width: 90%;
+    margin: auto;
+  }
+}
