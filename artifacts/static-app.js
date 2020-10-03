@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 28);
+/******/ 	return __webpack_require__(__webpack_require__.s = 32);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -139,12 +139,40 @@ module.exports = require("@reach/router");
 
 /***/ }),
 /* 4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var ServiceItem = function ServiceItem(_ref) {
+  var children = _ref.children,
+      _ref$subtext = _ref.subtext,
+      subtext = _ref$subtext === void 0 ? '' : _ref$subtext,
+      _ref$person = _ref.person,
+      person = _ref$person === void 0 ? '' : _ref$person;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-service-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-service-item__item"
+  }, children), person && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-service-item__person"
+  }, person), subtext && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-service-item__subtext"
+  }, subtext));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (ServiceItem);
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(8);
+var _typeof = __webpack_require__(11);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -183,7 +211,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(34);
+var _requireUniversalModule = __webpack_require__(38);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -198,7 +226,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(36);
+var _reportChunks = __webpack_require__(40);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -212,21 +240,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(12);
+var _propTypes = __webpack_require__(15);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(13);
+var _hoistNonReactStatics = __webpack_require__(16);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(37);
+var _vm = __webpack_require__(41);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(9);
+var _utils = __webpack_require__(12);
 
-var _helpers = __webpack_require__(38);
+var _helpers = __webpack_require__(42);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -621,16 +649,16 @@ function universal(asyncModule) {
     report: _propTypes2["default"].func
   }, _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(33)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(37)(module)))
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-static");
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -640,11 +668,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(9);
+var _utils = __webpack_require__(12);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(35)("" + id);
+    return __webpack_require__(39)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -653,7 +681,19 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 7 */
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/slicedToArray");
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/objectDestructuringEmpty");
+
+/***/ }),
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -663,7 +703,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(5);
+var external_react_static_ = __webpack_require__(6);
 
 // EXTERNAL MODULE: external "@reach/router"
 var router_ = __webpack_require__(3);
@@ -676,12 +716,162 @@ var Dynamic_Dynamic = function Dynamic() {
 };
 
 /* harmony default export */ var containers_Dynamic = (Dynamic_Dynamic);
+// EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
+var defineProperty_ = __webpack_require__(28);
+var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
+var slicedToArray_ = __webpack_require__(8);
+var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/objectDestructuringEmpty"
+var objectDestructuringEmpty_ = __webpack_require__(9);
+var objectDestructuringEmpty_default = /*#__PURE__*/__webpack_require__.n(objectDestructuringEmpty_);
+
+// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/ActionButton.tsx
+
+
+var ActionButton_ActionButton = function ActionButton(_ref) {
+  var _ref$children = _ref.children,
+      children = _ref$children === void 0 ? '' : _ref$children,
+      _ref$className = _ref.className,
+      className = _ref$className === void 0 ? '' : _ref$className;
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-action-buttons__button ".concat(className)
+  }, children);
+};
+
+/* harmony default export */ var components_ActionButton = (ActionButton_ActionButton);
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/assets/LifeChurchLogo.png
-var LifeChurchLogo = __webpack_require__(24);
+var LifeChurchLogo = __webpack_require__(29);
 var LifeChurchLogo_default = /*#__PURE__*/__webpack_require__.n(LifeChurchLogo);
 
+// EXTERNAL MODULE: external "react-transition-group"
+var external_react_transition_group_ = __webpack_require__(30);
+
+// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/Header.tsx
+
+
+
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { defineProperty_default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+
+
+
+
+
+var Header_Header = function Header(_ref) {
+  objectDestructuringEmpty_default()(_ref);
+
+  var _React$useState = external_react_default.a.useState(false),
+      _React$useState2 = slicedToArray_default()(_React$useState, 2),
+      inProp = _React$useState2[0],
+      setInProp = _React$useState2[1];
+
+  var duration = 300;
+  var defaultStyle = {
+    transition: "visibility 0s linear 300ms, opacity ".concat(duration, "ms ease-in-out"),
+    visibility: 'hidden',
+    opacity: '0'
+  };
+  var transitionStyles = {
+    entering: {
+      visibility: 'visible',
+      opacity: '1',
+      transition: "visibility 0s linear 0s, opacity ".concat(duration, "ms ease-in-out")
+    },
+    entered: {
+      visibility: 'visible',
+      opacity: '1',
+      transition: "visibility 0s linear 0s, opacity ".concat(duration, "ms ease-in-out")
+    },
+    exiting: {
+      visibility: 'hidden',
+      opacity: '0',
+      transition: "visibility 0s linear 300ms, opacity ".concat(duration, "ms ease-in-out")
+    },
+    exited: {
+      visibility: 'hidden',
+      opacity: '0',
+      transition: "visibility 0s linear 300ms, opacity ".concat(duration, "ms ease-in-out")
+    }
+  };
+  return /*#__PURE__*/external_react_default.a.createElement("header", null, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-logo"
+  }, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/"
+  }, /*#__PURE__*/external_react_default.a.createElement("img", {
+    src: LifeChurchLogo_default.a,
+    height: "100"
+  }))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-menu-toggle"
+  }, /*#__PURE__*/external_react_default.a.createElement("span", {
+    className: "lc-link",
+    onClick: function onClick() {
+      return setInProp(true);
+    }
+  }, "Menu")), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-action-buttons"
+  }, /*#__PURE__*/external_react_default.a.createElement(components_ActionButton, {
+    className: "primary"
+  }, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/"
+  }, "Order of service")), /*#__PURE__*/external_react_default.a.createElement(components_ActionButton, null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link",
+    target: "_blank"
+  }, "Visitor Form"))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-menu"
+  }, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/announcement-flyer"
+  }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/facebook-feed"
+  }, "Facebook feed"), /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/stone-soup"
+  }, "Support Stone Soup"), /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/sermons"
+  }, "Sermons")), /*#__PURE__*/external_react_default.a.createElement(external_react_transition_group_["Transition"], {
+    "in": inProp,
+    timeout: duration
+  }, function (state) {
+    return /*#__PURE__*/external_react_default.a.createElement("div", {
+      className: "lc-mobile-menu fade fade-".concat(state),
+      style: _objectSpread(_objectSpread({}, defaultStyle), transitionStyles[state])
+    }, /*#__PURE__*/external_react_default.a.createElement("span", {
+      className: "lc-mobile-menu__close",
+      onClick: function onClick() {
+        return setInProp(false);
+      }
+    }, "X"), /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+      to: "/announcement-flyer",
+      onClick: function onClick() {
+        return setInProp(false);
+      }
+    }, "Announcements")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+      to: "/facebook-feed",
+      onClick: function onClick() {
+        return setInProp(false);
+      }
+    }, "Facebook feed")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+      to: "/stone-soup",
+      onClick: function onClick() {
+        return setInProp(false);
+      }
+    }, "Support Stone Soup")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+      to: "/sermons",
+      onClick: function onClick() {
+        return setInProp(false);
+      }
+    }, "Sermons"))));
+  }));
+};
+
+/* harmony default export */ var components_Header = (Header_Header);
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/app.css
-var app = __webpack_require__(47);
+var app = __webpack_require__(51);
 
 // CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/App.tsx
 
@@ -689,29 +879,10 @@ var app = __webpack_require__(47);
 
 
 
- // Any routes that start with 'dynamic' will be treated as non-static routes
 
-Object(external_react_static_["addPrefetchExcludes"])(['dynamic']);
 
 function App() {
-  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-logo"
-  }, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-    to: "/"
-  }, /*#__PURE__*/external_react_default.a.createElement("img", {
-    src: LifeChurchLogo_default.a,
-    height: "100"
-  }))), /*#__PURE__*/external_react_default.a.createElement("nav", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-    to: "/"
-  }, "Order of service"), /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-    to: "/announcement-flyer"
-  }, "Announcement Flyer"), /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-    to: "/facebook-feed"
-  }, "Facebook page"), /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-    to: "/stone-soup"
-  }, "Support Stone Soup"), /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-    to: "/sermons"
-  }, "Sermons")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement(components_Header, null), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-content"
   }, /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
     fallback: /*#__PURE__*/external_react_default.a.createElement("em", null, "Loading...")
@@ -729,19 +900,19 @@ function App() {
 /* harmony default export */ var src_App = __webpack_exports__["a"] = (App);
 
 /***/ }),
-/* 8 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 9 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(8);
+var _typeof2 = __webpack_require__(11);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -772,7 +943,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(6);
+var _requireById = __webpack_require__(7);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -901,31 +1072,31 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 10 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 11 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/nthoen/Projects/life-church/node_modules/react-static/lib/browser");
 
 /***/ }),
-/* 12 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 13 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 14 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -938,14 +1109,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(25);
+/* harmony import */ var _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
 /* harmony import */ var _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__);
 
 
@@ -960,14 +1131,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
@@ -988,7 +1159,129 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 17 */
+/* 20 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var worshipSongs = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.youtube.com/watch?v=eRux8NlvEYo",
+    target: "_blank"
+  }, "Thy Mercy")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.youtube.com/watch?v=sgmhTPi0Zi8",
+    target: "_blank"
+  }, "Run to you")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.youtube.com/watch?v=7w3DXMkyj7Q",
+    target: "_blank"
+  }, "O, For a Thousand Tongues to Sing")));
+  var scriptureReading = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.biblegateway.com/passage/?search=Jonah+1%3A1-16&version=ESV",
+    target: "_blank"
+  }, "Jonah 1:1-16");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-order-of-worship"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "lc-order-of-worship__date"
+  }, "September 27th, 2020"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-order-of-worship__faithlife-bulletin"
+  }, "Follow along with the sermon slides on ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://faithlife.com/8613551/bulletins/67349638",
+    target: "_blank"
+  }, "Faithlife"), " (login required)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Colbys"
+  }, "Call to Worship & Opening Prayer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Dawn Provost & Nicole Thoen",
+    subtext: worshipSongs
+  }, "Worship"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Nicole Thoen"
+  }, "Announcements"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Dawn Provost"
+  }, "Praise, Thanksgiving, and Prayer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Colbys",
+    subtext: scriptureReading
+  }, "Scripture Reading"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Dan Kasey",
+    subtext: "\"The Battle of Wills\""
+  }, "Sermon"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Aaron Claussen"
+  }, "Benediction"));
+});
+
+/***/ }),
+/* 21 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var worshipSongs = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.youtube.com/watch?v=eRux8NlvEYo",
+    target: "_blank"
+  }, "Thy Mercy")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.youtube.com/watch?v=sgmhTPi0Zi8",
+    target: "_blank"
+  }, "Run to you")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.youtube.com/watch?v=7w3DXMkyj7Q",
+    target: "_blank"
+  }, "O, For a Thousand Tongues to Sing")));
+  var scriptureReading = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.biblegateway.com/passage/?search=Jonah+1%3A1-16&version=ESV",
+    target: "_blank"
+  }, "Jonah 1:1-16");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-order-of-worship"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "lc-order-of-worship__date"
+  }, "September 27th, 2020"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lc-order-of-worship__faithlife-bulletin"
+  }, "Follow along with the sermon slides on ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://faithlife.com/8613551/bulletins/67349638",
+    target: "_blank"
+  }, "Faithlife"), " (login required)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], null, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Colbys"
+  }, "Call to Worship & Opening Prayer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Dawn Provost & Nicole Thoen",
+    subtext: worshipSongs
+  }, "Worship"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Nicole Thoen"
+  }, "Announcements"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Dawn Provost"
+  }, "Praise, Thanksgiving, and Prayer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Colbys",
+    subtext: scriptureReading
+  }, "Scripture Reading"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Dan Kasey",
+    subtext: "\"The Battle of Wills\""
+  }, "Sermon"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ServiceItem__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
+    person: "Aaron Claussen"
+  }, "Benediction"));
+});
+
+/***/ }),
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1001,14 +1294,11 @@ __webpack_require__.r(__webpack_exports__);
     className: "lc-stone-soup"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.facebook.com/FeedJust1",
-    className: "lc-stone-soup__website-link"
+    className: "lc-stone-soup__website-link",
+    target: "_blank"
   }, "Stone Soup Kitchen Ministry's Website")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-stone-soup__donate"
-  }, "To contribute monetarily to weekly produce delivery, donate to Nicole: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.paypal.com/paypalme/nicolethoen"
-  }, "Paypal"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://venmo.com/code?user_id=1771019337465856685"
-  }, "Venmo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "To contribute monetarily to weekly produce delivery as part of your church giving, write the check out to Faith Evangelical Free Church, with 'Stone Soup' in the memo."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-stone-soup__donation-details"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "List of items Stone Soup is always collection:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "lc-stone-soup__donation-list"
@@ -1016,14 +1306,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 18 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
@@ -1040,7 +1330,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 19 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1052,11 +1342,11 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(26);
+var slicedToArray_ = __webpack_require__(8);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/objectDestructuringEmpty"
-var objectDestructuringEmpty_ = __webpack_require__(27);
+var objectDestructuringEmpty_ = __webpack_require__(9);
 var objectDestructuringEmpty_default = /*#__PURE__*/__webpack_require__.n(objectDestructuringEmpty_);
 
 // CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/FacebookPost.tsx
@@ -1103,6 +1393,28 @@ var FacebookFeed_FacebookFeed = function FacebookFeed(_ref) {
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-facebook-feed"
   }, /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150856230040206&show_text=true&width=552&appId=612285882769039&height=345",
+    width: feedItemWidth,
+    height: "345",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150842446708251&show_text=true&width=552&appId=612285882769039&height=572",
+    width: feedItemWidth,
+    height: "572",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
     src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F149673373491825&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=576"),
     width: feedItemWidth,
     height: "576",
@@ -1156,88 +1468,7 @@ var FacebookFeed_FacebookFeed = function FacebookFeed(_ref) {
 });
 
 /***/ }),
-/* 20 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/ServiceItem.tsx
-
-
-var ServiceItem_ServiceItem = function ServiceItem(_ref) {
-  var children = _ref.children,
-      _ref$subtext = _ref.subtext,
-      subtext = _ref$subtext === void 0 ? '' : _ref$subtext,
-      _ref$person = _ref.person,
-      person = _ref$person === void 0 ? '' : _ref$person;
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-service-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-service-item__item"
-  }, children), person && /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-service-item__person"
-  }, person), subtext && /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-service-item__subtext"
-  }, subtext));
-};
-
-/* harmony default export */ var components_ServiceItem = (ServiceItem_ServiceItem);
-// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/pages/index.tsx
-
-
-/* harmony default export */ var pages = __webpack_exports__["default"] = (function () {
-  var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://www.youtube.com/watch?v=eRux8NlvEYo"
-  }, "Thy Mercy")), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://www.youtube.com/watch?v=sgmhTPi0Zi8"
-  }, "Run to you")), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://www.youtube.com/watch?v=7w3DXMkyj7Q"
-  }, "O, For a Thousand Tongues to Sing")));
-  var scriptureReading = /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://www.biblegateway.com/passage/?search=Jonah+1%3A1-16&version=ESV"
-  }, "Jonah 1:1-16");
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-order-of-worship"
-  }, /*#__PURE__*/external_react_default.a.createElement("h2", {
-    className: "lc-order-of-worship__date"
-  }, "September 27th, 2020"), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-order-of-worship__faithlife-bulletin"
-  }, "Follow along with the sermon slides on ", /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://faithlife.com/8613551/bulletins/67349638"
-  }, "Faithlife")), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Colbys"
-  }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hunter Thoen",
-    subtext: worshipSongs
-  }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Nicole Thoen"
-  }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost"
-  }, "Praise, Thanksgiving, and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Colbys",
-    subtext: scriptureReading
-  }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dan Kasey",
-    subtext: "\"The Battle of Wills\""
-  }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Aaron Claussen"
-  }, "Benediction"));
-});
-
-/***/ }),
-/* 21 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1267,24 +1498,30 @@ var Sermon_Sermon = function Sermon(_ref) {
 /* harmony default export */ var sermons = __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("h2", {
+    className: "lc-sermons__date"
+  }, "Sept 27th, 2020 - A Battle of Wills"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
     width: "560",
     height: "315",
-    src: "https://www.youtube.com/embed/5P-fpeqRH2E",
+    src: "https://www.youtube.com/embed/D8iSoEgy4n8",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
     allowFullScreen: true
-  })), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+  })), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-sermons__previous"
+  }, /*#__PURE__*/external_react_default.a.createElement("h2", null, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/5P-fpeqRH2E"
+  }, "Sept 20th, 2020 - Introduction to Jonah"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/RcfiGyRD1uQ"
   }, "Sept 13th, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/_TlI5iw0Oyg"
-  }, "Sept 6th, 2020"));
+  }, "Sept 6th, 2020")));
 });
 
 /***/ }),
-/* 22 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1297,7 +1534,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(5);
+var _reactStatic = __webpack_require__(6);
 
 var _router = __webpack_require__(3);
 
@@ -1410,55 +1647,55 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 23 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 24 */
+/* 28 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/defineProperty");
+
+/***/ }),
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/LifeChurchLogo.853be0ce.png";
 
 /***/ }),
-/* 25 */
+/* 30 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-transition-group");
+
+/***/ }),
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/announcement.5849f30a.png";
 
 /***/ }),
-/* 26 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/slicedToArray");
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/objectDestructuringEmpty");
-
-/***/ }),
-/* 28 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(29);
-__webpack_require__(31);
-module.exports = __webpack_require__(39);
+__webpack_require__(33);
+__webpack_require__(35);
+module.exports = __webpack_require__(43);
 
 
 /***/ }),
-/* 29 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(30)["default"];
+var plugins = __webpack_require__(34)["default"];
 
-var _require = __webpack_require__(11),
+var _require = __webpack_require__(14),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
@@ -1466,18 +1703,22 @@ registerPlugins(plugins);
 if (false) {}
 
 /***/ }),
-/* 30 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(22);
+/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(26);
 /* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
 
 var plugins = [{
   location: "__react_static_root__/node_modules/react-static-plugin-typescript",
+  plugins: [],
+  hooks: {}
+}, {
+  location: "__react_static_root__/node_modules/react-static-plugin-svg",
   plugins: [],
   hooks: {}
 }, {
@@ -1501,17 +1742,17 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 31 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(11),
+var _require = __webpack_require__(14),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(32),
+var _require2 = __webpack_require__(36),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -1520,7 +1761,7 @@ registerTemplates(templates, notFoundTemplate);
 if (false) {}
 
 /***/ }),
-/* 32 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1532,8 +1773,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
+/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
 /* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_universal_component__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 
@@ -1566,7 +1809,7 @@ var universalOptions = {
 var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/404.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404.tsx */).then(__webpack_require__.bind(null, 14))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404.tsx */).then(__webpack_require__.bind(null, 17))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1574,7 +1817,7 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/404.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(14);
+    return /*require.resolve*/(17);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/404.tsx";
@@ -1584,7 +1827,7 @@ t_0.template = '__react_static_root__/src/pages/404.tsx';
 var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/announcement-flyer.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/announcement-flyer.tsx */).then(__webpack_require__.bind(null, 15))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/announcement-flyer.tsx */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1592,7 +1835,7 @@ var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/announcement-flyer.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(15);
+    return /*require.resolve*/(18);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/announcement-flyer.tsx";
@@ -1602,7 +1845,7 @@ t_1.template = '__react_static_root__/src/pages/announcement-flyer.tsx';
 var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/blog.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/blog.tsx */).then(__webpack_require__.bind(null, 16))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/blog.tsx */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1610,7 +1853,7 @@ var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/blog.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(16);
+    return /*require.resolve*/(19);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/blog.tsx";
@@ -1620,7 +1863,7 @@ t_2.template = '__react_static_root__/src/pages/blog.tsx';
 var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/facebook-feed.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/facebook-feed.tsx */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/facebook-feed.tsx */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1628,7 +1871,7 @@ var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/facebook-feed.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(19);
+    return /*require.resolve*/(24);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/facebook-feed.tsx";
@@ -1654,9 +1897,27 @@ var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
 }), universalOptions);
 t_4.template = '__react_static_root__/src/pages/index.tsx';
 var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "__react_static_root__/src/pages/order-of-service.tsx",
+  load: function load() {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/order-of-service.tsx */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
+      return proms[0];
+    });
+  },
+  path: function path() {
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/order-of-service.tsx');
+  },
+  resolve: function resolve() {
+    return /*require.resolve*/(21);
+  },
+  chunkName: function chunkName() {
+    return "__react_static_root__/src/pages/order-of-service.tsx";
+  }
+}), universalOptions);
+t_5.template = '__react_static_root__/src/pages/order-of-service.tsx';
+var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/sermons.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/sermons.tsx */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/sermons.tsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1664,17 +1925,17 @@ var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/sermons.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(21);
+    return /*require.resolve*/(25);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/sermons.tsx";
   }
 }), universalOptions);
-t_5.template = '__react_static_root__/src/pages/sermons.tsx';
-var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_6.template = '__react_static_root__/src/pages/sermons.tsx';
+var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/stone-soup.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/stone-soup.tsx */).then(__webpack_require__.bind(null, 17))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/stone-soup.tsx */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1682,17 +1943,17 @@ var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/stone-soup.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(17);
+    return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/stone-soup.tsx";
   }
 }), universalOptions);
-t_6.template = '__react_static_root__/src/pages/stone-soup.tsx';
-var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_7.template = '__react_static_root__/src/pages/stone-soup.tsx';
+var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/containers/Post",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/containers/Post */).then(__webpack_require__.bind(null, 18))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/containers/Post */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1700,13 +1961,13 @@ var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/containers/Post');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(18);
+    return /*require.resolve*/(23);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/containers/Post";
   }
 }), universalOptions);
-t_7.template = '__react_static_root__/src/containers/Post'; // Template Map
+t_8.template = '__react_static_root__/src/containers/Post'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   '__react_static_root__/src/pages/404.tsx': t_0,
@@ -1714,16 +1975,17 @@ t_7.template = '__react_static_root__/src/containers/Post'; // Template Map
   '__react_static_root__/src/pages/blog.tsx': t_2,
   '__react_static_root__/src/pages/facebook-feed.tsx': t_3,
   '__react_static_root__/src/pages/index.tsx': t_4,
-  '__react_static_root__/src/pages/sermons.tsx': t_5,
-  '__react_static_root__/src/pages/stone-soup.tsx': t_6,
-  '__react_static_root__/src/containers/Post': t_7
+  '__react_static_root__/src/pages/order-of-service.tsx': t_5,
+  '__react_static_root__/src/pages/sermons.tsx': t_6,
+  '__react_static_root__/src/pages/stone-soup.tsx': t_7,
+  '__react_static_root__/src/containers/Post': t_8
 }); // Not Found Template
 
 var notFoundTemplate = "__react_static_root__/src/pages/404.tsx";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 33 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -1752,7 +2014,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 34 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1779,7 +2041,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(9);
+var _utils = __webpack_require__(12);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -1963,14 +2225,14 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 35 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 6,
-	"./": 6,
-	"./index": 6,
-	"./index.js": 6
+	".": 7,
+	"./": 7,
+	"./index": 7,
+	"./index.js": 7
 };
 
 
@@ -1991,16 +2253,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 35;
+webpackContext.id = 39;
 
 /***/ }),
-/* 36 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = __webpack_require__(8);
+var _typeof = __webpack_require__(11);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2028,7 +2290,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(12);
+var _propTypes = __webpack_require__(15);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -2103,13 +2365,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 37 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 38 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2120,11 +2382,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(13);
+var _hoistNonReactStatics = __webpack_require__(16);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(4);
+var _index = __webpack_require__(5);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -2176,28 +2438,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 39 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(40);
+var _interopRequireWildcard = __webpack_require__(44);
 
-var _interopRequireDefault = __webpack_require__(41);
+var _interopRequireDefault = __webpack_require__(45);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(42));
+var _extends2 = _interopRequireDefault(__webpack_require__(46));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(43));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(47));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(44);
+var _useStaticInfo = __webpack_require__(48);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -2218,7 +2480,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(45)["default"];
+var App = __webpack_require__(49)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -2231,48 +2493,48 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 40 */
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 41 */
+/* 45 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 42 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 43 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 44 */
+/* 48 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/nthoen/Projects/life-church/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 45 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(13);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(23);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(27);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(10);
 
 
  // Your top level component
@@ -2298,10 +2560,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(46)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(50)(module)))
 
 /***/ }),
-/* 46 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -2331,17 +2593,17 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 47 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(48)(false);
+exports = module.exports = __webpack_require__(52)(false);
 // Module
-exports.push([module.i, "body {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,\n    'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n}\n\na {\n  text-decoration: none;\n  color: #c11010;\n  font-weight: bold;\n}\n\na:hover {\n  color: #bf4545;\n  text-decoration: underline;\n}\n\nimg {\n  max-width: 100%;\n}\n\nnav {\n  width: 100%;\n  background: #606060;\n  display: flex;\n  justify-content: flex-end;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n}\n\nnav a:hover {\n  background-color: #909090;\n  color: white;\n  text-decoration: none;\n}\n\n.lc-service-item {\n  padding-bottom: .7rem;\n}\n\n.lc-service-item__item {\n  font-size: 1.2em;\n}\n\n.lc-service-item__person {\n  font-style: italic;\n  padding-left: 1em;\n}\n\n.lc-service-item__subtext {\n  padding-left: 2em;\n}\n\n.lc-facebook-feed {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.lc-facebook-feed__post {\n  align-self: center;\n  padding: 2em;\n  background-color: #bbbbbb;\n  margin-top: 1em;\n}\n\n.lc-announcement-flyer {\n  text-align: center;\n}\n\n.lc-announcement-flyer img {\n  width: 600px;\n  border: 25px #bbbbbb solid;\n  margin-top: 10px;\n}\n\n.lc-stone-soup {\n  width: 700px;\n  margin: auto;\n}\n\n.lc-order-of-worship {\n  width: 700px;\n  margin: auto;\n}\n\n.lc-order-of-worship__date {\n  color: #c11010;\n}\n\n.lc-order-of-worship__faithlife-bulletin {\n  \n}\n\n.lc-sermons {\n\n}\n\n.lc-sermons__video {\n\n}\n\n.lc-sermons__link {\n\n}\n\nfooter {\n  background-color: #bbbbbb;\n  color: white;\n  padding: 2em;\n  font-size: .8em;\n  font-weight: bold;\n}\n\n@media screen and (max-width: 600px) {\n  .lc-logo img {\n    height: 80px;\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    height: auto;\n    padding-left: .2em;\n  }\n  nav a {\n    padding: 0.35rem;\n  }\n\n  .lc-announcement-flyer img {\n    width: 80%;\n    border: 25px #bbbbbb solid;\n    margin-top: 10px;\n  }\n\n  .lc-stone-soup {\n    width: 90%;\n    margin: auto;\n  }\n\n  .lc-order-of-worship {\n    width: 90%;\n    margin: auto;\n  }\n}\n", ""]);
+exports.push([module.i, "body {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,\n    'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n}\n\na, .lc-link {\n  text-decoration: none;\n  color: #c11010;\n  font-weight: bold;\n}\n\na:hover, .lc-link:hover {\n  color: #bf4545;\n  cursor: pointer;\n}\n\nimg {\n  max-width: 100%;\n}\n\nnav {\n  width: 100%;\n  background: #606060;\n  display: flex;\n  justify-content: flex-end;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n}\n\nnav a:hover {\n  background-color: #909090;\n  color: white;\n  text-decoration: none;\n}\n\n.lc-service-item {\n  padding-bottom: .7rem;\n}\n\n.lc-service-item__item {\n  font-size: 1.2em;\n}\n\n.lc-service-item__person {\n  font-style: italic;\n  padding-left: 1em;\n}\n\n.lc-service-item__subtext {\n  padding-left: 2em;\n}\n\n.lc-facebook-feed {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.lc-facebook-feed__post {\n  align-self: center;\n  padding: 2em;\n  background-color: #bbbbbb;\n  margin-top: 1em;\n}\n\n.lc-announcement-flyer {\n  text-align: center;\n}\n\n.lc-announcement-flyer img {\n  width: 600px;\n  border: 25px #bbbbbb solid;\n  margin-top: 10px;\n}\n\n.lc-stone-soup {\n  width: 700px;\n  margin: auto;\n}\n\n.lc-order-of-worship {\n  width: 700px;\n  margin: auto;\n}\n\n.lc-order-of-worship__date {\n  color: #c11010;\n  margin-bottom: 0;\n}\n\n.lc-order-of-worship__faithlife-bulletin {\n  margin-bottom: .83em;\n  font-style: italic;\n}\n\n.lc-sermons {\n  width: 700px;\n  margin: 0 auto 20px auto;\n\n}\n\n.lc-sermons__date{\n\n}\n\n.lc-sermons__video {\n\n}\n\n.lc-sermons__link {\n  display: block;\n}\n\n.lc-sermons__previous {\n\n}\n\nfooter {\n  background-color: #bbbbbb;\n  color: white;\n  padding: 2em;\n  font-size: .8em;\n  font-weight: bold;\n}\n\n@media screen and (max-width: 600px) {\n  .lc-logo img {\n    height: 50px;\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    height: auto;\n    padding-left: .2em;\n  }\n  nav a {\n    padding: 0.35rem;\n  }\n\n  .lc-announcement-flyer img {\n    width: 80%;\n    border: 25px #bbbbbb solid;\n    margin-top: 10px;\n  }\n\n  .lc-stone-soup {\n    width: 90%;\n    margin: auto;\n  }\n\n  .lc-order-of-worship {\n    width: 90%;\n    margin: auto;\n  }\n\n  .lc-menu {\n    display:none;\n  }\n\n  .lc-menu-toggle {\n    display: flex;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n  }\n\n  .lc-action-buttons {\n    margin: 15px 0 15px;\n    display: flex;\n    justify-content: center;\n  }\n\n  .lc-action-buttons__button {\n    border: 2px solid #c11010;\n    border-radius: 30px;\n    box-sizing: border-box;\n    display: inline-block;\n    font-weight: 900;\n    min-width: 125px;\n    padding: 10px 25px;\n    text-align: center;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n\n  .lc-action-buttons__button a {\n    color: #c11010;\n  }\n\n  .lc-action-buttons__button a:hover {\n    text-decoration: none;\n  }\n\n  .lc-action-buttons__button.primary {\n    margin-right: 20px;\n    background-color: #bbbbbb;\n  }\n\n  .lc-mobile-menu {\n    background: rgba(0,0,0,.9);\n    bottom: 0;\n    height: 100vh;\n    left: 0;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 2;\n  }\n\n  .lc-mobile-menu__close {\n    color: #fff;\n    cursor: pointer;\n    font-size: 26px;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n  }\n\n  .lc-mobile-menu ul {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 100vh;\n    justify-content: center;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .lc-mobile-menu li {\n    padding: 15px 0;\n  }\n\n  .lc-mobile-menu li a {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n}\n", ""]);
 
 
 
 /***/ }),
-/* 48 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

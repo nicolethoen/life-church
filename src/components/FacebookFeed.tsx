@@ -1,7 +1,7 @@
 import React from 'react'
 import FacebookPost from "components/FacebookPost";
 
-export const FacebookFeed: React.React.FunctionComponent = ({}) => {
+export const FacebookFeed: React.FunctionComponent = ({}) => {
 
     const [feedItemWidth, setFeedItemWidth] = React.useState(0);
 
@@ -24,6 +24,18 @@ export const FacebookFeed: React.React.FunctionComponent = ({}) => {
 
     return (
         <div className="lc-facebook-feed">
+            <FacebookPost>
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150856230040206&show_text=true&width=552&appId=612285882769039&height=345"
+                    width={feedItemWidth} height="345" style={{ border:'none', overflow:'hidden' }} scrolling="no" frameBorder="0"
+                    allow="encrypted-media" />
+            </FacebookPost>
+            <FacebookPost>
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150842446708251&show_text=true&width=552&appId=612285882769039&height=572"
+                    width={feedItemWidth} height="572" style={{ border:'none', overflow:'hidden' }} scrolling="no" frameBorder="0"
+                    allow="encrypted-media" />
+            </FacebookPost>
             <FacebookPost>
                 <iframe
                     src={`https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F149673373491825&show_text=true&width=${feedItemWidth}&appId=612285882769039&height=576`}

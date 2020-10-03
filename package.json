@@ -19,7 +19,9 @@
     "react-static-plugin-reach-router": "^7.2.0",
     "react-static-plugin-sitemap": "^7.2.0",
     "react-static-plugin-source-filesystem": "^7.2.0",
-    "react-static-plugin-typescript": "^7.2.0"
+    "react-static-plugin-svg": "^0.0.1",
+    "react-static-plugin-typescript": "^7.2.0",
+    "react-transition-group": "^4.4.1"
   },
   "devDependencies": {
     "@types/node": "^12.7.2",

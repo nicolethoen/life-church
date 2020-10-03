@@ -1,11 +1,10 @@
 import React from 'react'
-import {Link} from "@reach/router";
 
 export default () => (
     <div className="lc-stone-soup">
         <h2><a href="https://www.facebook.com/FeedJust1" className="lc-stone-soup__website-link" target="_blank">Stone Soup Kitchen Ministry's Website</a></h2>
         <div className="lc-stone-soup__donate">
-            To contribute monetarily to weekly produce delivery, donate to Nicole: <a href="https://www.paypal.com/paypalme/nicolethoen" target="_blank">Paypal</a> and <a href="https://venmo.com/code?user_id=1771019337465856685" target="_blank">Venmo</a>
+            To contribute monetarily to weekly produce delivery as part of your church giving, write the check out to Faith Evangelical Free Church, with 'Stone Soup' in the memo.
         </div>
         <div className="lc-stone-soup__donation-details">
             <p>List of items Stone Soup is always collection:</p>

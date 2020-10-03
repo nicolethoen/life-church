@@ -18,6 +18,7 @@
   "entry": "/Users/nthoen/Projects/life-church/src/index.tsx",
   "plugins": [
     "react-static-plugin-typescript",
+    "react-static-plugin-svg",
     [
       "/Users/nthoen/Projects/life-church/node_modules/react-static-plugin-source-filesystem/node.api.js",
       {

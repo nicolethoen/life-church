@@ -5,21 +5,106 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background: url('assets/worship.jpg') no-repeat center center fixed; ;
+  background-size: cover;
 }
 
-a {
+@media screen and (min-width: 600px) {
+  header {
+    -ms-grid-rows: 20px 120px auto 20px;
+    grid-template-rows: 20px 120px auto 20px;
+    -ms-grid-columns: 10px auto auto auto 10px;
+    grid-template-columns: 10px auto auto auto 10px;
+    display: grid;
+  }
+
+  .lc-logo {
+    align-items: center;
+    display: flex;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    width: auto;
+  }
+
+  .lc-action-buttons {
+    align-items: center;
+    display: flex;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    justify-content: flex-end;
+  }
+
+  .lc-menu {
+    display: flex;
+    flex-grow: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+
+  .lc-menu ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 0 0 15px;
+    margin: 0 auto;
+  }
+
+  .lc-menu ul>li {
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .lc-menu ul>li>a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 0;
+    color: white;
+  }
+
+  .lc-welcome-message {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    padding: 0;
+  }
+}
+
+a, .lc-link {
   text-decoration: none;
   color: #c11010;
   font-weight: bold;
 }
 
-a:hover {
-  color: #bf4545;
-  text-decoration: underline;
+a:hover, .lc-link:hover, .lc-menu ul>li>a:hover {
+  color: #7a0a7a;
+  cursor: pointer;
 }
 
-img {
+.lc-logo img {
+  display: block;
+  max-height: 100px;
   max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 nav {
@@ -38,6 +123,68 @@ nav a:hover {
   background-color: #909090;
   color: white;
   text-decoration: none;
+}
+
+.lc-welcome-message {
+  height: 300px;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 15px 0;
+  color: white;
+  width: 600px;
+  margin: 6em auto 0;
+  font-size: 200%;
+  text-align: center;
+  font-style: italic;
+}
+
+.lc-menu-toggle, .lc-mobile-menu {
+  display: none;
+}
+
+.lc-action-buttons__button {
+  background-color: #eeeeee;
+  border: 2px solid #c11010;
+  border-radius: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 900;
+  min-width: 125px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.lc-action-buttons__button:hover {
+  background-color: #8B63BB;
+  border-color: #7a0a7a;
+}
+
+.lc-action-buttons__button:hover a {
+  color: white;
+}
+
+.lc-action-buttons__button a {
+  color: #c11010;
+}
+
+.lc-action-buttons__button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.lc-action-buttons__button.primary {
+  margin-right: 20px;
+  background-color: #c11010;
+}
+
+.lc-action-buttons__button.primary:hover {
+  background-color: #7a0a7a;
+}
+
+.lc-action-buttons__button.primary a {
+  color: white;
 }
 
 .lc-service-item {
@@ -81,18 +228,24 @@ nav a:hover {
 }
 
 .lc-stone-soup {
-  width: 700px;
+  width: 600px;
   margin: auto;
+  opacity: 0.9;
+  background-color: #eeeeee;
+  padding: 1em;
 }
 
 .lc-order-of-worship {
-  width: 700px;
+  width: 600px;
   margin: auto;
+  opacity: 0.9;
+  background-color: #eeeeee;
+  padding: 1em;
 }
 
 .lc-order-of-worship__date {
   color: #c11010;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .lc-order-of-worship__faithlife-bulletin {
@@ -103,7 +256,9 @@ nav a:hover {
 .lc-sermons {
   width: 700px;
   margin: 0 auto 20px auto;
-
+  opacity: 0.9;
+  background-color: #eeeeee;
+  padding: 1em;
 }
 
 .lc-sermons__date{
@@ -128,11 +283,12 @@ footer {
   padding: 2em;
   font-size: .8em;
   font-weight: bold;
+  margin-top: 2em;
 }
 
 @media screen and (max-width: 600px) {
   .lc-logo img {
-    height: 80px;
+    height: 50px;
   }
 
   nav {
@@ -158,6 +314,79 @@ footer {
 
   .lc-order-of-worship {
     width: 90%;
-    margin: auto;
+    background-color: #bbbbbb;
+    padding: 1em;
+  }
+
+  .lc-menu {
+    display:none;
+  }
+
+  .lc-menu-toggle {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 5px;
+  }
+
+  .lc-menu-toggle:hover {
+    background-color: #bbbbbb;
+  }
+
+  .lc-action-buttons {
+    margin: 15px 23px 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .lc-mobile-menu {
+    display: inherit;
+    background: rgba(0,0,0,.9);
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+
+  .lc-mobile-menu__close {
+    color: #fff;
+    cursor: pointer;
+    font-size: 26px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .lc-mobile-menu ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lc-mobile-menu li {
+    padding: 15px 0;
+  }
+
+  .lc-mobile-menu li a {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .lc-welcome-message {
+    width: 300px;
+    margin: 9.5em auto 0;
+    font-size: 150%;
   }
 }

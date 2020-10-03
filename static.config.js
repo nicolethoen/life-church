@@ -1,10 +1,28 @@
 import axios from 'axios'
 import path from 'path'
+import * as React from 'react';
 // import { Post } from './types'
 
 // Typescript support in static.config.js is not yet supported, but is coming in a future update!
 
 export default {
+  Document: ({
+    Html,
+    Head,
+    Body,
+    children,
+    state: { siteData, renderMeta },
+  }) => (
+    <Html lang="en-US">
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
+      </Head>
+      <Body>{children}</Body>
+    </Html>
+  ),
   entry: path.join(__dirname, 'src', 'index.tsx'),
   getRoutes: async () => {
     const { data: posts } /* :{ data: Post[] } */ = await axios.get(
@@ -28,6 +46,7 @@ export default {
   },
   plugins: [
     'react-static-plugin-typescript',
+    'react-static-plugin-svg',
     [
       require.resolve('react-static-plugin-source-filesystem'),
       {
@@ -35,6 +54,6 @@ export default {
       },
     ],
     require.resolve('react-static-plugin-reach-router'),
-    require.resolve('react-static-plugin-sitemap'),
+    require.resolve('react-static-plugin-sitemap')
   ],
 }
