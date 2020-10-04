@@ -16,16 +16,17 @@ export default () => {
         <div className="lc-order-of-worship">
             <h2 className="lc-order-of-worship__date">October 4th, 2020</h2>
             <div className="lc-order-of-worship__faithlife-bulletin">
-                Follow along with the sermon slides on <a href="https://faithlife.com/8613551/bulletins/67349638" target="_blank">Faithlife</a> (login required)
+                Follow along with the sermon slides on <a href="https://faithlife.com/life-church-ayer/bulletins/68148114" target="_blank">Faithlife</a> (login required)
             </div>
             <ServiceItem>Welcome</ServiceItem>
             <ServiceItem person="Andre Wu">Call to Worship & Opening Prayer</ServiceItem>
             <ServiceItem person="Nicole Thoen">Announcements</ServiceItem>
             <ServiceItem person="Dawn Provost & Nicole Thoen" subtext={worshipSongs}>Worship</ServiceItem>
             <ServiceItem person="Tara Kasey">Praise, Thanksgiving, and Prayer</ServiceItem>
-            <ServiceItem>Communion</ServiceItem>
+            <ServiceItem>Greet one another</ServiceItem>
             <ServiceItem person="Andre Wu" subtext={scriptureReading}>Scripture Reading</ServiceItem>
             <ServiceItem person="Dan Kasey" subtext='"Swallowed Up"'>Sermon</ServiceItem>
+            <ServiceItem>Communion</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
     )
