@@ -27,6 +27,13 @@
     ],
     "/Users/nthoen/Projects/life-church/node_modules/react-static-plugin-reach-router/browser.api.js",
     "/Users/nthoen/Projects/life-church/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    [
+      "react-static-plugin-favicons",
+      {
+        "outputDir": "/Users/nthoen/Projects/life-church/dist",
+        "inputFile": "/Users/nthoen/Projects/life-church/favicon.ico"
+      }
+    ],
     "/Users/nthoen/Projects/life-church"
   ],
   "paths": {

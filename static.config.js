@@ -17,6 +17,7 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Life Church</title>
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="icon" href="favicon.ico" />
       </Head>
@@ -54,6 +55,13 @@ export default {
       },
     ],
     require.resolve('react-static-plugin-reach-router'),
-    require.resolve('react-static-plugin-sitemap')
+    require.resolve('react-static-plugin-sitemap'),
+    [
+      'react-static-plugin-favicons',
+      {
+        outputDir: path.join(__dirname, 'dist'),
+        inputFile: path.resolve(__dirname, 'favicon.ico')
+      }
+    ]
   ],
 }
