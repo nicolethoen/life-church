@@ -8,7 +8,6 @@ export default () => {
         <>
             <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Praise To The Lord The Almighty</a></div>
             <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">In Christ Alone/ The Solid Rock</a></div>
-            <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Make My Life a Prayer to You</a></div>
         </>
     );
 
@@ -40,7 +39,7 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">October 4th, 2020</h2>
+            <h2 className="lc-order-of-worship__date">October 11th, 2020</h2>
             <div className="lc-order-of-worship__faithlife-bulletin">
                 Follow along with the sermon slides on <a href="https://faithlife.com/life-church-ayer/bulletins/68148114" target="_blank">Faithlife</a> (login required)
             </div>
@@ -53,6 +52,7 @@ export default () => {
             <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
             <ServiceItem person="Nicole Thoen" subtext={<ScriptureLink reference="Jonah 2:10-3:10" text={scriptureReading} />}>Scripture Reading</ServiceItem>
             <ServiceItem person="Dan Kasey" subtext='"A better version of Jonah"' sermonNotes={sermonNotes}>Sermon</ServiceItem>
+            <ServiceItem person="Andre & Julia Wu" subtext={<div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Make My Life a Prayer to You</a></div>}>Closing Hymn</ServiceItem>
             <ServiceItem>Benediction</ServiceItem>
         </div>
     )
