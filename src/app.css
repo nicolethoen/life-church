@@ -9,6 +9,11 @@ body {
   background-size: cover;
 }
 
+.lc-content {
+  min-height: calc(100vh - 70px);
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 600px) {
   header {
     -ms-grid-rows: 20px 120px auto 20px;
@@ -354,7 +359,7 @@ footer {
   padding: 2em;
   font-size: .8em;
   font-weight: bold;
-  margin-top: 2em;
+  height: 50px;
 }
 
 @media screen and (max-width: 600px) {

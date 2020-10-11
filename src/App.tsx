@@ -8,8 +8,8 @@ import './app.css'
 function App() {
   return (
     <Root>
-      <Header />
       <div className="lc-content">
+        <Header />
         <React.Suspense fallback={<em>Loading...</em>}>
           <Router>
             <Dynamic path="dynamic" />
