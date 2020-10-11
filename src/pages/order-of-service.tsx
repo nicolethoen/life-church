@@ -40,9 +40,6 @@ export default () => {
     return (
         <div className="lc-order-of-worship">
             <h2 className="lc-order-of-worship__date">October 11th, 2020</h2>
-            <div className="lc-order-of-worship__faithlife-bulletin">
-                Follow along with the sermon slides on <a href="https://faithlife.com/life-church-ayer/bulletins/68148114" target="_blank">Faithlife</a> (login required)
-            </div>
             <ServiceItem>Welcome</ServiceItem>
             <ServiceItem>Call to Worship & Opening Prayer</ServiceItem>
             <ServiceItem person="Lucas Flores - No clapping, please">Recitation of Hebrews 11:11-15</ServiceItem>
