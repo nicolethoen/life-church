@@ -1,7 +1,7 @@
 import React from 'react'
-import ServiceItem from "components/ServiceItem";
-import ScriptureLink from "components/ScriptureLink";
-import ScriptureDecorator from "components/ScriptureDecorator";
+import ServiceItem from "../components/ServiceItem";
+import ScriptureLink from "../components/ScriptureLink";
+import ScriptureDecorator from "../components/ScriptureDecorator";
 
 export default () => {
     const worshipSongs = (
