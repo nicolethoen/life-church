@@ -44,6 +44,9 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
             </div>
             <div className="lc-menu">
                 <ul>
+                    <li className="lc-live-stream-link">
+                        <Link to="/">LIVE STREAM</Link>
+                    </li>
                     <li>
                         <Link to="/announcement-flyer">Announcements</Link>
                     </li>
@@ -69,6 +72,9 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
                             X
                         </span>
                         <ul>
+                            <li>
+                                <Link to="/" onClick={() => setInProp(false)}>LIVE FEED</Link>
+                            </li>
                             <li>
                                 <Link to="/announcement-flyer" onClick={() => setInProp(false)}>Announcements</Link>
                             </li>

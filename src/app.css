@@ -77,6 +77,15 @@ body {
     color: white;
   }
 
+  .lc-live-stream-link a {
+    color: #c11010 !important;
+  }
+
+  .lc-live-stream-link a:hover {
+    color: #7a0a7a !important;
+  }
+
+
   .lc-welcome-message {
     -ms-grid-column: 2;
     -ms-grid-column-span: 3;
@@ -444,6 +453,14 @@ footer {
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
+  }
+
+  .lc-live-stream-link a {
+    color: #c11010 !important;
+  }
+
+  .lc-live-stream-link a:hover {
+    color: #7a0a7a !important;
   }
 
   .lc-pop-up__modal {
