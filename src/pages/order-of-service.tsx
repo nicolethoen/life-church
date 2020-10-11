@@ -1,7 +1,7 @@
 import React from 'react'
 import ServiceItem from "components/ServiceItem";
-import ScriptureLink from "../components/ScriptureLink";
-import ScriptureDecorator from "../components/ScriptureDecorator";
+import ScriptureLink from "components/ScriptureLink";
+import ScriptureDecorator from "components/ScriptureDecorator";
 
 export default () => {
     const worshipSongs = (
@@ -52,5 +52,5 @@ export default () => {
             <ServiceItem person="Andre & Julia Wu" subtext={<div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Make My Life a Prayer to You</a></div>}>Closing Hymn</ServiceItem>
             <ServiceItem>Benediction</ServiceItem>
         </div>
-    )
+    );
 }
