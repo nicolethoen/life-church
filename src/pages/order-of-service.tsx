@@ -94,7 +94,7 @@ export default () => {
             <ServiceItem>Greet one another</ServiceItem>
             <ServiceItem person="Aaron Claussen">Announcements</ServiceItem>
             <ServiceItem person="Julia Wu" subtext={<ScriptureLink reference="Jonah 3:10-4:11" text={scriptureReading} />}>Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey" subtext='Angry With God' sermonNotes={sermonNotes}>Sermon</ServiceItem>
+            <ServiceItem person="Dan Kasey" sermonNotes={sermonNotes}>Sermon - "Angry with God"</ServiceItem>
             <ServiceItem>Benediction</ServiceItem>
         </div>
     );
