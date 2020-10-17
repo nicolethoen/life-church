@@ -93,7 +93,7 @@ export default () => {
             <ServiceItem person="Dawn Provost">Praise, Thanksgiving, and Prayer</ServiceItem>
             <ServiceItem>Greet one another</ServiceItem>
             <ServiceItem person="Aaron Claussen">Announcements</ServiceItem>
-            <ServiceItem person="Julia Wu" subtext={<ScriptureLink reference="Jonah 3:10-4:11" text={scriptureReading} />}>Scripture Reading</ServiceItem>
+            <ServiceItem person="David Graves" subtext={<ScriptureLink reference="Jonah 3:10-4:11" text={scriptureReading} />}>Scripture Reading</ServiceItem>
             <ServiceItem person="Dan Kasey" sermonNotes={sermonNotes}>Sermon - "Angry with God"</ServiceItem>
             <ServiceItem>Benediction</ServiceItem>
         </div>

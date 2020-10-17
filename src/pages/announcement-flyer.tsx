@@ -1,5 +1,5 @@
 import React from 'react'
-import * as img from 'assets/announcement.png';
+import * as img from '../assets/announcement.png';
 
 export default () => (
     <div className="lc-announcement-flyer">
