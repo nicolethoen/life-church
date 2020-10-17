@@ -2,15 +2,12 @@ import React from 'react'
 
 export default () => {
 
-    const [frameWidth, setFrameWidth] = React.useState(0);
-    const [frameHeight, setFrameHeight] = React.useState(0);
+    const [smallVideo, setSmallVideo] = React.useState(false);
 
     React.useEffect(() => {
         // Handler to call on window resize
         function handleResize() {
-            // Set window width/height to state
-            setFrameWidth(window.innerWidth < 800 ? window.innerWidth - 20 : 760);
-            setFrameHeight(window.innerWidth < 800 ? window.innerWidth * .67 : 515);
+            setSmallVideo(window.innerWidth < 800);
         }
 
         // Add event listener
@@ -25,9 +22,15 @@ export default () => {
 
     return (
         <div className="lc-welcome-message">
-            <iframe width={frameWidth} height={frameHeight} src="https://www.youtube.com/embed/JyFmX48wHlQ" frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen></iframe>
+            {smallVideo ? (
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F157283136064182&width=480"
+                    width="480" height="500" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder="0" />
+            ) : (
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F157283136064182&width=640"
+                    width="640" height="500" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder="0"/>
+            )}
         </div>
     )
 }

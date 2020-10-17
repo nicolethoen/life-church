@@ -123,19 +123,19 @@ module.exports = require("react");
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = require("path");
+module.exports = require("@reach/router");
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = require("babel-plugin-universal-import/universalImport");
+module.exports = require("path");
 
 /***/ }),
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = require("@reach/router");
+module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
 /* 4 */
@@ -627,13 +627,13 @@ function universal(asyncModule) {
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("@babel/runtime/helpers/slicedToArray");
+module.exports = require("react-static");
 
 /***/ }),
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-static");
+module.exports = require("@babel/runtime/helpers/slicedToArray");
 
 /***/ }),
 /* 7 */
@@ -675,10 +675,10 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(6);
+var external_react_static_ = __webpack_require__(5);
 
 // EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(3);
+var router_ = __webpack_require__(1);
 
 // CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/containers/Dynamic.tsx
 
@@ -693,7 +693,7 @@ var defineProperty_ = __webpack_require__(27);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(5);
+var slicedToArray_ = __webpack_require__(6);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/objectDestructuringEmpty"
@@ -800,7 +800,11 @@ var Header_Header = function Header(_ref) {
     target: "_blank"
   }, "Visitor Form"))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-menu"
-  }, /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+  }, /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "lc-live-stream-link"
+  }, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/"
+  }, "LIVE STREAM")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
     to: "/announcement-flyer"
   }, "Announcements")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
     to: "/facebook-feed"
@@ -821,6 +825,11 @@ var Header_Header = function Header(_ref) {
         return setInProp(false);
       }
     }, "X"), /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+      to: "/",
+      onClick: function onClick() {
+        return setInProp(false);
+      }
+    }, "LIVE FEED")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
       to: "/announcement-flyer",
       onClick: function onClick() {
         return setInProp(false);
@@ -857,9 +866,9 @@ var app = __webpack_require__(52);
 
 
 function App() {
-  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement(components_Header, null), /*#__PURE__*/external_react_default.a.createElement("div", {
+  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-content"
-  }, /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
+  }, /*#__PURE__*/external_react_default.a.createElement(components_Header, null), /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
     fallback: /*#__PURE__*/external_react_default.a.createElement("em", null, "Loading...")
   }, /*#__PURE__*/external_react_default.a.createElement(router_["Router"], null, /*#__PURE__*/external_react_default.a.createElement(containers_Dynamic, {
     path: "dynamic"
@@ -1091,15 +1100,15 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
-/* harmony import */ var _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
+/* harmony import */ var assets_announcement_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-announcement-flyer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__,
+    src: assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__,
     alt: "announcement flyer",
     width: 600
   }));
@@ -1113,9 +1122,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1139,29 +1148,22 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5);
+/* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
 /* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(0),
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(false),
       _React$useState2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_React$useState, 2),
-      frameWidth = _React$useState2[0],
-      setFrameWidth = _React$useState2[1];
-
-  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(0),
-      _React$useState4 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_React$useState3, 2),
-      frameHeight = _React$useState4[0],
-      setFrameHeight = _React$useState4[1];
+      smallVideo = _React$useState2[0],
+      setSmallVideo = _React$useState2[1];
 
   react__WEBPACK_IMPORTED_MODULE_1___default.a.useEffect(function () {
     // Handler to call on window resize
     function handleResize() {
-      // Set window width/height to state
-      setFrameWidth(window.innerWidth < 800 ? window.innerWidth - 20 : 760);
-      setFrameHeight(window.innerWidth < 800 ? window.innerWidth * .67 : 515);
+      setSmallVideo(window.innerWidth < 800);
     } // Add event listener
 
 
@@ -1176,13 +1178,26 @@ __webpack_require__.r(__webpack_exports__);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-welcome-message"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    width: frameWidth,
-    height: frameHeight,
-    src: "https://www.youtube.com/embed/JyFmX48wHlQ",
-    frameBorder: "0",
-    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-    allowFullScreen: true
+  }, smallVideo ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F157283136064182&width=480",
+    width: "480",
+    height: "360",
+    style: {
+      border: "none",
+      overflow: "hidden"
+    },
+    scrolling: "no",
+    frameBorder: "0"
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F157283136064182&width=640",
+    width: "640",
+    height: "480",
+    style: {
+      border: "none",
+      overflow: "hidden"
+    },
+    scrolling: "no",
+    frameBorder: "0"
   }));
 });
 
@@ -1219,9 +1234,9 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1273,7 +1288,7 @@ var ServiceItem_ServiceItem = function ServiceItem(_ref) {
 
 /* harmony default export */ var components_ServiceItem = (ServiceItem_ServiceItem);
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(5);
+var slicedToArray_ = __webpack_require__(6);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/ScriptureDecorator.tsx
@@ -1358,12 +1373,7 @@ var ScriptureLink_ScriptureLink = function ScriptureLink(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
     target: "_blank"
-  }, "In Christ Alone/ The Solid Rock")), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
-    target: "_blank"
-  }, "Make My Life a Prayer to You")));
+  }, "In Christ Alone/ The Solid Rock")));
   var sermonNotes = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
     reference: "Jonah 3:1-5",
     text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
@@ -1443,22 +1453,17 @@ var ScriptureLink_ScriptureLink = function ScriptureLink(_ref) {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "October 4th, 2020"), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-order-of-worship__faithlife-bulletin"
-  }, "Follow along with the sermon slides on ", /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://faithlife.com/life-church-ayer/bulletins/68148114",
-    target: "_blank"
-  }, "Faithlife"), " (login required)"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Lucas Flores - No clapping, please"
-  }, "Recitation of Hebrews 11:11-15"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre & Julia Wu",
+  }, "October 18th, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Andre Wu"
+  }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Tara and Jazmyn Kasey",
     subtext: worshipSongs
   }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hunter Thoen"
+    person: "Dawn Provost"
   }, "Praise, Thanksgiving, and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Greet one another"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Tara Kasey"
+    person: "Aaron Claussen"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Nicole Thoen",
+    person: "Julia Wu",
     subtext: /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
       reference: "Jonah 2:10-3:10",
       text: scriptureReading
@@ -1483,7 +1488,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(5);
+var slicedToArray_ = __webpack_require__(6);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/objectDestructuringEmpty"
@@ -1708,9 +1713,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(6);
+var _reactStatic = __webpack_require__(5);
 
-var _router = __webpack_require__(3);
+var _router = __webpack_require__(1);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -1979,9 +1984,9 @@ if (false) {}
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(__dirname) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "notFoundTemplate", function() { return notFoundTemplate; });
-/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 /* harmony import */ var path__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
@@ -2814,7 +2819,7 @@ var urlEscape = __webpack_require__(54);
 var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(55));
 
 // Module
-exports.push([module.i, "body {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,\n    'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  background: url(" + ___CSS_LOADER_URL___0___ + ") no-repeat center center fixed; ;\n  background-size: cover;\n}\n\n@media screen and (min-width: 600px) {\n  header {\n    -ms-grid-rows: 20px 120px auto 20px;\n    grid-template-rows: 20px 120px auto 20px;\n    -ms-grid-columns: 10px auto auto auto 10px;\n    grid-template-columns: 10px auto auto auto 10px;\n    display: grid;\n  }\n\n  .lc-logo {\n    align-items: center;\n    display: flex;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 1;\n    grid-column: 2/3;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    width: auto;\n  }\n\n  .lc-action-buttons {\n    align-items: center;\n    display: flex;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    -ms-grid-column: 4;\n    -ms-grid-column-span: 1;\n    grid-column: 4/5;\n    justify-content: flex-end;\n  }\n\n  .lc-menu {\n    display: flex;\n    flex-grow: 1;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 3;\n    -ms-grid-row-span: 1;\n    grid-row: 3/4;\n  }\n\n  .lc-menu ul {\n    display: flex;\n    height: 100%;\n    justify-content: space-around;\n    list-style: none;\n    padding: 0 0 0 15px;\n    margin: 0 auto;\n  }\n\n  .lc-menu ul>li {\n    align-items: center;\n    display: flex;\n    margin-right: 20px;\n    position: relative;\n  }\n\n  .lc-menu ul>li>a {\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 15px 0;\n    color: white;\n  }\n\n  .lc-welcome-message {\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 4;\n    -ms-grid-row-span: 1;\n    grid-row: 4/5;\n    padding: 0;\n  }\n}\n\na, .lc-link {\n  text-decoration: none;\n  color: #c11010;\n  font-weight: bold;\n}\n\na:hover, .lc-link:hover, .lc-menu ul>li>a:hover {\n  color: #7a0a7a;\n  cursor: pointer;\n}\n\n.lc-logo img {\n  display: block;\n  max-height: 100px;\n  max-width: 100%;\n  width: auto;\n  height: auto;\n}\n\nnav {\n  width: 100%;\n  background: #606060;\n  display: flex;\n  justify-content: flex-end;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n}\n\nnav a:hover {\n  background-color: #909090;\n  color: white;\n  text-decoration: none;\n}\n\n.lc-welcome-message {\n  text-align: center;\n  font-style: italic;\n}\n\n.lc-menu-toggle, .lc-mobile-menu {\n  display: none;\n}\n\n.lc-action-buttons__button {\n  background-color: #eeeeee;\n  border: 2px solid #c11010;\n  border-radius: 30px;\n  box-sizing: border-box;\n  display: inline-block;\n  font-weight: 900;\n  min-width: 125px;\n  padding: 10px 25px;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.lc-action-buttons__button:hover {\n  background-color: #8B63BB;\n  border-color: #7a0a7a;\n}\n\n.lc-action-buttons__button:hover a {\n  color: white;\n}\n\n.lc-action-buttons__button a {\n  color: #c11010;\n}\n\n.lc-action-buttons__button a:hover {\n  text-decoration: none;\n  color: white;\n}\n\n.lc-action-buttons__button.primary {\n  margin-right: 20px;\n  background-color: #c11010;\n}\n\n.lc-action-buttons__button.primary:hover {\n  background-color: #7a0a7a;\n}\n\n.lc-action-buttons__button.primary a {\n  color: white;\n}\n\n.lc-service-item {\n  padding-bottom: .7rem;\n}\n\n.lc-service-item__item {\n  font-size: 1.2em;\n}\n\n.lc-service-item__person {\n  font-style: italic;\n  padding-left: 1em;\n}\n\n.lc-service-item__subtext {\n  padding-left: 2em;\n}\n\n.lc-facebook-feed {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.lc-facebook-feed__post {\n  align-self: center;\n  padding: 2em;\n  background-color: #bbbbbb;\n  margin-top: 1em;\n}\n\n.lc-announcement-flyer {\n  text-align: center;\n}\n\n.lc-announcement-flyer img {\n  width: 600px;\n  border: 25px #bbbbbb solid;\n  margin-top: 10px;\n}\n\n.lc-stone-soup {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship__date {\n  color: #c11010;\n  margin: 0;\n}\n\n.lc-order-of-worship__faithlife-bulletin {\n  margin-bottom: .83em;\n  font-style: italic;\n}\n\n.lc-pop-up {\n  background-color: rgba(3, 3, 3, 0.62);\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 400;\n}\n\n.lc-pop-up__content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n.lc-pop-up__modal {\n  background-color: rgb(255, 255, 255);\n  box-shadow: rgba(3, 3, 3, 0.16) 0 16px 32px 0, rgba(3, 3, 3, 0.1) 0px 0px 8px 0px;\n  box-sizing: border-box;\n  width: 600px;\n  min-height: 24px;\n  padding: 0 24px 24px 16px;\n  overflow-x: hidden;\n  overflow-y: auto;\n  -ms-scroll-chaining: none;\n  overscroll-behavior: contain;\n  word-break: break-word;\n  position: relative;\n}\n\n.lc-pop-up__modal br {\n\n}\n\n.lc-pop-up__close {\n  align-items:flex-start;\n  -webkit-appearance:none;\n     -moz-appearance:none;\n          appearance:none;\n  background-color:rgba(0, 0, 0, 0);\n  border: none;\n  box-sizing:border-box;\n  color:rgb(106, 110, 115);\n  font-size:16px;\n  font-stretch:100%;\n  font-weight:400;\n  height:36px;\n  letter-spacing:normal;\n  line-height:24px;\n  margin: 0;\n  padding: 6px 16px;\n  position:absolute;\n  right:16px;\n  text-align:center;\n  top:23px;\n  -webkit-user-select:none;\n     -moz-user-select:none;\n      -ms-user-select:none;\n          user-select:none;\n  white-space:nowrap;\n  width:48px;\n  word-spacing:0px;\n  -ms-writing-mode:lr-tb;\n      writing-mode:horizontal-tb;\n  -webkit-border-image:none;\n}\n\n.lc-scripture-decorator {\n  color: #7a0a7a;\n  font-weight: bold;\n}\n\n.lc-sermons {\n  width: 700px;\n  margin: 0 auto 20px auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-sermons__date{\n\n}\n\n.lc-sermons__video {\n\n}\n\n.lc-sermons__link {\n  display: block;\n}\n\n.lc-sermons__previous {\n\n}\n\nfooter {\n  background-color: #bbbbbb;\n  color: white;\n  padding: 2em;\n  font-size: .8em;\n  font-weight: bold;\n  margin-top: 2em;\n}\n\n@media screen and (max-width: 600px) {\n  .lc-logo img {\n    height: 50px;\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    height: auto;\n    padding-left: .2em;\n  }\n  nav a {\n    padding: 0.35rem;\n  }\n\n  .lc-announcement-flyer img {\n    width: 80%;\n    border: 25px #bbbbbb solid;\n    margin-top: 10px;\n  }\n\n  .lc-stone-soup {\n    width: 90%;\n    margin: auto;\n  }\n\n  .lc-order-of-worship {\n    width: 90%;\n    background-color: #bbbbbb;\n    padding: 1em;\n  }\n\n  .lc-menu {\n    display:none;\n  }\n\n  .lc-menu-toggle {\n    display: flex;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n    border-radius: 5px;\n  }\n\n  .lc-menu-toggle:hover {\n    background-color: #bbbbbb;\n  }\n\n  .lc-action-buttons {\n    margin: 15px 23px 15px;\n    display: flex;\n    justify-content: center;\n  }\n\n  .lc-mobile-menu {\n    display: inherit;\n    background: rgba(0,0,0,.9);\n    bottom: 0;\n    height: 100vh;\n    left: 0;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 2;\n  }\n\n  .lc-mobile-menu__close {\n    color: #fff;\n    cursor: pointer;\n    font-size: 26px;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n  }\n\n  .lc-mobile-menu ul {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 100vh;\n    justify-content: center;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .lc-mobile-menu li {\n    padding: 15px 0;\n  }\n\n  .lc-mobile-menu li a {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n\n  .lc-pop-up__modal {\n    max-height:calc(100% - 48px);\n    max-width:calc(100% - 32px);\n  }\n\n  h1.lc-scripture-decorator {\n    font-size: 150%;\n    margin-top: 25px;\n  }\n\n  h2.lc-scripture-decorator {\n    font-size: 120%;\n  }\n}\n", ""]);
+exports.push([module.i, "body {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,\n    'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  background: url(" + ___CSS_LOADER_URL___0___ + ") no-repeat center center fixed; ;\n  background-size: cover;\n}\n\n.lc-content {\n  min-height: calc(100vh - 70px);\n  margin-bottom: 20px;\n}\n\n@media screen and (min-width: 600px) {\n  header {\n    -ms-grid-rows: 20px 120px auto 20px;\n    grid-template-rows: 20px 120px auto 20px;\n    -ms-grid-columns: 10px auto auto auto 10px;\n    grid-template-columns: 10px auto auto auto 10px;\n    display: grid;\n  }\n\n  .lc-logo {\n    align-items: center;\n    display: flex;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 1;\n    grid-column: 2/3;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    width: auto;\n  }\n\n  .lc-action-buttons {\n    align-items: center;\n    display: flex;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    -ms-grid-column: 4;\n    -ms-grid-column-span: 1;\n    grid-column: 4/5;\n    justify-content: flex-end;\n  }\n\n  .lc-menu {\n    display: flex;\n    flex-grow: 1;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 3;\n    -ms-grid-row-span: 1;\n    grid-row: 3/4;\n  }\n\n  .lc-menu ul {\n    display: flex;\n    height: 100%;\n    justify-content: space-around;\n    list-style: none;\n    padding: 0 0 0 15px;\n    margin: 0 auto;\n  }\n\n  .lc-menu ul>li {\n    align-items: center;\n    display: flex;\n    margin-right: 20px;\n    position: relative;\n  }\n\n  .lc-menu ul>li>a {\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 15px 0;\n    color: white;\n  }\n\n  .lc-live-stream-link a {\n    color: #c11010 !important;\n  }\n\n  .lc-live-stream-link a:hover {\n    color: #7a0a7a !important;\n  }\n\n\n  .lc-welcome-message {\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 4;\n    -ms-grid-row-span: 1;\n    grid-row: 4/5;\n    padding: 0;\n  }\n}\n\na, .lc-link {\n  text-decoration: none;\n  color: #c11010;\n  font-weight: bold;\n}\n\na:hover, .lc-link:hover, .lc-menu ul>li>a:hover {\n  color: #7a0a7a;\n  cursor: pointer;\n}\n\n.lc-logo img {\n  display: block;\n  max-height: 100px;\n  max-width: 100%;\n  width: auto;\n  height: auto;\n}\n\nnav {\n  width: 100%;\n  background: #606060;\n  display: flex;\n  justify-content: flex-end;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n}\n\nnav a:hover {\n  background-color: #909090;\n  color: white;\n  text-decoration: none;\n}\n\n.lc-welcome-message {\n  text-align: center;\n  font-style: italic;\n}\n\n.lc-menu-toggle, .lc-mobile-menu {\n  display: none;\n}\n\n.lc-action-buttons__button {\n  background-color: #eeeeee;\n  border: 2px solid #c11010;\n  border-radius: 30px;\n  box-sizing: border-box;\n  display: inline-block;\n  font-weight: 900;\n  min-width: 125px;\n  padding: 10px 25px;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.lc-action-buttons__button:hover {\n  background-color: #8B63BB;\n  border-color: #7a0a7a;\n}\n\n.lc-action-buttons__button:hover a {\n  color: white;\n}\n\n.lc-action-buttons__button a {\n  color: #c11010;\n}\n\n.lc-action-buttons__button a:hover {\n  text-decoration: none;\n  color: white;\n}\n\n.lc-action-buttons__button.primary {\n  margin-right: 20px;\n  background-color: #c11010;\n}\n\n.lc-action-buttons__button.primary:hover {\n  background-color: #7a0a7a;\n}\n\n.lc-action-buttons__button.primary a {\n  color: white;\n}\n\n.lc-service-item {\n  padding-bottom: .7rem;\n}\n\n.lc-service-item__item {\n  font-size: 1.2em;\n}\n\n.lc-service-item__person {\n  font-style: italic;\n  padding-left: 1em;\n}\n\n.lc-service-item__subtext, .lc-service-item__sermon-notes {\n  padding-left: 2em;\n}\n\n.lc-facebook-feed {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.lc-facebook-feed__post {\n  align-self: center;\n  padding: 2em;\n  background-color: #bbbbbb;\n  margin-top: 1em;\n}\n\n.lc-announcement-flyer {\n  text-align: center;\n}\n\n.lc-announcement-flyer img {\n  width: 600px;\n  border: 25px #bbbbbb solid;\n  margin-top: 10px;\n}\n\n.lc-stone-soup {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship__date {\n  color: #c11010;\n  margin: 0;\n}\n\n.lc-order-of-worship__faithlife-bulletin {\n  margin-bottom: .83em;\n  font-style: italic;\n}\n\n.lc-pop-up {\n  background-color: rgba(3, 3, 3, 0.62);\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 400;\n}\n\n.lc-pop-up__content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n.lc-pop-up__modal {\n  background-color: rgb(255, 255, 255);\n  box-shadow: rgba(3, 3, 3, 0.16) 0 16px 32px 0, rgba(3, 3, 3, 0.1) 0px 0px 8px 0px;\n  box-sizing: border-box;\n  width: 600px;\n  min-height: 24px;\n  padding: 0 24px 24px 16px;\n  overflow-x: hidden;\n  overflow-y: auto;\n  -ms-scroll-chaining: none;\n  overscroll-behavior: contain;\n  word-break: break-word;\n  position: relative;\n}\n\n.lc-pop-up__modal br {\n\n}\n\n.lc-pop-up__close {\n  align-items:flex-start;\n  -webkit-appearance:none;\n     -moz-appearance:none;\n          appearance:none;\n  background-color:rgba(0, 0, 0, 0);\n  border: none;\n  box-sizing:border-box;\n  color:rgb(106, 110, 115);\n  font-size:16px;\n  font-stretch:100%;\n  font-weight:400;\n  height:36px;\n  letter-spacing:normal;\n  line-height:24px;\n  margin: 0;\n  padding: 6px 16px;\n  position:absolute;\n  right:16px;\n  text-align:center;\n  top:23px;\n  -webkit-user-select:none;\n     -moz-user-select:none;\n      -ms-user-select:none;\n          user-select:none;\n  white-space:nowrap;\n  width:48px;\n  word-spacing:0px;\n  -ms-writing-mode:lr-tb;\n      writing-mode:horizontal-tb;\n  -webkit-border-image:none;\n}\n\n.lc-scripture-decorator {\n  color: #7a0a7a;\n  font-weight: bold;\n}\n\n.lc-sermons {\n  width: 700px;\n  margin: 0 auto 20px auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-sermons__date{\n\n}\n\n.lc-sermons__video {\n\n}\n\n.lc-sermons__link {\n  display: block;\n}\n\n.lc-sermons__previous {\n\n}\n\nfooter {\n  background-color: #bbbbbb;\n  color: white;\n  padding: 2em;\n  font-size: .8em;\n  font-weight: bold;\n  height: 50px;\n}\n\n@media screen and (max-width: 600px) {\n  .lc-logo img {\n    height: 50px;\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    height: auto;\n    padding-left: .2em;\n  }\n  nav a {\n    padding: 0.35rem;\n  }\n\n  .lc-announcement-flyer img {\n    width: 80%;\n    border: 25px #bbbbbb solid;\n    margin-top: 10px;\n  }\n\n  .lc-stone-soup {\n    width: 90%;\n    margin: auto;\n  }\n\n  .lc-order-of-worship {\n    width: 90%;\n    background-color: #bbbbbb;\n    padding: 1em;\n  }\n\n  .lc-menu {\n    display:none;\n  }\n\n  .lc-menu-toggle {\n    display: flex;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n    border-radius: 5px;\n  }\n\n  .lc-menu-toggle:hover {\n    background-color: #bbbbbb;\n  }\n\n  .lc-action-buttons {\n    margin: 15px 23px 15px;\n    display: flex;\n    justify-content: center;\n  }\n\n  .lc-mobile-menu {\n    display: inherit;\n    background: rgba(0,0,0,.9);\n    bottom: 0;\n    height: 100vh;\n    left: 0;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 2;\n  }\n\n  .lc-mobile-menu__close {\n    color: #fff;\n    cursor: pointer;\n    font-size: 26px;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n  }\n\n  .lc-mobile-menu ul {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 100vh;\n    justify-content: center;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .lc-mobile-menu li {\n    padding: 15px 0;\n  }\n\n  .lc-mobile-menu li a {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n\n  .lc-live-stream-link a {\n    color: #c11010 !important;\n  }\n\n  .lc-live-stream-link a:hover {\n    color: #7a0a7a !important;\n  }\n\n  .lc-pop-up__modal {\n    max-height:calc(100% - 48px);\n    max-width:calc(100% - 32px);\n  }\n\n  h1.lc-scripture-decorator {\n    font-size: 150%;\n    margin-top: 25px;\n  }\n\n  h2.lc-scripture-decorator {\n    font-size: 120%;\n  }\n}\n", ""]);
 
 
 

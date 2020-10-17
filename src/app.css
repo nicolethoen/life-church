@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background: url('assets/worship.jpg') no-repeat center center fixed; ;
+  background: url('assets/sky-background-2.jpg') no-repeat center center fixed; ;
   background-size: cover;
 }
 
@@ -79,7 +79,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding: 15px 0;
-    color: white;
+    color: #555555;
   }
 
   .lc-live-stream-link a {
@@ -354,12 +354,12 @@ nav a:hover {
 }
 
 footer {
-  background-color: #bbbbbb;
+  background-color: darkgray;
   color: white;
   padding: 2em;
   font-size: .8em;
   font-weight: bold;
-  height: 50px;
+  height: 30px;
 }
 
 @media screen and (max-width: 600px) {
