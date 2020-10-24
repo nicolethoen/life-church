@@ -223,6 +223,10 @@ nav a:hover {
   margin-top: 1em;
 }
 
+.lc-facebook-feed__post iframe {
+  background-color: white;
+}
+
 .lc-announcement-flyer {
   text-align: center;
 }
@@ -390,7 +394,6 @@ footer {
 
   .lc-order-of-worship {
     width: 90%;
-    background-color: #bbbbbb;
     padding: 1em;
   }
 

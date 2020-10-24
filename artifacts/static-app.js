@@ -1089,7 +1089,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "404 - Oh no's! We couldn't find that page :("));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Something went wrong... "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "If you keep seeing this message, head to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.facebook.com/LifeChurchAyer/"
+  }, "our Facebook page"), " for updates."));
 });
 
 /***/ }),
@@ -1100,15 +1102,15 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
-/* harmony import */ var assets_announcement_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(31);
+/* harmony import */ var _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-announcement-flyer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__,
+    src: _assets_announcement_png__WEBPACK_IMPORTED_MODULE_1__,
     alt: "announcement flyer",
     width: 600
   }));
@@ -1179,25 +1181,25 @@ __webpack_require__.r(__webpack_exports__);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-welcome-message"
   }, smallVideo ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F157283136064182&width=480",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F157283136064182&show_text=true&width=480&appId=612285882769039&height=498",
     width: "480",
-    height: "360",
+    allow: "encrypted-media",
+    height: "500",
     style: {
       border: "none",
       overflow: "hidden"
-    },
-    scrolling: "no",
-    frameBorder: "0"
+    }
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F157283136064182&width=640",
-    width: "640",
-    height: "480",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F159570289168800&show_text=true&width=552&appId=612285882769039&height=536",
+    width: "552",
+    height: "536",
     style: {
       border: "none",
       overflow: "hidden"
     },
     scrolling: "no",
-    frameBorder: "0"
+    frameBorder: "0",
+    allow: "encrypted-media"
   }));
 });
 
@@ -1363,116 +1365,144 @@ var ScriptureLink_ScriptureLink = function ScriptureLink(_ref) {
 
 
 /* harmony default export */ var order_of_service = __webpack_exports__["default"] = (function () {
+  var callToWorship = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "Leader:"), " Oh come, let us sing to the Lord; let us make a joyful noise to the rock of our salvation!"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "Congregation:"), " Let us come into his presence with thanksgiving; let us make a joyful noise to him with songs of praise!"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "Leader:"), " For the Lord is a great God, and a great King above all gods."), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "Congregation:"), " In his hand are the depths of the earth; the heights of the mountains are his also."), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "Leader:"), " The sea is his, for he made it, and his hands formed the dry land."), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "All:"), " Oh come, let us worship and bow down; let us kneel before the Lord, our Maker! For he is our God, and we are the people of his pasture, and the sheep of his hand."));
   var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
   }, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
     target: "_blank"
-  }, "Praise To The Lord The Almighty")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "If we ever needed you")), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
   }, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
     target: "_blank"
-  }, "In Christ Alone/ The Solid Rock")));
-  var sermonNotes = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Jonah 3:1-5",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "1"), "Then the word of the Lord came to Jonah the second time, saying, ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "2"), " \u201CArise, go to Nineveh, that great city, and call out against it the message that I tell you.\u201D ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "3"), " So Jonah arose and went to Nineveh, according to the word of the Lord. Now Nineveh was an exceedingly great city,[a] three days' journey in breadth. ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "4"), " Jonah began to go into the city, going a day's journey. And he called out, \u201CYet forty days, and Nineveh shall be overthrown!\u201D ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "5"), " And the people of Nineveh believed God. They called for a fast and put on sackcloth, from the greatest of them to the least of them.")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Philippians 3:7-11",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "7"), " But whatever gain I had, I counted as loss for the sake of Christ. ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "8"), " Indeed, I count everything as loss because of the surpassing worth of knowing Christ Jesus my Lord. For his sake I have suffered the loss of all things and count them as rubbish, in order that I may gain Christ ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "9"), " and be found in him, not having a righteousness of my own that comes from the law, but that which comes through faith in Christ, the righteousness from God that depends on faith\u2014 ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "10"), " that I may know him and the power of his resurrection, and may share his sufferings, becoming like him in his death, ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "11"), " that by any means possible I may attain the resurrection from the dead.")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "2 Corinthians 5:17",
-    text: "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come."
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Jonah 3:4",
-    text: "Jonah began to go into the city, going a day's journey. And he called out, \u201CYet forty days, and Nineveh shall be overthrown!\u201D"
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Jonah 3:5-10",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "5"), " And the people of Nineveh believed God. They called for a fast and put on sackcloth, from the greatest of them to the least of them."), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "6"), " The word reached the king of Nineveh, and he arose from his throne, removed his robe, covered himself with sackcloth, and sat in ashes. ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "7"), " And he issued a proclamation and published through Nineveh, \u201CBy the decree of the king and his nobles: Let neither man nor beast, herd nor flock, taste anything. Let them not feed or drink water, ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "8"), " but let man and beast be covered with sackcloth, and let them call out mightily to God. Let everyone turn from his evil way and from the violence that is in his hands. ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "9"), " Who knows? God may turn and relent and turn from his fierce anger, so that we may not perish.\u201D"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "10"), " When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it."))
-  }));
+  }, "Your Will Be Done")));
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "chapter"
-  }, "Chapter 2"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "10"), " And the Lord spoke to the fish, and it vomited Jonah out upon the dry land."), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "chapter"
   }, "Chapter 3"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "1"), " Then the word of the Lord came to Jonah the second time, saying, ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "10"), " When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it."), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "chapter"
+  }, "Chapter 4"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "2"), " \u201CArise, go to Nineveh, that great city, and call out against it the message that I tell you.\u201D ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "1"), " But it displeased Jonah exceedingly, and he was angry.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "3"), " So Jonah arose and went to Nineveh, according to the word of the Lord. Now Nineveh was an exceedingly great city, three days' journey in breadth. ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "2"), " And he prayed to the Lord and said, \u201CO Lord, is not this what I said when I was yet in my country? That is why I made haste to flee to Tarshish; for I knew that you are a gracious God and merciful, slow to anger and abounding in steadfast love, and relenting from disaster.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "4"), " Jonah began to go into the city, going a day's journey. And he called out, \u201CYet forty days, and Nineveh shall be overthrown!\u201D ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "3"), " Therefore now, O Lord, please take my life from me, for it is better for me to die than to live.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "5"), " And the people of Nineveh believed God. They called for a fast and put on sackcloth, from the greatest of them to the least of them."), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "4"), " And the Lord said, \u201CDo you do well to be angry?\u201D"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "6"), " The word reached the king of Nineveh, and he arose from his throne, removed his robe, covered himself with sackcloth, and sat in ashes. ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "5"), " Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "7"), " And he issued a proclamation and published through Nineveh, \u201CBy the decree of the king and his nobles: Let neither man nor beast, herd nor flock, taste anything. Let them not feed or drink water, ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "6"), " Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "8"), " but let man and beast be covered with sackcloth, and let them call out mightily to God. Let everyone turn from his evil way and from the violence that is in his hands. ", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "7"), " But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "9"), " Who knows? God may turn and relent and turn from his fierce anger, so that we may not perish.\u201D"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "8"), " When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, \u201CIt is better for me to die than to live.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "10"), " When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it."));
+  }, "9"), " But God said to Jonah, \u201CDo you do well to be angry for the plant?\u201D And he said, \u201CYes, I do well to be angry, angry enough to die.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "10"), " And the Lord said, \u201CYou pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "11"), " And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?\u201D"));
+  var sermonNotes = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
+    reference: "2 Kings 14:23-25",
+    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "23"), " In the fifteenth year of Amaziah the son of Joash, king of Judah, Jeroboam the son of Joash, king of Israel, began to reign in Samaria, and he reigned forty-one years.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "24"), " And he did what was evil in the sight of the Lord. He did not depart from all the sins of Jeroboam the son of Nebat, which he made Israel to sin.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "25"), " He restored the border of Israel from Lebo-hamath as far as the Sea of the Arabah, according to the word of the Lord, the God of Israel, which he spoke by his servant Jonah the son of Amittai, the prophet, who was from Gath-hepher.")
+  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
+    reference: "Jonah 3:10-4:3",
+    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "chapter"
+    }, "Chapter 3"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "10"), " When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it."), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "chapter"
+    }, "Chapter 4"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "1"), " But it displeased Jonah exceedingly, and he was angry.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "2"), " And he prayed to the Lord and said, \u201CO Lord, is not this what I said when I was yet in my country? That is why I made haste to flee to Tarshish; for I knew that you are a gracious God and merciful, slow to anger and abounding in steadfast love, and relenting from disaster.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "3"), " Therefore now, O Lord, please take my life from me, for it is better for me to die than to live.\u201D"))
+  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
+    reference: "Philippians 1:18-21",
+    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "18"), " What then? Only that in every way, whether in pretense or in truth, Christ is proclaimed, and in that I rejoice. Yes, and I will rejoice,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "19"), " for I know that through your prayers and the help of the Spirit of Jesus Christ this will turn out for my deliverance,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "20"), " as it is my eager expectation and hope that I will not be at all ashamed, but that with full courage now as always Christ will be honored in my body, whether by life or by death.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "21"), " For to me to live is Christ, and to die is gain."))
+  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
+    reference: "Philippians 3:20-4:1",
+    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "chapter"
+    }, "Chapter 3"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "20"), " But our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "21"), " who will transform our lowly body to be like his glorious body, by the power that enables him even to subject all things to himself."), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "chapter"
+    }, "Chapter 4"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "1"), " Therefore, my brothers,[a] whom I love and long for, my joy and crown, stand firm thus in the Lord, my beloved."))
+  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
+    reference: "Luke 19:41-42",
+    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "41"), " And when he drew near and saw the city, he wept over it,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+      variant: "verse"
+    }, "42"), " saying, \u201CWould that you, even you, had known on this day the things that make for peace! But now they are hidden from your eyes."))
+  }));
+  var closingSong = /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
+    target: "_blank"
+  }, "Jesus"));
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "October 18th, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre Wu"
+  }, "October 25th, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Andre Wu",
+    subtext: callToWorship
   }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Tara and Jazmyn Kasey",
+    person: "Nicole Thoen & Dawn Provost",
     subtext: worshipSongs
-  }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost"
-  }, "Praise, Thanksgiving, and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Greet one another"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Aaron Claussen"
-  }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+  }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Praise, Thanksgiving, and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Greet one another"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Julia Wu",
     subtext: /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-      reference: "Jonah 2:10-3:10",
+      reference: "Jonah 3:10-4:11",
       text: scriptureReading
     })
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey",
-    subtext: "\"A better version of Jonah\"",
     sermonNotes: sermonNotes
-  }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Benediction"));
+  }, "Sermon - \"Angry with God\""), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Nicole Thoen & Dawn Provost",
+    subtext: closingSong
+  }, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Benediction"));
 });
 
 /***/ }),
@@ -1539,6 +1569,28 @@ var FacebookFeed_FacebookFeed = function FacebookFeed(_ref) {
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-facebook-feed"
   }, /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=552&appId=612285882769039&height=579",
+    width: feedItemWidth,
+    height: "578",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158169699308859&show_text=true&width=552&appId=612285882769039&height=580",
+    width: feedItemWidth,
+    height: "578",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
     src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153750056417490&show_text=true&width=552&appId=612285882769039&height=578",
     width: feedItemWidth,
     height: "578",
@@ -1679,18 +1731,20 @@ var Sermon_Sermon = function Sermon(_ref) {
     className: "lc-sermons"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date"
-  }, "Sept 27th, 2020 - A Battle of Wills"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "Oct 18th, 2020 - Angry with God"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
     width: "560",
     height: "315",
-    src: "https://www.youtube.com/embed/D8iSoEgy4n8",
+    src: "https://www.youtube.com/embed/YP6umLB6hRk",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
     allowFullScreen: true
   })), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__previous"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", null, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/D8iSoEgy4n8"
+  }, "Sept 27th, 2020 - A Battle of Wills"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/5P-fpeqRH2E"
   }, "Sept 20th, 2020 - Introduction to Jonah"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/RcfiGyRD1uQ"
@@ -2819,7 +2873,7 @@ var urlEscape = __webpack_require__(54);
 var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(55));
 
 // Module
-exports.push([module.i, "body {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,\n    'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  background: url(" + ___CSS_LOADER_URL___0___ + ") no-repeat center center fixed; ;\n  background-size: cover;\n}\n\n.lc-content {\n  min-height: calc(100vh - 70px);\n  margin-bottom: 20px;\n}\n\n@media screen and (min-width: 600px) {\n  header {\n    -ms-grid-rows: 20px 120px auto 20px;\n    grid-template-rows: 20px 120px auto 20px;\n    -ms-grid-columns: 10px auto auto auto 10px;\n    grid-template-columns: 10px auto auto auto 10px;\n    display: grid;\n  }\n\n  .lc-logo {\n    align-items: center;\n    display: flex;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 1;\n    grid-column: 2/3;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    width: auto;\n  }\n\n  .lc-action-buttons {\n    align-items: center;\n    display: flex;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    -ms-grid-column: 4;\n    -ms-grid-column-span: 1;\n    grid-column: 4/5;\n    justify-content: flex-end;\n  }\n\n  .lc-menu {\n    display: flex;\n    flex-grow: 1;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 3;\n    -ms-grid-row-span: 1;\n    grid-row: 3/4;\n  }\n\n  .lc-menu ul {\n    display: flex;\n    height: 100%;\n    justify-content: space-around;\n    list-style: none;\n    padding: 0 0 0 15px;\n    margin: 0 auto;\n  }\n\n  .lc-menu ul>li {\n    align-items: center;\n    display: flex;\n    margin-right: 20px;\n    position: relative;\n  }\n\n  .lc-menu ul>li>a {\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 15px 0;\n    color: white;\n  }\n\n  .lc-live-stream-link a {\n    color: #c11010 !important;\n  }\n\n  .lc-live-stream-link a:hover {\n    color: #7a0a7a !important;\n  }\n\n\n  .lc-welcome-message {\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 4;\n    -ms-grid-row-span: 1;\n    grid-row: 4/5;\n    padding: 0;\n  }\n}\n\na, .lc-link {\n  text-decoration: none;\n  color: #c11010;\n  font-weight: bold;\n}\n\na:hover, .lc-link:hover, .lc-menu ul>li>a:hover {\n  color: #7a0a7a;\n  cursor: pointer;\n}\n\n.lc-logo img {\n  display: block;\n  max-height: 100px;\n  max-width: 100%;\n  width: auto;\n  height: auto;\n}\n\nnav {\n  width: 100%;\n  background: #606060;\n  display: flex;\n  justify-content: flex-end;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n}\n\nnav a:hover {\n  background-color: #909090;\n  color: white;\n  text-decoration: none;\n}\n\n.lc-welcome-message {\n  text-align: center;\n  font-style: italic;\n}\n\n.lc-menu-toggle, .lc-mobile-menu {\n  display: none;\n}\n\n.lc-action-buttons__button {\n  background-color: #eeeeee;\n  border: 2px solid #c11010;\n  border-radius: 30px;\n  box-sizing: border-box;\n  display: inline-block;\n  font-weight: 900;\n  min-width: 125px;\n  padding: 10px 25px;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.lc-action-buttons__button:hover {\n  background-color: #8B63BB;\n  border-color: #7a0a7a;\n}\n\n.lc-action-buttons__button:hover a {\n  color: white;\n}\n\n.lc-action-buttons__button a {\n  color: #c11010;\n}\n\n.lc-action-buttons__button a:hover {\n  text-decoration: none;\n  color: white;\n}\n\n.lc-action-buttons__button.primary {\n  margin-right: 20px;\n  background-color: #c11010;\n}\n\n.lc-action-buttons__button.primary:hover {\n  background-color: #7a0a7a;\n}\n\n.lc-action-buttons__button.primary a {\n  color: white;\n}\n\n.lc-service-item {\n  padding-bottom: .7rem;\n}\n\n.lc-service-item__item {\n  font-size: 1.2em;\n}\n\n.lc-service-item__person {\n  font-style: italic;\n  padding-left: 1em;\n}\n\n.lc-service-item__subtext, .lc-service-item__sermon-notes {\n  padding-left: 2em;\n}\n\n.lc-facebook-feed {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.lc-facebook-feed__post {\n  align-self: center;\n  padding: 2em;\n  background-color: #bbbbbb;\n  margin-top: 1em;\n}\n\n.lc-announcement-flyer {\n  text-align: center;\n}\n\n.lc-announcement-flyer img {\n  width: 600px;\n  border: 25px #bbbbbb solid;\n  margin-top: 10px;\n}\n\n.lc-stone-soup {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship__date {\n  color: #c11010;\n  margin: 0;\n}\n\n.lc-order-of-worship__faithlife-bulletin {\n  margin-bottom: .83em;\n  font-style: italic;\n}\n\n.lc-pop-up {\n  background-color: rgba(3, 3, 3, 0.62);\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 400;\n}\n\n.lc-pop-up__content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n.lc-pop-up__modal {\n  background-color: rgb(255, 255, 255);\n  box-shadow: rgba(3, 3, 3, 0.16) 0 16px 32px 0, rgba(3, 3, 3, 0.1) 0px 0px 8px 0px;\n  box-sizing: border-box;\n  width: 600px;\n  min-height: 24px;\n  padding: 0 24px 24px 16px;\n  overflow-x: hidden;\n  overflow-y: auto;\n  -ms-scroll-chaining: none;\n  overscroll-behavior: contain;\n  word-break: break-word;\n  position: relative;\n}\n\n.lc-pop-up__modal br {\n\n}\n\n.lc-pop-up__close {\n  align-items:flex-start;\n  -webkit-appearance:none;\n     -moz-appearance:none;\n          appearance:none;\n  background-color:rgba(0, 0, 0, 0);\n  border: none;\n  box-sizing:border-box;\n  color:rgb(106, 110, 115);\n  font-size:16px;\n  font-stretch:100%;\n  font-weight:400;\n  height:36px;\n  letter-spacing:normal;\n  line-height:24px;\n  margin: 0;\n  padding: 6px 16px;\n  position:absolute;\n  right:16px;\n  text-align:center;\n  top:23px;\n  -webkit-user-select:none;\n     -moz-user-select:none;\n      -ms-user-select:none;\n          user-select:none;\n  white-space:nowrap;\n  width:48px;\n  word-spacing:0px;\n  -ms-writing-mode:lr-tb;\n      writing-mode:horizontal-tb;\n  -webkit-border-image:none;\n}\n\n.lc-scripture-decorator {\n  color: #7a0a7a;\n  font-weight: bold;\n}\n\n.lc-sermons {\n  width: 700px;\n  margin: 0 auto 20px auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-sermons__date{\n\n}\n\n.lc-sermons__video {\n\n}\n\n.lc-sermons__link {\n  display: block;\n}\n\n.lc-sermons__previous {\n\n}\n\nfooter {\n  background-color: #bbbbbb;\n  color: white;\n  padding: 2em;\n  font-size: .8em;\n  font-weight: bold;\n  height: 50px;\n}\n\n@media screen and (max-width: 600px) {\n  .lc-logo img {\n    height: 50px;\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    height: auto;\n    padding-left: .2em;\n  }\n  nav a {\n    padding: 0.35rem;\n  }\n\n  .lc-announcement-flyer img {\n    width: 80%;\n    border: 25px #bbbbbb solid;\n    margin-top: 10px;\n  }\n\n  .lc-stone-soup {\n    width: 90%;\n    margin: auto;\n  }\n\n  .lc-order-of-worship {\n    width: 90%;\n    background-color: #bbbbbb;\n    padding: 1em;\n  }\n\n  .lc-menu {\n    display:none;\n  }\n\n  .lc-menu-toggle {\n    display: flex;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n    border-radius: 5px;\n  }\n\n  .lc-menu-toggle:hover {\n    background-color: #bbbbbb;\n  }\n\n  .lc-action-buttons {\n    margin: 15px 23px 15px;\n    display: flex;\n    justify-content: center;\n  }\n\n  .lc-mobile-menu {\n    display: inherit;\n    background: rgba(0,0,0,.9);\n    bottom: 0;\n    height: 100vh;\n    left: 0;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 2;\n  }\n\n  .lc-mobile-menu__close {\n    color: #fff;\n    cursor: pointer;\n    font-size: 26px;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n  }\n\n  .lc-mobile-menu ul {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 100vh;\n    justify-content: center;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .lc-mobile-menu li {\n    padding: 15px 0;\n  }\n\n  .lc-mobile-menu li a {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n\n  .lc-live-stream-link a {\n    color: #c11010 !important;\n  }\n\n  .lc-live-stream-link a:hover {\n    color: #7a0a7a !important;\n  }\n\n  .lc-pop-up__modal {\n    max-height:calc(100% - 48px);\n    max-width:calc(100% - 32px);\n  }\n\n  h1.lc-scripture-decorator {\n    font-size: 150%;\n    margin-top: 25px;\n  }\n\n  h2.lc-scripture-decorator {\n    font-size: 120%;\n  }\n}\n", ""]);
+exports.push([module.i, "body {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,\n    'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  background: url(" + ___CSS_LOADER_URL___0___ + ") no-repeat center center fixed; ;\n  background-size: cover;\n}\n\n.lc-content {\n  min-height: calc(100vh - 70px);\n  margin-bottom: 20px;\n}\n\n@media screen and (min-width: 600px) {\n  header {\n    -ms-grid-rows: 20px 120px auto 20px;\n    grid-template-rows: 20px 120px auto 20px;\n    -ms-grid-columns: 10px auto auto auto 10px;\n    grid-template-columns: 10px auto auto auto 10px;\n    display: grid;\n  }\n\n  .lc-logo {\n    align-items: center;\n    display: flex;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 1;\n    grid-column: 2/3;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    width: auto;\n  }\n\n  .lc-action-buttons {\n    align-items: center;\n    display: flex;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    -ms-grid-column: 4;\n    -ms-grid-column-span: 1;\n    grid-column: 4/5;\n    justify-content: flex-end;\n  }\n\n  .lc-menu {\n    display: flex;\n    flex-grow: 1;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 3;\n    -ms-grid-row-span: 1;\n    grid-row: 3/4;\n  }\n\n  .lc-menu ul {\n    display: flex;\n    height: 100%;\n    justify-content: space-around;\n    list-style: none;\n    padding: 0 0 0 15px;\n    margin: 0 auto;\n  }\n\n  .lc-menu ul>li {\n    align-items: center;\n    display: flex;\n    margin-right: 20px;\n    position: relative;\n  }\n\n  .lc-menu ul>li>a {\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 15px 0;\n    color: #555555;\n  }\n\n  .lc-live-stream-link a {\n    color: #c11010 !important;\n  }\n\n  .lc-live-stream-link a:hover {\n    color: #7a0a7a !important;\n  }\n\n\n  .lc-welcome-message {\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 4;\n    -ms-grid-row-span: 1;\n    grid-row: 4/5;\n    padding: 0;\n  }\n}\n\na, .lc-link {\n  text-decoration: none;\n  color: #c11010;\n  font-weight: bold;\n}\n\na:hover, .lc-link:hover, .lc-menu ul>li>a:hover {\n  color: #7a0a7a;\n  cursor: pointer;\n}\n\n.lc-logo img {\n  display: block;\n  max-height: 100px;\n  max-width: 100%;\n  width: auto;\n  height: auto;\n}\n\nnav {\n  width: 100%;\n  background: #606060;\n  display: flex;\n  justify-content: flex-end;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n}\n\nnav a:hover {\n  background-color: #909090;\n  color: white;\n  text-decoration: none;\n}\n\n.lc-welcome-message {\n  text-align: center;\n  font-style: italic;\n}\n\n.lc-menu-toggle, .lc-mobile-menu {\n  display: none;\n}\n\n.lc-action-buttons__button {\n  background-color: #eeeeee;\n  border: 2px solid #c11010;\n  border-radius: 30px;\n  box-sizing: border-box;\n  display: inline-block;\n  font-weight: 900;\n  min-width: 125px;\n  padding: 10px 25px;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.lc-action-buttons__button:hover {\n  background-color: #8B63BB;\n  border-color: #7a0a7a;\n}\n\n.lc-action-buttons__button:hover a {\n  color: white;\n}\n\n.lc-action-buttons__button a {\n  color: #c11010;\n}\n\n.lc-action-buttons__button a:hover {\n  text-decoration: none;\n  color: white;\n}\n\n.lc-action-buttons__button.primary {\n  margin-right: 20px;\n  background-color: #c11010;\n}\n\n.lc-action-buttons__button.primary:hover {\n  background-color: #7a0a7a;\n}\n\n.lc-action-buttons__button.primary a {\n  color: white;\n}\n\n.lc-service-item {\n  padding-bottom: .7rem;\n}\n\n.lc-service-item__item {\n  font-size: 1.2em;\n}\n\n.lc-service-item__person {\n  font-style: italic;\n  padding-left: 1em;\n}\n\n.lc-service-item__subtext, .lc-service-item__sermon-notes {\n  padding-left: 2em;\n}\n\n.lc-facebook-feed {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.lc-facebook-feed__post {\n  align-self: center;\n  padding: 2em;\n  background-color: #bbbbbb;\n  margin-top: 1em;\n}\n\n.lc-announcement-flyer {\n  text-align: center;\n}\n\n.lc-announcement-flyer img {\n  width: 600px;\n  border: 25px #bbbbbb solid;\n  margin-top: 10px;\n}\n\n.lc-stone-soup {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship__date {\n  color: #c11010;\n  margin: 0;\n}\n\n.lc-order-of-worship__faithlife-bulletin {\n  margin-bottom: .83em;\n  font-style: italic;\n}\n\n.lc-pop-up {\n  background-color: rgba(3, 3, 3, 0.62);\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 400;\n}\n\n.lc-pop-up__content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n.lc-pop-up__modal {\n  background-color: rgb(255, 255, 255);\n  box-shadow: rgba(3, 3, 3, 0.16) 0 16px 32px 0, rgba(3, 3, 3, 0.1) 0px 0px 8px 0px;\n  box-sizing: border-box;\n  width: 600px;\n  min-height: 24px;\n  padding: 0 24px 24px 16px;\n  overflow-x: hidden;\n  overflow-y: auto;\n  -ms-scroll-chaining: none;\n  overscroll-behavior: contain;\n  word-break: break-word;\n  position: relative;\n}\n\n.lc-pop-up__modal br {\n\n}\n\n.lc-pop-up__close {\n  align-items:flex-start;\n  -webkit-appearance:none;\n     -moz-appearance:none;\n          appearance:none;\n  background-color:rgba(0, 0, 0, 0);\n  border: none;\n  box-sizing:border-box;\n  color:rgb(106, 110, 115);\n  font-size:16px;\n  font-stretch:100%;\n  font-weight:400;\n  height:36px;\n  letter-spacing:normal;\n  line-height:24px;\n  margin: 0;\n  padding: 6px 16px;\n  position:absolute;\n  right:16px;\n  text-align:center;\n  top:23px;\n  -webkit-user-select:none;\n     -moz-user-select:none;\n      -ms-user-select:none;\n          user-select:none;\n  white-space:nowrap;\n  width:48px;\n  word-spacing:0px;\n  -ms-writing-mode:lr-tb;\n      writing-mode:horizontal-tb;\n  -webkit-border-image:none;\n}\n\n.lc-scripture-decorator {\n  color: #7a0a7a;\n  font-weight: bold;\n}\n\n.lc-sermons {\n  width: 700px;\n  margin: 0 auto 20px auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-sermons__date{\n\n}\n\n.lc-sermons__video {\n\n}\n\n.lc-sermons__link {\n  display: block;\n}\n\n.lc-sermons__previous {\n\n}\n\nfooter {\n  background-color: darkgray;\n  color: white;\n  padding: 2em;\n  font-size: .8em;\n  font-weight: bold;\n  height: 30px;\n}\n\n@media screen and (max-width: 600px) {\n  .lc-logo img {\n    height: 50px;\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    height: auto;\n    padding-left: .2em;\n  }\n  nav a {\n    padding: 0.35rem;\n  }\n\n  .lc-announcement-flyer img {\n    width: 80%;\n    border: 25px #bbbbbb solid;\n    margin-top: 10px;\n  }\n\n  .lc-stone-soup {\n    width: 90%;\n    margin: auto;\n  }\n\n  .lc-order-of-worship {\n    width: 90%;\n    background-color: #bbbbbb;\n    padding: 1em;\n  }\n\n  .lc-menu {\n    display:none;\n  }\n\n  .lc-menu-toggle {\n    display: flex;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n    border-radius: 5px;\n  }\n\n  .lc-menu-toggle:hover {\n    background-color: #bbbbbb;\n  }\n\n  .lc-action-buttons {\n    margin: 15px 23px 15px;\n    display: flex;\n    justify-content: center;\n  }\n\n  .lc-mobile-menu {\n    display: inherit;\n    background: rgba(0,0,0,.9);\n    bottom: 0;\n    height: 100vh;\n    left: 0;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 2;\n  }\n\n  .lc-mobile-menu__close {\n    color: #fff;\n    cursor: pointer;\n    font-size: 26px;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n  }\n\n  .lc-mobile-menu ul {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 100vh;\n    justify-content: center;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .lc-mobile-menu li {\n    padding: 15px 0;\n  }\n\n  .lc-mobile-menu li a {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n\n  .lc-live-stream-link a {\n    color: #c11010 !important;\n  }\n\n  .lc-live-stream-link a:hover {\n    color: #7a0a7a !important;\n  }\n\n  .lc-pop-up__modal {\n    max-height:calc(100% - 48px);\n    max-width:calc(100% - 32px);\n  }\n\n  h1.lc-scripture-decorator {\n    font-size: 150%;\n    margin-top: 25px;\n  }\n\n  h2.lc-scripture-decorator {\n    font-size: 120%;\n  }\n}\n", ""]);
 
 
 
@@ -2944,7 +2998,7 @@ module.exports = function escape(url, needQuotes) {
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/worship.a45299ac.jpg";
+module.exports = __webpack_require__.p + "static/sky-background-2.e9d32e22.jpg";
 
 /***/ })
 /******/ ]);
