@@ -26,6 +26,26 @@ export const FacebookFeed: React.FunctionComponent = ({}) => {
         <div className="lc-facebook-feed">
             <FacebookPost>
                 <iframe
+                    src={`https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=${feedItemWidth}&appId=612285882769039&height=468`}
+                    width={feedItemWidth}
+                    height="475"
+                    style={{ border:'none', overflow:'hidden' }}
+                    scrolling="no"
+                    frameBorder="0"
+                    allow="encrypted-media"/>
+            </FacebookPost>
+            <FacebookPost>
+                <iframe
+                    src={`https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F161920842267078&show_text=true&width=${feedItemWidth}&appId=612285882769039&height=238`}
+                    width={feedItemWidth}
+                    height="238"
+                    style={{ border:'none', overflow:'hidden' }}
+                    scrolling="no"
+                    frameBorder="0"
+                    allow="encrypted-media"/>
+            </FacebookPost>
+            <FacebookPost>
+                <iframe
                     src={`https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=${feedItemWidth}&appId=612285882769039&height=579`}
                     width={feedItemWidth}
                     height="600"
