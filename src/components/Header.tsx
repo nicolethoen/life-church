@@ -29,7 +29,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
     return (
         <header>
             <div className="lc-logo">
-                <Link to="/"><img src={logoSrc} height="100"/></Link>
+                <Link to="/"><img src={logoSrc} height="100" aria-label="Life Church Logo - link to home page"/></Link>
             </div>
             <div className="lc-menu-toggle lc-link" onClick={() => setInProp(true)}>
                <MenuIcon />
@@ -42,8 +42,8 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link" target="_blank">Visitor Form</a>
                 </ActionButton>
             </div>
-            <div className="lc-menu">
-                <ul>
+            <div className="lc-menu" role="navigation">
+                <ul aria-label="Navigation">
                     <li className="lc-live-stream-link">
                         <Link to="/">LIVE STREAM</Link>
                     </li>
@@ -64,6 +64,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
             <Transition in={inProp} timeout={duration}>
                 {(state: string) => (
                     <div className={`lc-mobile-menu fade fade-${state}`}
+                         role="navigation"
                          style={{
                              ...defaultStyle,
                              ...transitionStyles[state]
