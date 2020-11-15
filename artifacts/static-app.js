@@ -1189,16 +1189,19 @@ __webpack_require__.r(__webpack_exports__);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-welcome-message"
   }, smallVideo ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F164625271996635&show_text=true&width=400&appId=612285882769039&height=536",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=400&appId=612285882769039&height=536",
     width: "400",
-    allow: "encrypted-media",
-    height: "581",
+    height: "536",
     style: {
       border: "none",
       overflow: "hidden"
-    }
+    },
+    scrolling: "no",
+    frameBorder: 0,
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F164625271996635&show_text=true&width=552&appId=612285882769039&height=536",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=552&appId=612285882769039&height=536",
     width: "552",
     height: "536",
     style: {
@@ -1206,8 +1209,9 @@ __webpack_require__.r(__webpack_exports__);
       overflow: "hidden"
     },
     scrolling: "no",
-    frameBorder: "0",
-    allow: "encrypted-media"
+    frameBorder: 0,
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
   }));
 });
 
@@ -1373,170 +1377,115 @@ var ScriptureLink_ScriptureLink = function ScriptureLink(_ref) {
 
 
 /* harmony default export */ var order_of_service = __webpack_exports__["default"] = (function () {
-  var callToWorship = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "14"), " Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "15"), " For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sin.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "16"), " Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.");
-  var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://youtu.be/xoQeSgA6PuQ",
-    target: "_blank"
-  }, "May the people praise you")), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://youtu.be/rf8Mh22-oTg",
-    target: "_blank"
-  }, "Jesus, son of God")), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://youtu.be/fFVrQvW-eT8",
-    target: "_blank"
-  }, "His mercy is more")));
+  // const callToWorship = (
+  //     <>
+  //         <p><ScriptureDecorator variant="verse">Leader:</ScriptureDecorator> To the Father who has given us every spiritual blessing in Christ.</p>
+  //         <p><ScriptureDecorator variant="verse">Congregation:</ScriptureDecorator> We give praise and glory.</p>
+  //         <p><ScriptureDecorator variant="verse">Leader:</ScriptureDecorator> To the Son through whom we have redemption, forgiveness, and the riches of God's grace.</p>
+  //         <p><ScriptureDecorator variant="verse">Congregation:</ScriptureDecorator> We give praise and glory.</p>
+  //         <p><ScriptureDecorator variant="verse">Leader:</ScriptureDecorator> To the Spirit that seals us in his promise, the guarantee of our inheritance until we possess it.</p>
+  //         <p><ScriptureDecorator variant="verse">All:</ScriptureDecorator> We give praise and glory.</p>
+  //     </>
+  // );
+  // const worshipSongs = (
+  //     <>
+  //         <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=EYrTqBioaZ4" target="_blank">Come Thou Fount</a></div>
+  //         <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=k7OR3W-as38" target="_blank">Heart of Worship</a></div>
+  //         <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=113XpysHskA" target="_blank">Psalm 99</a></div>
+  //     </>
+  // );
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "chapter"
-  }, "Chapter 3"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "10"), " When God saw what they did, how they turned from their evil way, God relented of the disaster that he had said he would do to them, and he did not do it."), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "chapter"
-  }, "Chapter 4"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "3"), " Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "1"), " But it displeased Jonah exceedingly, and he was angry.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "2"), " And he prayed to the Lord and said, \u201CO Lord, is not this what I said when I was yet in my country? That is why I made haste to flee to Tarshish; for I knew that you are a gracious God and merciful, slow to anger and abounding in steadfast love, and relenting from disaster.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+  }, "5"), " he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "3"), " Therefore now, O Lord, please take my life from me, for it is better for me to die than to live.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "4"), " And the Lord said, \u201CDo you do well to be angry?\u201D"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "5"), " Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "6"), " Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "7"), " But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "8"), " When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, \u201CIt is better for me to die than to live.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "9"), " But God said to Jonah, \u201CDo you do well to be angry for the plant?\u201D And he said, \u201CYes, I do well to be angry, angry enough to die.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "10"), " And the Lord said, \u201CYou pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
-  }, "11"), " And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?\u201D"));
-  var sermonNotes = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "1 John 4:8",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "8"), " Whoever does not love does not know God, because God is love.")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "John 15:9-13",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "9"), " As the Father has loved me, so have I loved you. Abide in my love.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "10"), " If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and abide in his love.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "11"), " These things I have spoken to you, that my joy may be in you, and that your joy may be full.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "12"), " \u201CThis is my commandment, that you love one another as I have loved you.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "13"), " Greater love has no one than this, that someone lay down his life for his friends.")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Jonah 4:4-11",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "4"), " And the Lord said, \u201CDo you do well to be angry?\u201D"), /*#__PURE__*/external_react_default.a.createElement("p", null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "5"), " Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "6"), " Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "7"), " But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "8"), " When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, \u201CIt is better for me to die than to live.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "9"), " But God said to Jonah, \u201CDo you do well to be angry for the plant?\u201D And he said, \u201CYes, I do well to be angry, angry enough to die.\u201D", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "10"), " And the Lord said, \u201CYou pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "11"), " And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?\u201D"))
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Romans 5:6-8",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "6"), " For while we were still weak, at the right time Christ died for the ungodly.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "7"), " For one will scarcely die for a righteous person\u2014though perhaps for a good person one would dare even to die\u2014", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "8"), " but God shows his love for us in that while we were still sinners, Christ died for us.")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Proverbs 7:17-19",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "17"), " I have perfumed my bed with myrrh, aloes, and cinnamon.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "18"), " Come, let us take our fill of love till morning; let us delight ourselves with love.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "19"), " For my husband is not at home; he has gone on a long journey;")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Proverbs 30:15-16",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "15"), " The leech has two daughters: Give and Give. Three things are never satisfied; four never say, \u201CEnough\u201D:", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "16"), " Sheol, the barren womb, the land never satisfied with water, and the fire that never says, \u201CEnough.\u201D")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "1 Corinthians 13:4-6",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "4"), " Love is patient and kind; love does not envy or boast; it is not arrogant", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "5"), " or rude. It does not insist on its own way; it is not irritable or resentful;", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "6"), " it does not rejoice at wrongdoing, but rejoices with the truth.")
-  }), /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-    reference: "Romans 5:8",
-    text: /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-      variant: "verse"
-    }, "8"), " but God shows his love for us in that while we were still sinners, Christ died for us.")
-  }));
-  var closingSong = '';
-  /*(
-      <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Jesus</a></div>
-  );*/
+  }, "6"), " to the praise of his glorious grace, with which he has blessed us in the Beloved."); // const sermonNotes = (
+  //     <>
+  //         <ScriptureLink reference="1 John 4:8" text={(
+  //             <>
+  //                 <ScriptureDecorator variant="verse">8</ScriptureDecorator> Whoever does not love does not know God, because God is love.
+  //             </>
+  //         )}/>
+  //         <ScriptureLink reference="John 15:9-13" text={(
+  //             <>
+  //                 <ScriptureDecorator variant="verse">9</ScriptureDecorator> As the Father has loved me, so have I loved you. Abide in my love.
+  //                 <ScriptureDecorator variant="verse">10</ScriptureDecorator> If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and abide in his love.
+  //                 <ScriptureDecorator variant="verse">11</ScriptureDecorator> These things I have spoken to you, that my joy may be in you, and that your joy may be full.
+  //                 <ScriptureDecorator variant="verse">12</ScriptureDecorator> “This is my commandment, that you love one another as I have loved you.
+  //                 <ScriptureDecorator variant="verse">13</ScriptureDecorator> Greater love has no one than this, that someone lay down his life for his friends.
+  //             </>
+  //         )}/>
+  //         <ScriptureLink reference="Jonah 4:4-11" text={(
+  //             <>
+  //                 <p>
+  //                     <ScriptureDecorator variant="verse">4</ScriptureDecorator> And the Lord said, “Do you do well to be angry?”
+  //                 </p>
+  //                 <p>
+  //                     <ScriptureDecorator variant="verse">5</ScriptureDecorator> Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.
+  //                     <ScriptureDecorator variant="verse">6</ScriptureDecorator> Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.
+  //                     <ScriptureDecorator variant="verse">7</ScriptureDecorator> But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.
+  //                     <ScriptureDecorator variant="verse">8</ScriptureDecorator> When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, “It is better for me to die than to live.”
+  //                     <ScriptureDecorator variant="verse">9</ScriptureDecorator> But God said to Jonah, “Do you do well to be angry for the plant?” And he said, “Yes, I do well to be angry, angry enough to die.”
+  //                     <ScriptureDecorator variant="verse">10</ScriptureDecorator> And the Lord said, “You pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.
+  //                     <ScriptureDecorator variant="verse">11</ScriptureDecorator> And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?”
+  //                 </p>
+  //             </>
+  //         )}/>
+  //         <ScriptureLink reference="Romans 5:6-8" text={(
+  //             <>
+  //                 <ScriptureDecorator variant="verse">6</ScriptureDecorator> For while we were still weak, at the right time Christ died for the ungodly.
+  //                 <ScriptureDecorator variant="verse">7</ScriptureDecorator> For one will scarcely die for a righteous person—though perhaps for a good person one would dare even to die—
+  //                 <ScriptureDecorator variant="verse">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.
+  //             </>
+  //         )}/>
+  //         <ScriptureLink reference="Proverbs 7:17-19" text={(
+  //             <>
+  //                 <ScriptureDecorator variant="verse">17</ScriptureDecorator> I have perfumed my bed with myrrh, aloes, and cinnamon.
+  //                 <ScriptureDecorator variant="verse">18</ScriptureDecorator> Come, let us take our fill of love till morning; let us delight ourselves with love.
+  //                 <ScriptureDecorator variant="verse">19</ScriptureDecorator> For my husband is not at home; he has gone on a long journey;
+  //             </>
+  //         )}/>
+  //         <ScriptureLink reference="Proverbs 30:15-16" text={(
+  //             <>
+  //                 <ScriptureDecorator variant="verse">15</ScriptureDecorator> The leech has two daughters: Give and Give. Three things are never satisfied; four never say, “Enough”:
+  //                 <ScriptureDecorator variant="verse">16</ScriptureDecorator> Sheol, the barren womb, the land never satisfied with water, and the fire that never says, “Enough.”
+  //             </>
+  //         )}/>
+  //         <ScriptureLink reference="1 Corinthians 13:4-6" text={(
+  //             <>
+  //                 <ScriptureDecorator variant="verse">4</ScriptureDecorator> Love is patient and kind; love does not envy or boast; it is not arrogant
+  //                 <ScriptureDecorator variant="verse">5</ScriptureDecorator> or rude. It does not insist on its own way; it is not irritable or resentful;
+  //                 <ScriptureDecorator variant="verse">6</ScriptureDecorator> it does not rejoice at wrongdoing, but rejoices with the truth.
+  //             </>
+  //         )}/>
+  //         <ScriptureLink reference="Romans 5:8" text={(
+  //             <>
+  //                 <ScriptureDecorator variant="verse">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.
+  //             </>
+  //         )}/>
+  //     </>
+  // );
+  //
+  // const closingSong = (
+  //     <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=PiGFSOAb3Vo" target="_blank">At the Cross</a></div>
+  // );
 
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "November 1, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), callToWorship && /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost",
+  }, "November 15, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Greet one another"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Lament, Thanksgiving, and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Communion"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     subtext: /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-      reference: "Hebrews 4:14\u201316",
-      text: callToWorship
-    })
-  }, "Call to Worship & Opening Prayer"), worshipSongs && /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre Wu",
-    subtext: worshipSongs
-  }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Julia Wu"
-  }, "Praise, Thanksgiving, and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Greet one another"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Nicole Thoen"
-  }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost",
-    subtext: /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-      reference: "Jonah 3:10-4:11",
+      reference: "Ephesians 1:3-6",
       text: scriptureReading
     })
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey",
-    sermonNotes: sermonNotes
-  }, "Sermon - \"A Life Worth Living\""), closingSong && /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Nicole Thoen & Dawn Provost",
-    subtext: closingSong
-  }, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Benediction"));
+    sermonNotes: ""
+  }, "Sermon - \"Chosen out of Love to be in Christ\""), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Benediction"));
 });
 
 /***/ }),
@@ -1788,20 +1737,28 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "Oct 25th, 2020 - A Life Worth Living"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "November 1st, 2020 - God\u2019s Abounding Steadfast Love"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fvideos%2F1001098817032291%2F&show_text=false&width=560",
     width: "560",
-    height: "315",
-    src: "https://www.youtube.com/embed/X-XcdLaiijs",
+    height: "314",
+    style: {
+      border: "none",
+      overflow: "hidden"
+    },
+    scrolling: "no",
     frameBorder: "0",
-    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+    allowTransparency: true,
+    allow: "encrypted-media",
     allowFullScreen: true
   })), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__previous"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/X-XcdLaiijs"
+  }, "Oct 25th, 2020 - A Life Worth Living"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/D8iSoEgy4n8"
   }, "Oct 18th, 2020 - Angry with God"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/D8iSoEgy4n8"

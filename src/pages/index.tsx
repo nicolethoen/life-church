@@ -24,14 +24,16 @@ export default () => {
         <div className="lc-welcome-message">
             {smallVideo ? (
                 <iframe
-                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F164625271996635&show_text=true&width=400&appId=612285882769039&height=536"
-                    width="400" allow="encrypted-media"
-                    height="581" style={{border:"none",overflow:"hidden"}} />
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=400&appId=612285882769039&height=536"
+                    width="400" height="536" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder={0}
+                    allowFullScreen={true}
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" />
             ) : (
                 <iframe
-                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F164625271996635&show_text=true&width=552&appId=612285882769039&height=536"
-                    width="552" height="536" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder="0"
-                    allow="encrypted-media" />
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=552&appId=612285882769039&height=536"
+                    width="552" height="536" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder={0}
+                    allowFullScreen={true}
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" />
             )}
         </div>
     )
