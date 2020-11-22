@@ -1229,9 +1229,9 @@ __webpack_require__.r(__webpack_exports__);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-welcome-message"
   }, smallVideo ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=400&appId=612285882769039&height=536",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=400&appId=612285882769039&height=517",
     width: "400",
-    height: "536",
+    height: "517",
     style: {
       border: "none",
       overflow: "hidden"
@@ -1241,7 +1241,7 @@ __webpack_require__.r(__webpack_exports__);
     allowFullScreen: true,
     allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=552&appId=612285882769039&height=536",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=552&appId=612285882769039&height=517",
     width: "552",
     height: "536",
     style: {
@@ -1436,13 +1436,15 @@ var ScriptureLink_ScriptureLink = function ScriptureLink(_ref) {
   // );
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "3"), " Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
-    variant: "verse"
   }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
   }, "5"), " he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
-  }, "6"), " to the praise of his glorious grace, with which he has blessed us in the Beloved."); // const sermonNotes = (
+  }, "6"), " to the praise of his glorious grace, with which he has blessed us in the Beloved.", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "7"), " In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
+    variant: "verse"
+  }, "8"), " which he lavished upon us, in all wisdom and insight"); // const sermonNotes = (
   //     <>
   //         <ScriptureLink reference="1 John 4:8" text={(
   //             <>
@@ -1517,15 +1519,15 @@ var ScriptureLink_ScriptureLink = function ScriptureLink(_ref) {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "November 15, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Greet one another"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Communion"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+  }, "November 22, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     subtext: /*#__PURE__*/external_react_default.a.createElement(components_ScriptureLink, {
-      reference: "Ephesians 1:3-6",
+      reference: "Ephesians 1:4-8",
       text: scriptureReading
     })
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey",
     sermonNotes: ""
-  }, "Sermon - \"Chosen out of Love to be in Christ\""), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Benediction"));
+  }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Benediction"));
 });
 
 /***/ }),
@@ -1592,6 +1594,18 @@ var FacebookFeed_FacebookFeed = function FacebookFeed(_ref) {
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-facebook-feed"
   }, /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F170503711408791&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=557"),
+    width: feedItemWidth,
+    height: "557",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
     src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=468"),
     width: feedItemWidth,
     height: "475",
@@ -1777,21 +1791,28 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "November 8th, 2020 - Beginning the Journey in Ephesians"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "November 15th, 2020 - Chosen out of Love to be in Christ"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fvideos%2F436308804436808%2F&show_text=false&width=560",
     width: "560",
-    height: "315",
-    src: "https://www.youtube.com/embed/HWPYlnJ0vU8",
+    height: "314",
+    style: {
+      border: "none",
+      overflow: "hidden"
+    },
+    scrolling: "no",
     frameBorder: 0,
-    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-    allowFullScreen: true
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
   })), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__previous"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/X-XcdLaiijs"
+    link: ""
+  }, "November 8th, 2020 - Beginning the Journey in Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://fb.watch/1MnaS-4BQs/"
   }, "Nov 1st, 2020 - God's Abounding Steadfast Love"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/X-XcdLaiijs"
   }, "Oct 25th, 2020 - A Life Worth Living"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {

@@ -4,9 +4,9 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/sky-background-2.e9d32e22.jpg (549 KiB)\n  static/announcement1.b42d22b9.png (2.52 MiB)\n  static/announcement2.f8e140fc.png (3.96 MiB)\n  static/announcement3.a8a1d9d2.png (419 KiB)\n  static/announcement4.34d39d18.png (2.43 MiB)\n  static/announcement5.2540519a.png (3.31 MiB)\n  templates/vendors~main.33e32753.js (251 KiB)"
   ],
   "version": "4.44.2",
-  "hash": "55a3bda8abf7ae8a5cd6",
-  "time": 4783,
-  "builtAt": 1605411840477,
+  "hash": "6b709a10f5e3c0b041a6",
+  "time": 4252,
+  "builtAt": 1606015549049,
   "publicPath": "/",
   "outputPath": "/Users/nthoen/Projects/life-church/dist",
   "assetsByChunkName": {
@@ -14,12 +14,12 @@
     "__react_static_root__/src/pages/404.tsx": "templates/__react_static_root__/src/pages/404.tsx.f195e426.js",
     "__react_static_root__/src/pages/announcement-flyer.tsx": "templates/__react_static_root__/src/pages/announcement-flyer.tsx.d9878c14.js",
     "__react_static_root__/src/pages/blog.tsx": "templates/__react_static_root__/src/pages/blog.tsx.65673129.js",
-    "__react_static_root__/src/pages/facebook-feed.tsx": "templates/__react_static_root__/src/pages/facebook-feed.tsx.53ebd952.js",
-    "__react_static_root__/src/pages/index.tsx": "templates/__react_static_root__/src/pages/index.tsx.61ed2601.js",
-    "__react_static_root__/src/pages/order-of-service.tsx": "templates/__react_static_root__/src/pages/order-of-service.tsx.31f5653a.js",
-    "__react_static_root__/src/pages/sermons.tsx": "templates/__react_static_root__/src/pages/sermons.tsx.957cc69b.js",
+    "__react_static_root__/src/pages/facebook-feed.tsx": "templates/__react_static_root__/src/pages/facebook-feed.tsx.fcd8bd2a.js",
+    "__react_static_root__/src/pages/index.tsx": "templates/__react_static_root__/src/pages/index.tsx.240c5f18.js",
+    "__react_static_root__/src/pages/order-of-service.tsx": "templates/__react_static_root__/src/pages/order-of-service.tsx.80af1ea4.js",
+    "__react_static_root__/src/pages/sermons.tsx": "templates/__react_static_root__/src/pages/sermons.tsx.9a21eebe.js",
     "__react_static_root__/src/pages/stone-soup.tsx": "templates/__react_static_root__/src/pages/stone-soup.tsx.ee5b43cc.js",
-    "main": "main.cd312163.js",
+    "main": "main.2b02e3cb.js",
     "styles": [
       "styles.6f2f24ee.css",
       "templates/styles.59e031ef.js"
@@ -28,7 +28,7 @@
   },
   "assets": [
     {
-      "name": "main.cd312163.js",
+      "name": "main.2b02e3cb.js",
       "size": 14296,
       "chunks": [
         9
@@ -174,8 +174,8 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/facebook-feed.tsx.53ebd952.js",
-      "size": 5414,
+      "name": "templates/__react_static_root__/src/pages/facebook-feed.tsx.fcd8bd2a.js",
+      "size": 5858,
       "chunks": [
         4
       ],
@@ -188,7 +188,7 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/index.tsx.61ed2601.js",
+      "name": "templates/__react_static_root__/src/pages/index.tsx.240c5f18.js",
       "size": 1268,
       "chunks": [
         5
@@ -202,8 +202,8 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/order-of-service.tsx.31f5653a.js",
-      "size": 3559,
+      "name": "templates/__react_static_root__/src/pages/order-of-service.tsx.80af1ea4.js",
+      "size": 3514,
       "chunks": [
         6
       ],
@@ -216,8 +216,8 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/sermons.tsx.957cc69b.js",
-      "size": 1537,
+      "name": "templates/__react_static_root__/src/pages/sermons.tsx.9a21eebe.js",
+      "size": 1788,
       "chunks": [
         7
       ],
@@ -285,7 +285,7 @@
         "styles.6f2f24ee.css",
         "templates/styles.59e031ef.js",
         "templates/vendors~main.33e32753.js",
-        "main.cd312163.js"
+        "main.2b02e3cb.js"
       ],
       "children": {},
       "childAssets": {}
@@ -302,7 +302,7 @@
         "styles.6f2f24ee.css",
         "templates/styles.59e031ef.js",
         "templates/vendors~main.33e32753.js",
-        "main.cd312163.js"
+        "main.2b02e3cb.js"
       ],
       "children": {},
       "childAssets": {}
@@ -342,7 +342,7 @@
         4
       ],
       "assets": [
-        "templates/__react_static_root__/src/pages/facebook-feed.tsx.53ebd952.js"
+        "templates/__react_static_root__/src/pages/facebook-feed.tsx.fcd8bd2a.js"
       ],
       "children": {},
       "childAssets": {}
@@ -352,7 +352,7 @@
         5
       ],
       "assets": [
-        "templates/__react_static_root__/src/pages/index.tsx.61ed2601.js"
+        "templates/__react_static_root__/src/pages/index.tsx.240c5f18.js"
       ],
       "children": {},
       "childAssets": {}
@@ -362,7 +362,7 @@
         6
       ],
       "assets": [
-        "templates/__react_static_root__/src/pages/order-of-service.tsx.31f5653a.js"
+        "templates/__react_static_root__/src/pages/order-of-service.tsx.80af1ea4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -372,7 +372,7 @@
         7
       ],
       "assets": [
-        "templates/__react_static_root__/src/pages/sermons.tsx.957cc69b.js"
+        "templates/__react_static_root__/src/pages/sermons.tsx.9a21eebe.js"
       ],
       "children": {},
       "childAssets": {}
@@ -1185,14 +1185,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 7087,
+      "size": 7598,
       "names": [
         "__react_static_root__/src/pages/facebook-feed.tsx"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/facebook-feed.tsx.53ebd952.js"
+        "templates/__react_static_root__/src/pages/facebook-feed.tsx.fcd8bd2a.js"
       ],
-      "hash": "5278a652c0870e0b7f6f",
+      "hash": "8c3b56b082ad4807d453",
       "siblings": [],
       "parents": [
         9,
@@ -1208,7 +1208,7 @@
           "name": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "index": 149,
           "index2": 151,
-          "size": 7087,
+          "size": 7598,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1327,7 +1327,7 @@
               "name": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "index": 150,
               "index2": 150,
-              "size": 6688,
+              "size": 7199,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1390,7 +1390,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _objectDestructuringEmpty from\"@babel/runtime/helpers/objectDestructuringEmpty\";import React from'react';import FacebookPost from\"components/FacebookPost\";export var FacebookFeed=function FacebookFeed(_ref){_objectDestructuringEmpty(_ref);var _React$useState=React.useState(0),_React$useState2=_slicedToArray(_React$useState,2),feedItemWidth=_React$useState2[0],setFeedItemWidth=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){// Set window width/height to state\nsetFeedItemWidth(window.innerWidth<600?window.innerWidth-20:580);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-facebook-feed\"},/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=468\"),width:feedItemWidth,height:\"475\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F161920842267078&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=238\"),width:feedItemWidth,height:\"238\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=579\"),width:feedItemWidth,height:\"600\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158169699308859&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=580\"),width:feedItemWidth,height:\"580\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153750056417490&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=578\"),width:feedItemWidth,height:\"590\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153749486417547&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=735\"),width:feedItemWidth,height:\"765\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153740766418419&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=715\"),width:feedItemWidth,height:\"715\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150856230040206&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=345\"),width:feedItemWidth,height:\"365\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150842446708251&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=572\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F149673373491825&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=576\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148928983566264&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=527\"),width:feedItemWidth,height:\"527\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148678036924692&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=557\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148269636965532&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=716\"),width:feedItemWidth,height:\"750\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})));};"
+              "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _objectDestructuringEmpty from\"@babel/runtime/helpers/objectDestructuringEmpty\";import React from'react';import FacebookPost from\"components/FacebookPost\";export var FacebookFeed=function FacebookFeed(_ref){_objectDestructuringEmpty(_ref);var _React$useState=React.useState(0),_React$useState2=_slicedToArray(_React$useState,2),feedItemWidth=_React$useState2[0],setFeedItemWidth=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){// Set window width/height to state\nsetFeedItemWidth(window.innerWidth<600?window.innerWidth-20:580);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-facebook-feed\"},/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F170503711408791&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=557\"),width:feedItemWidth,height:\"557\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=468\"),width:feedItemWidth,height:\"475\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F161920842267078&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=238\"),width:feedItemWidth,height:\"238\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=579\"),width:feedItemWidth,height:\"600\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158169699308859&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=580\"),width:feedItemWidth,height:\"580\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153750056417490&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=578\"),width:feedItemWidth,height:\"590\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153749486417547&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=735\"),width:feedItemWidth,height:\"765\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153740766418419&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=715\"),width:feedItemWidth,height:\"715\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150856230040206&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=345\"),width:feedItemWidth,height:\"365\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150842446708251&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=572\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F149673373491825&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=576\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148928983566264&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=527\"),width:feedItemWidth,height:\"527\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148678036924692&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=557\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148269636965532&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=716\"),width:feedItemWidth,height:\"750\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})));};"
             },
             {
               "id": null,
@@ -1464,7 +1464,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:541-553"
+                  "loc": "7:620-632"
                 },
                 {
                   "moduleId": null,
@@ -1473,7 +1473,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:973-985"
+                  "loc": "7:1052-1064"
                 },
                 {
                   "moduleId": null,
@@ -1482,7 +1482,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:1405-1417"
+                  "loc": "7:1484-1496"
                 },
                 {
                   "moduleId": null,
@@ -1491,7 +1491,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:1837-1849"
+                  "loc": "7:1916-1928"
                 },
                 {
                   "moduleId": null,
@@ -1500,7 +1500,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:2269-2281"
+                  "loc": "7:2348-2360"
                 },
                 {
                   "moduleId": null,
@@ -1509,7 +1509,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:2701-2713"
+                  "loc": "7:2780-2792"
                 },
                 {
                   "moduleId": null,
@@ -1518,7 +1518,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:3133-3145"
+                  "loc": "7:3212-3224"
                 },
                 {
                   "moduleId": null,
@@ -1527,7 +1527,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:3565-3577"
+                  "loc": "7:3644-3656"
                 },
                 {
                   "moduleId": null,
@@ -1536,7 +1536,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:3997-4009"
+                  "loc": "7:4076-4088"
                 },
                 {
                   "moduleId": null,
@@ -1545,7 +1545,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:4429-4441"
+                  "loc": "7:4508-4520"
                 },
                 {
                   "moduleId": null,
@@ -1554,7 +1554,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:4861-4873"
+                  "loc": "7:4940-4952"
                 },
                 {
                   "moduleId": null,
@@ -1563,7 +1563,16 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "components/FacebookPost",
-                  "loc": "7:5293-5305"
+                  "loc": "7:5372-5384"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
+                  "module": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
+                  "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "components/FacebookPost",
+                  "loc": "7:5804-5816"
                 }
               ],
               "usedExports": [
@@ -1603,9 +1612,9 @@
         "__react_static_root__/src/pages/index.tsx"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/index.tsx.61ed2601.js"
+        "templates/__react_static_root__/src/pages/index.tsx.240c5f18.js"
       ],
-      "hash": "5241c2fcd080667ad22a",
+      "hash": "81aa5f39893667de3048",
       "siblings": [],
       "parents": [
         9,
@@ -1681,7 +1690,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/nthoen/Projects/life-church/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';export default(function(){var _React$useState=React.useState(false),_React$useState2=_slicedToArray(_React$useState,2),smallVideo=_React$useState2[0],setSmallVideo=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){setSmallVideo(window.innerWidth<800);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-welcome-message\"},smallVideo?/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=400&appId=612285882769039&height=536\",width:\"400\",height:\"536\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}):/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=552&appId=612285882769039&height=536\",width:\"552\",height:\"536\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}));});"
+          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';export default(function(){var _React$useState=React.useState(false),_React$useState2=_slicedToArray(_React$useState,2),smallVideo=_React$useState2[0],setSmallVideo=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){setSmallVideo(window.innerWidth<800);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-welcome-message\"},smallVideo?/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=400&appId=612285882769039&height=517\",width:\"400\",height:\"517\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}):/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=552&appId=612285882769039&height=517\",width:\"552\",height:\"536\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}));});"
         }
       ],
       "filteredModules": 0,
@@ -1702,14 +1711,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 12726,
+      "size": 12661,
       "names": [
         "__react_static_root__/src/pages/order-of-service.tsx"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/order-of-service.tsx.31f5653a.js"
+        "templates/__react_static_root__/src/pages/order-of-service.tsx.80af1ea4.js"
       ],
-      "hash": "c4a8061a857f68673b3a",
+      "hash": "a36eded65cd7c57cbdfb",
       "siblings": [],
       "parents": [
         9,
@@ -1725,7 +1734,7 @@
           "name": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "index": 153,
           "index2": 157,
-          "size": 12005,
+          "size": 11940,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1778,7 +1787,7 @@
               "name": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "index": 153,
               "index2": 157,
-              "size": 9513,
+              "size": 9448,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1836,7 +1845,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/nthoen/Projects/life-church/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import React from'react';import ServiceItem from\"../components/ServiceItem\";import ScriptureLink from\"../components/ScriptureLink\";import ScriptureDecorator from\"../components/ScriptureDecorator\";export default(function(){// const callToWorship = (\n//     <>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Father who has given us every spiritual blessing in Christ.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Son through whom we have redemption, forgiveness, and the riches of God's grace.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Spirit that seals us in his promise, the guarantee of our inheritance until we possess it.</p>\n//         <p><ScriptureDecorator variant=\"verse\">All:</ScriptureDecorator> We give praise and glory.</p>\n//     </>\n// );\n// const worshipSongs = (\n//     <>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=EYrTqBioaZ4\" target=\"_blank\">Come Thou Fount</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=k7OR3W-as38\" target=\"_blank\">Heart of Worship</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=113XpysHskA\" target=\"_blank\">Psalm 99</a></div>\n//     </>\n// );\nvar scriptureReading=/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"3\"),\" Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"4\"),\" even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"5\"),\" he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"6\"),\" to the praise of his glorious grace, with which he has blessed us in the Beloved.\");// const sermonNotes = (\n//     <>\n//         <ScriptureLink reference=\"1 John 4:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> Whoever does not love does not know God, because God is love.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"John 15:9-13\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> As the Father has loved me, so have I loved you. Abide in my love.\n//                 <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and abide in his love.\n//                 <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> These things I have spoken to you, that my joy may be in you, and that your joy may be full.\n//                 <ScriptureDecorator variant=\"verse\">12</ScriptureDecorator> “This is my commandment, that you love one another as I have loved you.\n//                 <ScriptureDecorator variant=\"verse\">13</ScriptureDecorator> Greater love has no one than this, that someone lay down his life for his friends.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Jonah 4:4-11\" text={(\n//             <>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> And the Lord said, “Do you do well to be angry?”\n//                 </p>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.\n//                     <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.\n//                     <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.\n//                     <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, “It is better for me to die than to live.”\n//                     <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> But God said to Jonah, “Do you do well to be angry for the plant?” And he said, “Yes, I do well to be angry, angry enough to die.”\n//                     <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> And the Lord said, “You pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.\n//                     <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?”\n//                 </p>\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:6-8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> For while we were still weak, at the right time Christ died for the ungodly.\n//                 <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> For one will scarcely die for a righteous person—though perhaps for a good person one would dare even to die—\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 7:17-19\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">17</ScriptureDecorator> I have perfumed my bed with myrrh, aloes, and cinnamon.\n//                 <ScriptureDecorator variant=\"verse\">18</ScriptureDecorator> Come, let us take our fill of love till morning; let us delight ourselves with love.\n//                 <ScriptureDecorator variant=\"verse\">19</ScriptureDecorator> For my husband is not at home; he has gone on a long journey;\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 30:15-16\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">15</ScriptureDecorator> The leech has two daughters: Give and Give. Three things are never satisfied; four never say, “Enough”:\n//                 <ScriptureDecorator variant=\"verse\">16</ScriptureDecorator> Sheol, the barren womb, the land never satisfied with water, and the fire that never says, “Enough.”\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"1 Corinthians 13:4-6\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> Love is patient and kind; love does not envy or boast; it is not arrogant\n//                 <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> or rude. It does not insist on its own way; it is not irritable or resentful;\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> it does not rejoice at wrongdoing, but rejoices with the truth.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//     </>\n// );\n//\n// const closingSong = (\n//     <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=PiGFSOAb3Vo\" target=\"_blank\">At the Cross</a></div>\n// );\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-order-of-worship\"},/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-order-of-worship__date\"},\"November 15, 2020\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Welcome\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Call to Worship & Opening Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Worship\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Greet one another\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Announcements\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Thanksgiving and Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Communion\"),/*#__PURE__*/React.createElement(ServiceItem,{subtext:/*#__PURE__*/React.createElement(ScriptureLink,{reference:\"Ephesians 1:3-6\",text:scriptureReading})},\"Scripture Reading\"),/*#__PURE__*/React.createElement(ServiceItem,{person:\"Dan Kasey\",sermonNotes:\"\"},\"Sermon - \\\"Chosen out of Love to be in Christ\\\"\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Closing Song\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Benediction\"));});"
+              "source": "import React from'react';import ServiceItem from\"../components/ServiceItem\";import ScriptureLink from\"../components/ScriptureLink\";import ScriptureDecorator from\"../components/ScriptureDecorator\";export default(function(){// const callToWorship = (\n//     <>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Father who has given us every spiritual blessing in Christ.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Son through whom we have redemption, forgiveness, and the riches of God's grace.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Spirit that seals us in his promise, the guarantee of our inheritance until we possess it.</p>\n//         <p><ScriptureDecorator variant=\"verse\">All:</ScriptureDecorator> We give praise and glory.</p>\n//     </>\n// );\n// const worshipSongs = (\n//     <>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=EYrTqBioaZ4\" target=\"_blank\">Come Thou Fount</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=k7OR3W-as38\" target=\"_blank\">Heart of Worship</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=113XpysHskA\" target=\"_blank\">Psalm 99</a></div>\n//     </>\n// );\nvar scriptureReading=/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"4\"),\" even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"5\"),\" he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"6\"),\" to the praise of his glorious grace, with which he has blessed us in the Beloved.\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"7\"),\" In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"8\"),\" which he lavished upon us, in all wisdom and insight\");// const sermonNotes = (\n//     <>\n//         <ScriptureLink reference=\"1 John 4:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> Whoever does not love does not know God, because God is love.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"John 15:9-13\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> As the Father has loved me, so have I loved you. Abide in my love.\n//                 <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and abide in his love.\n//                 <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> These things I have spoken to you, that my joy may be in you, and that your joy may be full.\n//                 <ScriptureDecorator variant=\"verse\">12</ScriptureDecorator> “This is my commandment, that you love one another as I have loved you.\n//                 <ScriptureDecorator variant=\"verse\">13</ScriptureDecorator> Greater love has no one than this, that someone lay down his life for his friends.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Jonah 4:4-11\" text={(\n//             <>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> And the Lord said, “Do you do well to be angry?”\n//                 </p>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.\n//                     <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.\n//                     <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.\n//                     <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, “It is better for me to die than to live.”\n//                     <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> But God said to Jonah, “Do you do well to be angry for the plant?” And he said, “Yes, I do well to be angry, angry enough to die.”\n//                     <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> And the Lord said, “You pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.\n//                     <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?”\n//                 </p>\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:6-8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> For while we were still weak, at the right time Christ died for the ungodly.\n//                 <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> For one will scarcely die for a righteous person—though perhaps for a good person one would dare even to die—\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 7:17-19\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">17</ScriptureDecorator> I have perfumed my bed with myrrh, aloes, and cinnamon.\n//                 <ScriptureDecorator variant=\"verse\">18</ScriptureDecorator> Come, let us take our fill of love till morning; let us delight ourselves with love.\n//                 <ScriptureDecorator variant=\"verse\">19</ScriptureDecorator> For my husband is not at home; he has gone on a long journey;\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 30:15-16\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">15</ScriptureDecorator> The leech has two daughters: Give and Give. Three things are never satisfied; four never say, “Enough”:\n//                 <ScriptureDecorator variant=\"verse\">16</ScriptureDecorator> Sheol, the barren womb, the land never satisfied with water, and the fire that never says, “Enough.”\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"1 Corinthians 13:4-6\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> Love is patient and kind; love does not envy or boast; it is not arrogant\n//                 <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> or rude. It does not insist on its own way; it is not irritable or resentful;\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> it does not rejoice at wrongdoing, but rejoices with the truth.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//     </>\n// );\n//\n// const closingSong = (\n//     <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=PiGFSOAb3Vo\" target=\"_blank\">At the Cross</a></div>\n// );\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-order-of-worship\"},/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-order-of-worship__date\"},\"November 22, 2020\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Welcome\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Call to Worship & Opening Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Worship\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Announcements\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Thanksgiving and Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,{subtext:/*#__PURE__*/React.createElement(ScriptureLink,{reference:\"Ephesians 1:4-8\",text:scriptureReading})},\"Scripture Reading\"),/*#__PURE__*/React.createElement(ServiceItem,{person:\"Dan Kasey\",sermonNotes:\"\"},\"Sermon\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Closing Song\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Benediction\"));});"
             },
             {
               "id": null,
@@ -1932,7 +1941,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ServiceItem",
-                  "loc": "88:490-501"
+                  "loc": "88:486-497"
                 },
                 {
                   "moduleId": null,
@@ -1941,7 +1950,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ServiceItem",
-                  "loc": "88:557-568"
+                  "loc": "88:563-574"
                 },
                 {
                   "moduleId": null,
@@ -1950,7 +1959,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ServiceItem",
-                  "loc": "88:634-645"
+                  "loc": "88:739-750"
                 },
                 {
                   "moduleId": null,
@@ -1959,7 +1968,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ServiceItem",
-                  "loc": "88:697-708"
+                  "loc": "88:830-841"
                 },
                 {
                   "moduleId": null,
@@ -1968,25 +1977,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ServiceItem",
-                  "loc": "88:873-884"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-                  "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-                  "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-                  "type": "harmony import specifier",
-                  "userRequest": "../components/ServiceItem",
-                  "loc": "88:1005-1016"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-                  "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-                  "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-                  "type": "harmony import specifier",
-                  "userRequest": "../components/ServiceItem",
-                  "loc": "88:1071-1082"
+                  "loc": "88:896-907"
                 }
               ],
               "usedExports": [
@@ -2084,7 +2075,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ScriptureDecorator",
-                  "loc": "18:324-342"
+                  "loc": "18:305-323"
                 },
                 {
                   "moduleId": null,
@@ -2093,7 +2084,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ScriptureDecorator",
-                  "loc": "18:522-540"
+                  "loc": "18:493-511"
                 },
                 {
                   "moduleId": null,
@@ -2102,7 +2093,16 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ScriptureDecorator",
-                  "loc": "18:710-728"
+                  "loc": "18:653-671"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
+                  "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
+                  "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "../components/ScriptureDecorator",
+                  "loc": "18:849-867"
                 }
               ],
               "usedExports": [
@@ -2173,7 +2173,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/ScriptureLink",
-                  "loc": "88:751-764"
+                  "loc": "88:617-630"
                 }
               ],
               "usedExports": [
@@ -2286,14 +2286,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 1848,
+      "size": 2119,
       "names": [
         "__react_static_root__/src/pages/sermons.tsx"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/sermons.tsx.957cc69b.js"
+        "templates/__react_static_root__/src/pages/sermons.tsx.9a21eebe.js"
       ],
-      "hash": "53f2cd3531204bfbc82f",
+      "hash": "b2c07cbcd4eb3f4784f1",
       "siblings": [],
       "parents": [
         9,
@@ -2309,7 +2309,7 @@
           "name": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "index": 158,
           "index2": 159,
-          "size": 1848,
+          "size": 2119,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2360,7 +2360,7 @@
               "name": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "index": 158,
               "index2": 159,
-              "size": 1625,
+              "size": 1896,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2418,7 +2418,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/nthoen/Projects/life-church/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import React from'react';import Sermon from\"../components/Sermon\";export default(function(){return/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons\"},/*#__PURE__*/React.createElement(\"h1\",null,\"Sermons\"),/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-sermons__date\",role:\"heading\"},\"November 8th, 2020 - Beginning the Journey in Ephesians\"),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__video\"},/*#__PURE__*/React.createElement(\"iframe\",{width:\"560\",height:\"315\",src:\"https://www.youtube.com/embed/HWPYlnJ0vU8\",frameBorder:0,allow:\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\",allowFullScreen:true})),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__previous\"},/*#__PURE__*/React.createElement(\"h2\",{role:\"heading\"},\"Previous Sermons\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/X-XcdLaiijs\"},\"Nov 1st, 2020 - God's Abounding Steadfast Love\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/X-XcdLaiijs\"},\"Oct 25th, 2020 - A Life Worth Living\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Oct 18th, 2020 - Angry with God\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Sept 27th, 2020 - A Battle of Wills\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/5P-fpeqRH2E\"},\"Sept 20th, 2020 - Introduction to Jonah\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/RcfiGyRD1uQ\"},\"Sept 13th, 2020\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/_TlI5iw0Oyg\"},\"Sept 6th, 2020\")));});"
+              "source": "import React from'react';import Sermon from\"../components/Sermon\";export default(function(){return/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons\"},/*#__PURE__*/React.createElement(\"h1\",null,\"Sermons\"),/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-sermons__date\",role:\"heading\"},\"November 15th, 2020 - Chosen out of Love to be in Christ\"),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__video\"},/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fvideos%2F436308804436808%2F&show_text=false&width=560\",width:\"560\",height:\"314\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"})),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__previous\"},/*#__PURE__*/React.createElement(\"h2\",{role:\"heading\"},\"Previous Sermons\"),/*#__PURE__*/React.createElement(Sermon,{link:\"\"},\"November 8th, 2020 - Beginning the Journey in Ephesians\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://fb.watch/1MnaS-4BQs/\"},\"Nov 1st, 2020 - God's Abounding Steadfast Love\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/X-XcdLaiijs\"},\"Oct 25th, 2020 - A Life Worth Living\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Oct 18th, 2020 - Angry with God\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Sept 27th, 2020 - A Battle of Wills\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/5P-fpeqRH2E\"},\"Sept 20th, 2020 - Introduction to Jonah\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/RcfiGyRD1uQ\"},\"Sept 13th, 2020\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/_TlI5iw0Oyg\"},\"Sept 6th, 2020\")));});"
             },
             {
               "id": null,
@@ -2478,7 +2478,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Sermon",
-                  "loc": "1:863-869"
+                  "loc": "1:1025-1031"
                 },
                 {
                   "moduleId": null,
@@ -2487,7 +2487,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Sermon",
-                  "loc": "1:991-997"
+                  "loc": "1:1134-1140"
                 },
                 {
                   "moduleId": null,
@@ -2496,7 +2496,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Sermon",
-                  "loc": "1:1109-1115"
+                  "loc": "1:1262-1268"
                 },
                 {
                   "moduleId": null,
@@ -2505,7 +2505,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Sermon",
-                  "loc": "1:1222-1228"
+                  "loc": "1:1380-1386"
                 },
                 {
                   "moduleId": null,
@@ -2514,7 +2514,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Sermon",
-                  "loc": "1:1339-1345"
+                  "loc": "1:1493-1499"
                 },
                 {
                   "moduleId": null,
@@ -2523,7 +2523,7 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Sermon",
-                  "loc": "1:1460-1466"
+                  "loc": "1:1610-1616"
                 },
                 {
                   "moduleId": null,
@@ -2532,7 +2532,16 @@
                   "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Sermon",
-                  "loc": "1:1557-1563"
+                  "loc": "1:1731-1737"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
+                  "module": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
+                  "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
+                  "type": "harmony import specifier",
+                  "userRequest": "../components/Sermon",
+                  "loc": "1:1828-1834"
                 }
               ],
               "usedExports": [
@@ -2676,9 +2685,9 @@
         "main"
       ],
       "files": [
-        "main.cd312163.js"
+        "main.2b02e3cb.js"
       ],
-      "hash": "a4d083c928ca4a054237",
+      "hash": "11a9e8f218be4ded6cb6",
       "siblings": [
         10,
         11
@@ -5558,7 +5567,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "18:304-309"
+              "loc": "18:285-290"
             },
             {
               "moduleId": 59,
@@ -5567,7 +5576,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "18:502-507"
+              "loc": "18:473-478"
             },
             {
               "moduleId": 59,
@@ -5576,7 +5585,16 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "18:690-695"
+              "loc": "18:633-638"
+            },
+            {
+              "moduleId": 59,
+              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx 9d5367d6fba663419a399d1339805756",
+              "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
+              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "18:829-834"
             },
             {
               "moduleId": 59,
@@ -5639,7 +5657,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "88:470-475"
+              "loc": "88:466-471"
             },
             {
               "moduleId": 59,
@@ -5648,7 +5666,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "88:537-542"
+              "loc": "88:543-548"
             },
             {
               "moduleId": 59,
@@ -5657,7 +5675,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "88:614-619"
+              "loc": "88:597-602"
             },
             {
               "moduleId": 59,
@@ -5666,7 +5684,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "88:677-682"
+              "loc": "88:719-724"
             },
             {
               "moduleId": 59,
@@ -5675,7 +5693,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "88:731-736"
+              "loc": "88:810-815"
             },
             {
               "moduleId": 59,
@@ -5684,25 +5702,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "88:853-858"
-            },
-            {
-              "moduleId": 59,
-              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx 9d5367d6fba663419a399d1339805756",
-              "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "88:985-990"
-            },
-            {
-              "moduleId": 59,
-              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx 9d5367d6fba663419a399d1339805756",
-              "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "88:1051-1056"
+              "loc": "88:876-881"
             },
             {
               "moduleId": 60,
@@ -5801,7 +5801,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:521-526"
+              "loc": "7:600-605"
             },
             {
               "moduleId": 60,
@@ -5810,7 +5810,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:572-577"
+              "loc": "7:651-656"
             },
             {
               "moduleId": 60,
@@ -5819,7 +5819,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:953-958"
+              "loc": "7:1032-1037"
             },
             {
               "moduleId": 60,
@@ -5828,7 +5828,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:1004-1009"
+              "loc": "7:1083-1088"
             },
             {
               "moduleId": 60,
@@ -5837,7 +5837,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:1385-1390"
+              "loc": "7:1464-1469"
             },
             {
               "moduleId": 60,
@@ -5846,7 +5846,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:1436-1441"
+              "loc": "7:1515-1520"
             },
             {
               "moduleId": 60,
@@ -5855,7 +5855,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:1817-1822"
+              "loc": "7:1896-1901"
             },
             {
               "moduleId": 60,
@@ -5864,7 +5864,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:1868-1873"
+              "loc": "7:1947-1952"
             },
             {
               "moduleId": 60,
@@ -5873,7 +5873,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:2249-2254"
+              "loc": "7:2328-2333"
             },
             {
               "moduleId": 60,
@@ -5882,7 +5882,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:2300-2305"
+              "loc": "7:2379-2384"
             },
             {
               "moduleId": 60,
@@ -5891,7 +5891,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:2681-2686"
+              "loc": "7:2760-2765"
             },
             {
               "moduleId": 60,
@@ -5900,7 +5900,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:2732-2737"
+              "loc": "7:2811-2816"
             },
             {
               "moduleId": 60,
@@ -5909,7 +5909,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:3113-3118"
+              "loc": "7:3192-3197"
             },
             {
               "moduleId": 60,
@@ -5918,7 +5918,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:3164-3169"
+              "loc": "7:3243-3248"
             },
             {
               "moduleId": 60,
@@ -5927,7 +5927,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:3545-3550"
+              "loc": "7:3624-3629"
             },
             {
               "moduleId": 60,
@@ -5936,7 +5936,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:3596-3601"
+              "loc": "7:3675-3680"
             },
             {
               "moduleId": 60,
@@ -5945,7 +5945,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:3977-3982"
+              "loc": "7:4056-4061"
             },
             {
               "moduleId": 60,
@@ -5954,7 +5954,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:4028-4033"
+              "loc": "7:4107-4112"
             },
             {
               "moduleId": 60,
@@ -5963,7 +5963,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:4409-4414"
+              "loc": "7:4488-4493"
             },
             {
               "moduleId": 60,
@@ -5972,7 +5972,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:4460-4465"
+              "loc": "7:4539-4544"
             },
             {
               "moduleId": 60,
@@ -5981,7 +5981,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:4841-4846"
+              "loc": "7:4920-4925"
             },
             {
               "moduleId": 60,
@@ -5990,7 +5990,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:4892-4897"
+              "loc": "7:4971-4976"
             },
             {
               "moduleId": 60,
@@ -5999,7 +5999,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:5273-5278"
+              "loc": "7:5352-5357"
             },
             {
               "moduleId": 60,
@@ -6008,7 +6008,25 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "7:5324-5329"
+              "loc": "7:5403-5408"
+            },
+            {
+              "moduleId": 60,
+              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx cdd0488c683cba5b2609ad2003817110",
+              "module": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "7:5784-5789"
+            },
+            {
+              "moduleId": 60,
+              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx cdd0488c683cba5b2609ad2003817110",
+              "module": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "7:5835-5840"
             },
             {
               "moduleId": 61,
@@ -6071,7 +6089,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:372-377"
+              "loc": "1:373-378"
             },
             {
               "moduleId": 61,
@@ -6080,7 +6098,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:443-448"
+              "loc": "1:444-449"
             },
             {
               "moduleId": 61,
@@ -6089,7 +6107,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:694-699"
+              "loc": "1:856-861"
             },
             {
               "moduleId": 61,
@@ -6098,7 +6116,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:768-773"
+              "loc": "1:930-935"
             },
             {
               "moduleId": 61,
@@ -6107,7 +6125,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:843-848"
+              "loc": "1:1005-1010"
             },
             {
               "moduleId": 61,
@@ -6116,7 +6134,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:971-976"
+              "loc": "1:1114-1119"
             },
             {
               "moduleId": 61,
@@ -6125,7 +6143,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1089-1094"
+              "loc": "1:1242-1247"
             },
             {
               "moduleId": 61,
@@ -6134,7 +6152,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1202-1207"
+              "loc": "1:1360-1365"
             },
             {
               "moduleId": 61,
@@ -6143,7 +6161,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1319-1324"
+              "loc": "1:1473-1478"
             },
             {
               "moduleId": 61,
@@ -6152,7 +6170,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1440-1445"
+              "loc": "1:1590-1595"
             },
             {
               "moduleId": 61,
@@ -6161,7 +6179,16 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1537-1542"
+              "loc": "1:1711-1716"
+            },
+            {
+              "moduleId": 61,
+              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/sermons.tsx 0c5f9e96e667f32ee2daa88a34fef753",
+              "module": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
+              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:1808-1813"
             },
             {
               "moduleId": 66,
@@ -18148,9 +18175,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-              "issuerId": 154,
-              "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
+              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+              "issuerId": 153,
+              "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
               "issuerPath": [
                 {
                   "id": 62,
@@ -18183,9 +18210,9 @@
                   "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/index.js"
                 },
                 {
-                  "id": 154,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-                  "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js"
+                  "id": 153,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+                  "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js"
                 }
               ],
               "failed": false,
@@ -20117,7 +20144,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "18:304-309"
+          "loc": "18:285-290"
         },
         {
           "moduleId": 59,
@@ -20126,7 +20153,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "18:502-507"
+          "loc": "18:473-478"
         },
         {
           "moduleId": 59,
@@ -20135,7 +20162,16 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "18:690-695"
+          "loc": "18:633-638"
+        },
+        {
+          "moduleId": 59,
+          "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx 9d5367d6fba663419a399d1339805756",
+          "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
+          "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "18:829-834"
         },
         {
           "moduleId": 59,
@@ -20198,7 +20234,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "88:470-475"
+          "loc": "88:466-471"
         },
         {
           "moduleId": 59,
@@ -20207,7 +20243,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "88:537-542"
+          "loc": "88:543-548"
         },
         {
           "moduleId": 59,
@@ -20216,7 +20252,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "88:614-619"
+          "loc": "88:597-602"
         },
         {
           "moduleId": 59,
@@ -20225,7 +20261,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "88:677-682"
+          "loc": "88:719-724"
         },
         {
           "moduleId": 59,
@@ -20234,7 +20270,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "88:731-736"
+          "loc": "88:810-815"
         },
         {
           "moduleId": 59,
@@ -20243,25 +20279,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "88:853-858"
-        },
-        {
-          "moduleId": 59,
-          "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx 9d5367d6fba663419a399d1339805756",
-          "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-          "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "88:985-990"
-        },
-        {
-          "moduleId": 59,
-          "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx 9d5367d6fba663419a399d1339805756",
-          "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-          "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "88:1051-1056"
+          "loc": "88:876-881"
         },
         {
           "moduleId": 60,
@@ -20360,7 +20378,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:521-526"
+          "loc": "7:600-605"
         },
         {
           "moduleId": 60,
@@ -20369,7 +20387,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:572-577"
+          "loc": "7:651-656"
         },
         {
           "moduleId": 60,
@@ -20378,7 +20396,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:953-958"
+          "loc": "7:1032-1037"
         },
         {
           "moduleId": 60,
@@ -20387,7 +20405,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:1004-1009"
+          "loc": "7:1083-1088"
         },
         {
           "moduleId": 60,
@@ -20396,7 +20414,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:1385-1390"
+          "loc": "7:1464-1469"
         },
         {
           "moduleId": 60,
@@ -20405,7 +20423,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:1436-1441"
+          "loc": "7:1515-1520"
         },
         {
           "moduleId": 60,
@@ -20414,7 +20432,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:1817-1822"
+          "loc": "7:1896-1901"
         },
         {
           "moduleId": 60,
@@ -20423,7 +20441,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:1868-1873"
+          "loc": "7:1947-1952"
         },
         {
           "moduleId": 60,
@@ -20432,7 +20450,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:2249-2254"
+          "loc": "7:2328-2333"
         },
         {
           "moduleId": 60,
@@ -20441,7 +20459,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:2300-2305"
+          "loc": "7:2379-2384"
         },
         {
           "moduleId": 60,
@@ -20450,7 +20468,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:2681-2686"
+          "loc": "7:2760-2765"
         },
         {
           "moduleId": 60,
@@ -20459,7 +20477,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:2732-2737"
+          "loc": "7:2811-2816"
         },
         {
           "moduleId": 60,
@@ -20468,7 +20486,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:3113-3118"
+          "loc": "7:3192-3197"
         },
         {
           "moduleId": 60,
@@ -20477,7 +20495,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:3164-3169"
+          "loc": "7:3243-3248"
         },
         {
           "moduleId": 60,
@@ -20486,7 +20504,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:3545-3550"
+          "loc": "7:3624-3629"
         },
         {
           "moduleId": 60,
@@ -20495,7 +20513,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:3596-3601"
+          "loc": "7:3675-3680"
         },
         {
           "moduleId": 60,
@@ -20504,7 +20522,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:3977-3982"
+          "loc": "7:4056-4061"
         },
         {
           "moduleId": 60,
@@ -20513,7 +20531,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:4028-4033"
+          "loc": "7:4107-4112"
         },
         {
           "moduleId": 60,
@@ -20522,7 +20540,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:4409-4414"
+          "loc": "7:4488-4493"
         },
         {
           "moduleId": 60,
@@ -20531,7 +20549,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:4460-4465"
+          "loc": "7:4539-4544"
         },
         {
           "moduleId": 60,
@@ -20540,7 +20558,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:4841-4846"
+          "loc": "7:4920-4925"
         },
         {
           "moduleId": 60,
@@ -20549,7 +20567,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:4892-4897"
+          "loc": "7:4971-4976"
         },
         {
           "moduleId": 60,
@@ -20558,7 +20576,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:5273-5278"
+          "loc": "7:5352-5357"
         },
         {
           "moduleId": 60,
@@ -20567,7 +20585,25 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "7:5324-5329"
+          "loc": "7:5403-5408"
+        },
+        {
+          "moduleId": 60,
+          "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx cdd0488c683cba5b2609ad2003817110",
+          "module": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+          "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "7:5784-5789"
+        },
+        {
+          "moduleId": 60,
+          "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx cdd0488c683cba5b2609ad2003817110",
+          "module": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+          "moduleName": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "7:5835-5840"
         },
         {
           "moduleId": 61,
@@ -20630,7 +20666,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:372-377"
+          "loc": "1:373-378"
         },
         {
           "moduleId": 61,
@@ -20639,7 +20675,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:443-448"
+          "loc": "1:444-449"
         },
         {
           "moduleId": 61,
@@ -20648,7 +20684,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:694-699"
+          "loc": "1:856-861"
         },
         {
           "moduleId": 61,
@@ -20657,7 +20693,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:768-773"
+          "loc": "1:930-935"
         },
         {
           "moduleId": 61,
@@ -20666,7 +20702,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:843-848"
+          "loc": "1:1005-1010"
         },
         {
           "moduleId": 61,
@@ -20675,7 +20711,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:971-976"
+          "loc": "1:1114-1119"
         },
         {
           "moduleId": 61,
@@ -20684,7 +20720,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1089-1094"
+          "loc": "1:1242-1247"
         },
         {
           "moduleId": 61,
@@ -20693,7 +20729,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1202-1207"
+          "loc": "1:1360-1365"
         },
         {
           "moduleId": 61,
@@ -20702,7 +20738,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1319-1324"
+          "loc": "1:1473-1478"
         },
         {
           "moduleId": 61,
@@ -20711,7 +20747,7 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1440-1445"
+          "loc": "1:1590-1595"
         },
         {
           "moduleId": 61,
@@ -20720,7 +20756,16 @@
           "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1537-1542"
+          "loc": "1:1711-1716"
+        },
+        {
+          "moduleId": 61,
+          "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/sermons.tsx 0c5f9e96e667f32ee2daa88a34fef753",
+          "module": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
+          "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:1808-1813"
         },
         {
           "moduleId": 66,
@@ -28012,7 +28057,7 @@
         "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/nthoen/Projects/life-church/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
       ],
       "depth": 3,
-      "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';export default(function(){var _React$useState=React.useState(false),_React$useState2=_slicedToArray(_React$useState,2),smallVideo=_React$useState2[0],setSmallVideo=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){setSmallVideo(window.innerWidth<800);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-welcome-message\"},smallVideo?/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=400&appId=612285882769039&height=536\",width:\"400\",height:\"536\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}):/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F166992858426543&show_text=true&width=552&appId=612285882769039&height=536\",width:\"552\",height:\"536\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}));});"
+      "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import React from'react';export default(function(){var _React$useState=React.useState(false),_React$useState2=_slicedToArray(_React$useState,2),smallVideo=_React$useState2[0],setSmallVideo=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){setSmallVideo(window.innerWidth<800);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-welcome-message\"},smallVideo?/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=400&appId=612285882769039&height=517\",width:\"400\",height:\"517\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}):/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=552&appId=612285882769039&height=517\",width:\"552\",height:\"536\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"}));});"
     },
     {
       "id": 57,
@@ -28156,7 +28201,7 @@
       "name": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx + 3 modules",
       "index": 153,
       "index2": 157,
-      "size": 12005,
+      "size": 11940,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -28209,7 +28254,7 @@
           "name": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
           "index": 153,
           "index2": 157,
-          "size": 9513,
+          "size": 9448,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -28267,7 +28312,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/nthoen/Projects/life-church/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from'react';import ServiceItem from\"../components/ServiceItem\";import ScriptureLink from\"../components/ScriptureLink\";import ScriptureDecorator from\"../components/ScriptureDecorator\";export default(function(){// const callToWorship = (\n//     <>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Father who has given us every spiritual blessing in Christ.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Son through whom we have redemption, forgiveness, and the riches of God's grace.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Spirit that seals us in his promise, the guarantee of our inheritance until we possess it.</p>\n//         <p><ScriptureDecorator variant=\"verse\">All:</ScriptureDecorator> We give praise and glory.</p>\n//     </>\n// );\n// const worshipSongs = (\n//     <>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=EYrTqBioaZ4\" target=\"_blank\">Come Thou Fount</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=k7OR3W-as38\" target=\"_blank\">Heart of Worship</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=113XpysHskA\" target=\"_blank\">Psalm 99</a></div>\n//     </>\n// );\nvar scriptureReading=/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"3\"),\" Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"4\"),\" even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"5\"),\" he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"6\"),\" to the praise of his glorious grace, with which he has blessed us in the Beloved.\");// const sermonNotes = (\n//     <>\n//         <ScriptureLink reference=\"1 John 4:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> Whoever does not love does not know God, because God is love.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"John 15:9-13\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> As the Father has loved me, so have I loved you. Abide in my love.\n//                 <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and abide in his love.\n//                 <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> These things I have spoken to you, that my joy may be in you, and that your joy may be full.\n//                 <ScriptureDecorator variant=\"verse\">12</ScriptureDecorator> “This is my commandment, that you love one another as I have loved you.\n//                 <ScriptureDecorator variant=\"verse\">13</ScriptureDecorator> Greater love has no one than this, that someone lay down his life for his friends.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Jonah 4:4-11\" text={(\n//             <>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> And the Lord said, “Do you do well to be angry?”\n//                 </p>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.\n//                     <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.\n//                     <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.\n//                     <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, “It is better for me to die than to live.”\n//                     <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> But God said to Jonah, “Do you do well to be angry for the plant?” And he said, “Yes, I do well to be angry, angry enough to die.”\n//                     <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> And the Lord said, “You pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.\n//                     <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?”\n//                 </p>\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:6-8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> For while we were still weak, at the right time Christ died for the ungodly.\n//                 <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> For one will scarcely die for a righteous person—though perhaps for a good person one would dare even to die—\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 7:17-19\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">17</ScriptureDecorator> I have perfumed my bed with myrrh, aloes, and cinnamon.\n//                 <ScriptureDecorator variant=\"verse\">18</ScriptureDecorator> Come, let us take our fill of love till morning; let us delight ourselves with love.\n//                 <ScriptureDecorator variant=\"verse\">19</ScriptureDecorator> For my husband is not at home; he has gone on a long journey;\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 30:15-16\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">15</ScriptureDecorator> The leech has two daughters: Give and Give. Three things are never satisfied; four never say, “Enough”:\n//                 <ScriptureDecorator variant=\"verse\">16</ScriptureDecorator> Sheol, the barren womb, the land never satisfied with water, and the fire that never says, “Enough.”\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"1 Corinthians 13:4-6\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> Love is patient and kind; love does not envy or boast; it is not arrogant\n//                 <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> or rude. It does not insist on its own way; it is not irritable or resentful;\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> it does not rejoice at wrongdoing, but rejoices with the truth.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//     </>\n// );\n//\n// const closingSong = (\n//     <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=PiGFSOAb3Vo\" target=\"_blank\">At the Cross</a></div>\n// );\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-order-of-worship\"},/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-order-of-worship__date\"},\"November 15, 2020\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Welcome\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Call to Worship & Opening Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Worship\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Greet one another\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Announcements\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Thanksgiving and Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Communion\"),/*#__PURE__*/React.createElement(ServiceItem,{subtext:/*#__PURE__*/React.createElement(ScriptureLink,{reference:\"Ephesians 1:3-6\",text:scriptureReading})},\"Scripture Reading\"),/*#__PURE__*/React.createElement(ServiceItem,{person:\"Dan Kasey\",sermonNotes:\"\"},\"Sermon - \\\"Chosen out of Love to be in Christ\\\"\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Closing Song\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Benediction\"));});"
+          "source": "import React from'react';import ServiceItem from\"../components/ServiceItem\";import ScriptureLink from\"../components/ScriptureLink\";import ScriptureDecorator from\"../components/ScriptureDecorator\";export default(function(){// const callToWorship = (\n//     <>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Father who has given us every spiritual blessing in Christ.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Son through whom we have redemption, forgiveness, and the riches of God's grace.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Congregation:</ScriptureDecorator> We give praise and glory.</p>\n//         <p><ScriptureDecorator variant=\"verse\">Leader:</ScriptureDecorator> To the Spirit that seals us in his promise, the guarantee of our inheritance until we possess it.</p>\n//         <p><ScriptureDecorator variant=\"verse\">All:</ScriptureDecorator> We give praise and glory.</p>\n//     </>\n// );\n// const worshipSongs = (\n//     <>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=EYrTqBioaZ4\" target=\"_blank\">Come Thou Fount</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=k7OR3W-as38\" target=\"_blank\">Heart of Worship</a></div>\n//         <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=113XpysHskA\" target=\"_blank\">Psalm 99</a></div>\n//     </>\n// );\nvar scriptureReading=/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"4\"),\" even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"5\"),\" he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"6\"),\" to the praise of his glorious grace, with which he has blessed us in the Beloved.\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"7\"),\" In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,\",/*#__PURE__*/React.createElement(ScriptureDecorator,{variant:\"verse\"},\"8\"),\" which he lavished upon us, in all wisdom and insight\");// const sermonNotes = (\n//     <>\n//         <ScriptureLink reference=\"1 John 4:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> Whoever does not love does not know God, because God is love.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"John 15:9-13\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> As the Father has loved me, so have I loved you. Abide in my love.\n//                 <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and abide in his love.\n//                 <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> These things I have spoken to you, that my joy may be in you, and that your joy may be full.\n//                 <ScriptureDecorator variant=\"verse\">12</ScriptureDecorator> “This is my commandment, that you love one another as I have loved you.\n//                 <ScriptureDecorator variant=\"verse\">13</ScriptureDecorator> Greater love has no one than this, that someone lay down his life for his friends.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Jonah 4:4-11\" text={(\n//             <>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> And the Lord said, “Do you do well to be angry?”\n//                 </p>\n//                 <p>\n//                     <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> Jonah went out of the city and sat to the east of the city and made a booth for himself there. He sat under it in the shade, till he should see what would become of the city.\n//                     <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> Now the Lord God appointed a plant and made it come up over Jonah, that it might be a shade over his head, to save him from his discomfort. So Jonah was exceedingly glad because of the plant.\n//                     <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> But when dawn came up the next day, God appointed a worm that attacked the plant, so that it withered.\n//                     <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> When the sun rose, God appointed a scorching east wind, and the sun beat down on the head of Jonah so that he was faint. And he asked that he might die and said, “It is better for me to die than to live.”\n//                     <ScriptureDecorator variant=\"verse\">9</ScriptureDecorator> But God said to Jonah, “Do you do well to be angry for the plant?” And he said, “Yes, I do well to be angry, angry enough to die.”\n//                     <ScriptureDecorator variant=\"verse\">10</ScriptureDecorator> And the Lord said, “You pity the plant, for which you did not labor, nor did you make it grow, which came into being in a night and perished in a night.\n//                     <ScriptureDecorator variant=\"verse\">11</ScriptureDecorator> And should not I pity Nineveh, that great city, in which there are more than 120,000 persons who do not know their right hand from their left, and also much cattle?”\n//                 </p>\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:6-8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> For while we were still weak, at the right time Christ died for the ungodly.\n//                 <ScriptureDecorator variant=\"verse\">7</ScriptureDecorator> For one will scarcely die for a righteous person—though perhaps for a good person one would dare even to die—\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 7:17-19\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">17</ScriptureDecorator> I have perfumed my bed with myrrh, aloes, and cinnamon.\n//                 <ScriptureDecorator variant=\"verse\">18</ScriptureDecorator> Come, let us take our fill of love till morning; let us delight ourselves with love.\n//                 <ScriptureDecorator variant=\"verse\">19</ScriptureDecorator> For my husband is not at home; he has gone on a long journey;\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Proverbs 30:15-16\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">15</ScriptureDecorator> The leech has two daughters: Give and Give. Three things are never satisfied; four never say, “Enough”:\n//                 <ScriptureDecorator variant=\"verse\">16</ScriptureDecorator> Sheol, the barren womb, the land never satisfied with water, and the fire that never says, “Enough.”\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"1 Corinthians 13:4-6\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">4</ScriptureDecorator> Love is patient and kind; love does not envy or boast; it is not arrogant\n//                 <ScriptureDecorator variant=\"verse\">5</ScriptureDecorator> or rude. It does not insist on its own way; it is not irritable or resentful;\n//                 <ScriptureDecorator variant=\"verse\">6</ScriptureDecorator> it does not rejoice at wrongdoing, but rejoices with the truth.\n//             </>\n//         )}/>\n//         <ScriptureLink reference=\"Romans 5:8\" text={(\n//             <>\n//                 <ScriptureDecorator variant=\"verse\">8</ScriptureDecorator> but God shows his love for us in that while we were still sinners, Christ died for us.\n//             </>\n//         )}/>\n//     </>\n// );\n//\n// const closingSong = (\n//     <div className=\"lc-worship-song\"><a href=\"https://www.youtube.com/watch?v=PiGFSOAb3Vo\" target=\"_blank\">At the Cross</a></div>\n// );\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-order-of-worship\"},/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-order-of-worship__date\"},\"November 22, 2020\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Welcome\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Call to Worship & Opening Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Worship\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Announcements\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Thanksgiving and Prayer\"),/*#__PURE__*/React.createElement(ServiceItem,{subtext:/*#__PURE__*/React.createElement(ScriptureLink,{reference:\"Ephesians 1:4-8\",text:scriptureReading})},\"Scripture Reading\"),/*#__PURE__*/React.createElement(ServiceItem,{person:\"Dan Kasey\",sermonNotes:\"\"},\"Sermon\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Closing Song\"),/*#__PURE__*/React.createElement(ServiceItem,null,\"Benediction\"));});"
         },
         {
           "id": null,
@@ -28363,7 +28408,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ServiceItem",
-              "loc": "88:490-501"
+              "loc": "88:486-497"
             },
             {
               "moduleId": null,
@@ -28372,7 +28417,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ServiceItem",
-              "loc": "88:557-568"
+              "loc": "88:563-574"
             },
             {
               "moduleId": null,
@@ -28381,7 +28426,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ServiceItem",
-              "loc": "88:634-645"
+              "loc": "88:739-750"
             },
             {
               "moduleId": null,
@@ -28390,7 +28435,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ServiceItem",
-              "loc": "88:697-708"
+              "loc": "88:830-841"
             },
             {
               "moduleId": null,
@@ -28399,25 +28444,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ServiceItem",
-              "loc": "88:873-884"
-            },
-            {
-              "moduleId": null,
-              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-              "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-              "type": "harmony import specifier",
-              "userRequest": "../components/ServiceItem",
-              "loc": "88:1005-1016"
-            },
-            {
-              "moduleId": null,
-              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-              "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
-              "type": "harmony import specifier",
-              "userRequest": "../components/ServiceItem",
-              "loc": "88:1071-1082"
+              "loc": "88:896-907"
             }
           ],
           "usedExports": [
@@ -28515,7 +28542,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ScriptureDecorator",
-              "loc": "18:324-342"
+              "loc": "18:305-323"
             },
             {
               "moduleId": null,
@@ -28524,7 +28551,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ScriptureDecorator",
-              "loc": "18:522-540"
+              "loc": "18:493-511"
             },
             {
               "moduleId": null,
@@ -28533,7 +28560,16 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ScriptureDecorator",
-              "loc": "18:710-728"
+              "loc": "18:653-671"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
+              "module": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
+              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "../components/ScriptureDecorator",
+              "loc": "18:849-867"
             }
           ],
           "usedExports": [
@@ -28604,7 +28640,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/order-of-service.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/ScriptureLink",
-              "loc": "88:751-764"
+              "loc": "88:617-630"
             }
           ],
           "usedExports": [
@@ -28626,7 +28662,7 @@
       "name": "/Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx + 2 modules",
       "index": 149,
       "index2": 151,
-      "size": 7087,
+      "size": 7598,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -28745,7 +28781,7 @@
           "name": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
           "index": 150,
           "index2": 150,
-          "size": 6688,
+          "size": 7199,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -28808,7 +28844,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _objectDestructuringEmpty from\"@babel/runtime/helpers/objectDestructuringEmpty\";import React from'react';import FacebookPost from\"components/FacebookPost\";export var FacebookFeed=function FacebookFeed(_ref){_objectDestructuringEmpty(_ref);var _React$useState=React.useState(0),_React$useState2=_slicedToArray(_React$useState,2),feedItemWidth=_React$useState2[0],setFeedItemWidth=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){// Set window width/height to state\nsetFeedItemWidth(window.innerWidth<600?window.innerWidth-20:580);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-facebook-feed\"},/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=468\"),width:feedItemWidth,height:\"475\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F161920842267078&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=238\"),width:feedItemWidth,height:\"238\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=579\"),width:feedItemWidth,height:\"600\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158169699308859&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=580\"),width:feedItemWidth,height:\"580\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153750056417490&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=578\"),width:feedItemWidth,height:\"590\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153749486417547&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=735\"),width:feedItemWidth,height:\"765\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153740766418419&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=715\"),width:feedItemWidth,height:\"715\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150856230040206&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=345\"),width:feedItemWidth,height:\"365\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150842446708251&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=572\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F149673373491825&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=576\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148928983566264&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=527\"),width:feedItemWidth,height:\"527\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148678036924692&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=557\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148269636965532&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=716\"),width:feedItemWidth,height:\"750\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})));};"
+          "source": "import _slicedToArray from\"@babel/runtime/helpers/slicedToArray\";import _objectDestructuringEmpty from\"@babel/runtime/helpers/objectDestructuringEmpty\";import React from'react';import FacebookPost from\"components/FacebookPost\";export var FacebookFeed=function FacebookFeed(_ref){_objectDestructuringEmpty(_ref);var _React$useState=React.useState(0),_React$useState2=_slicedToArray(_React$useState,2),feedItemWidth=_React$useState2[0],setFeedItemWidth=_React$useState2[1];React.useEffect(function(){// Handler to call on window resize\nfunction handleResize(){// Set window width/height to state\nsetFeedItemWidth(window.innerWidth<600?window.innerWidth-20:580);}// Add event listener\nwindow.addEventListener(\"resize\",handleResize);// Call handler right away so state gets updated with initial window size\nhandleResize();// Remove event listener on cleanup\nreturn function(){return window.removeEventListener(\"resize\",handleResize);};},[]);// Empty array ensures that effect is only run on mount\nreturn/*#__PURE__*/React.createElement(\"div\",{className:\"lc-facebook-feed\"},/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F170503711408791&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=557\"),width:feedItemWidth,height:\"557\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=468\"),width:feedItemWidth,height:\"475\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F161920842267078&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=238\"),width:feedItemWidth,height:\"238\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=579\"),width:feedItemWidth,height:\"600\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158169699308859&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=580\"),width:feedItemWidth,height:\"580\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153750056417490&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=578\"),width:feedItemWidth,height:\"590\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153749486417547&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=735\"),width:feedItemWidth,height:\"765\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153740766418419&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=715\"),width:feedItemWidth,height:\"715\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150856230040206&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=345\"),width:feedItemWidth,height:\"365\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F150842446708251&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=572\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F149673373491825&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=576\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148928983566264&show_text=true&width=\".concat(feedItemWidth,\"&appId=612285882769039&height=527\"),width:feedItemWidth,height:\"527\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148678036924692&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=557\"),width:feedItemWidth,height:\"585\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})),/*#__PURE__*/React.createElement(FacebookPost,null,/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F148269636965532&show_text=true&width=\".concat(feedItemWidth,\"&appId=540151866036099&height=716\"),width:feedItemWidth,height:\"750\",style:{border:'none',overflow:'hidden'},scrolling:\"no\",frameBorder:\"0\",allow:\"encrypted-media\"})));};"
         },
         {
           "id": null,
@@ -28882,7 +28918,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:541-553"
+              "loc": "7:620-632"
             },
             {
               "moduleId": null,
@@ -28891,7 +28927,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:973-985"
+              "loc": "7:1052-1064"
             },
             {
               "moduleId": null,
@@ -28900,7 +28936,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:1405-1417"
+              "loc": "7:1484-1496"
             },
             {
               "moduleId": null,
@@ -28909,7 +28945,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:1837-1849"
+              "loc": "7:1916-1928"
             },
             {
               "moduleId": null,
@@ -28918,7 +28954,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:2269-2281"
+              "loc": "7:2348-2360"
             },
             {
               "moduleId": null,
@@ -28927,7 +28963,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:2701-2713"
+              "loc": "7:2780-2792"
             },
             {
               "moduleId": null,
@@ -28936,7 +28972,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:3133-3145"
+              "loc": "7:3212-3224"
             },
             {
               "moduleId": null,
@@ -28945,7 +28981,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:3565-3577"
+              "loc": "7:3644-3656"
             },
             {
               "moduleId": null,
@@ -28954,7 +28990,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:3997-4009"
+              "loc": "7:4076-4088"
             },
             {
               "moduleId": null,
@@ -28963,7 +28999,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:4429-4441"
+              "loc": "7:4508-4520"
             },
             {
               "moduleId": null,
@@ -28972,7 +29008,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:4861-4873"
+              "loc": "7:4940-4952"
             },
             {
               "moduleId": null,
@@ -28981,7 +29017,16 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
               "type": "harmony import specifier",
               "userRequest": "components/FacebookPost",
-              "loc": "7:5293-5305"
+              "loc": "7:5372-5384"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
+              "module": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
+              "moduleName": "/Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "components/FacebookPost",
+              "loc": "7:5804-5816"
             }
           ],
           "usedExports": [
@@ -29003,7 +29048,7 @@
       "name": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx + 1 modules",
       "index": 158,
       "index2": 159,
-      "size": 1848,
+      "size": 2119,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -29054,7 +29099,7 @@
           "name": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
           "index": 158,
           "index2": 159,
-          "size": 1625,
+          "size": 1896,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -29112,7 +29157,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/nthoen/Projects/life-church/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from'react';import Sermon from\"../components/Sermon\";export default(function(){return/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons\"},/*#__PURE__*/React.createElement(\"h1\",null,\"Sermons\"),/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-sermons__date\",role:\"heading\"},\"November 8th, 2020 - Beginning the Journey in Ephesians\"),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__video\"},/*#__PURE__*/React.createElement(\"iframe\",{width:\"560\",height:\"315\",src:\"https://www.youtube.com/embed/HWPYlnJ0vU8\",frameBorder:0,allow:\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\",allowFullScreen:true})),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__previous\"},/*#__PURE__*/React.createElement(\"h2\",{role:\"heading\"},\"Previous Sermons\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/X-XcdLaiijs\"},\"Nov 1st, 2020 - God's Abounding Steadfast Love\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/X-XcdLaiijs\"},\"Oct 25th, 2020 - A Life Worth Living\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Oct 18th, 2020 - Angry with God\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Sept 27th, 2020 - A Battle of Wills\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/5P-fpeqRH2E\"},\"Sept 20th, 2020 - Introduction to Jonah\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/RcfiGyRD1uQ\"},\"Sept 13th, 2020\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/_TlI5iw0Oyg\"},\"Sept 6th, 2020\")));});"
+          "source": "import React from'react';import Sermon from\"../components/Sermon\";export default(function(){return/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons\"},/*#__PURE__*/React.createElement(\"h1\",null,\"Sermons\"),/*#__PURE__*/React.createElement(\"h2\",{className:\"lc-sermons__date\",role:\"heading\"},\"November 15th, 2020 - Chosen out of Love to be in Christ\"),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__video\"},/*#__PURE__*/React.createElement(\"iframe\",{src:\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fvideos%2F436308804436808%2F&show_text=false&width=560\",width:\"560\",height:\"314\",style:{border:\"none\",overflow:\"hidden\"},scrolling:\"no\",frameBorder:0,allowFullScreen:true,allow:\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"})),/*#__PURE__*/React.createElement(\"div\",{className:\"lc-sermons__previous\"},/*#__PURE__*/React.createElement(\"h2\",{role:\"heading\"},\"Previous Sermons\"),/*#__PURE__*/React.createElement(Sermon,{link:\"\"},\"November 8th, 2020 - Beginning the Journey in Ephesians\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://fb.watch/1MnaS-4BQs/\"},\"Nov 1st, 2020 - God's Abounding Steadfast Love\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/X-XcdLaiijs\"},\"Oct 25th, 2020 - A Life Worth Living\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Oct 18th, 2020 - Angry with God\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/D8iSoEgy4n8\"},\"Sept 27th, 2020 - A Battle of Wills\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/5P-fpeqRH2E\"},\"Sept 20th, 2020 - Introduction to Jonah\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/RcfiGyRD1uQ\"},\"Sept 13th, 2020\"),/*#__PURE__*/React.createElement(Sermon,{link:\"https://youtu.be/_TlI5iw0Oyg\"},\"Sept 6th, 2020\")));});"
         },
         {
           "id": null,
@@ -29172,7 +29217,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Sermon",
-              "loc": "1:863-869"
+              "loc": "1:1025-1031"
             },
             {
               "moduleId": null,
@@ -29181,7 +29226,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Sermon",
-              "loc": "1:991-997"
+              "loc": "1:1134-1140"
             },
             {
               "moduleId": null,
@@ -29190,7 +29235,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Sermon",
-              "loc": "1:1109-1115"
+              "loc": "1:1262-1268"
             },
             {
               "moduleId": null,
@@ -29199,7 +29244,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Sermon",
-              "loc": "1:1222-1228"
+              "loc": "1:1380-1386"
             },
             {
               "moduleId": null,
@@ -29208,7 +29253,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Sermon",
-              "loc": "1:1339-1345"
+              "loc": "1:1493-1499"
             },
             {
               "moduleId": null,
@@ -29217,7 +29262,7 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Sermon",
-              "loc": "1:1460-1466"
+              "loc": "1:1610-1616"
             },
             {
               "moduleId": null,
@@ -29226,7 +29271,16 @@
               "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Sermon",
-              "loc": "1:1557-1563"
+              "loc": "1:1731-1737"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
+              "module": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
+              "moduleName": "/Users/nthoen/Projects/life-church/src/pages/sermons.tsx",
+              "type": "harmony import specifier",
+              "userRequest": "../components/Sermon",
+              "loc": "1:1828-1834"
             }
           ],
           "usedExports": [
@@ -35251,9 +35305,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-          "issuerId": 154,
-          "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
+          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+          "issuerId": 153,
+          "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
           "issuerPath": [
             {
               "id": 62,
@@ -35286,9 +35340,9 @@
               "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/index.js"
             },
             {
-              "id": 154,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-              "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js"
+              "id": 153,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+              "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js"
             }
           ],
           "failed": false,

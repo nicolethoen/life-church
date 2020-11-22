@@ -24,12 +24,11 @@ export default () => {
 
     const scriptureReading = (
         <>
-            <ScriptureDecorator variant="verse">3</ScriptureDecorator> Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places,
             <ScriptureDecorator variant="verse">4</ScriptureDecorator> even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love
             <ScriptureDecorator variant="verse">5</ScriptureDecorator> he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will,
             <ScriptureDecorator variant="verse">6</ScriptureDecorator> to the praise of his glorious grace, with which he has blessed us in the Beloved.
-
-
+            <ScriptureDecorator variant="verse">7</ScriptureDecorator> In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,
+            <ScriptureDecorator variant="verse">8</ScriptureDecorator> which he lavished upon us, in all wisdom and insight
         </>
     );
 
@@ -105,16 +104,14 @@ export default () => {
     // );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">November 15, 2020</h2>
+            <h2 className="lc-order-of-worship__date">November 22, 2020</h2>
             <ServiceItem>Welcome</ServiceItem>
             <ServiceItem>Call to Worship & Opening Prayer</ServiceItem>
             <ServiceItem>Worship</ServiceItem>
-            <ServiceItem>Greet one another</ServiceItem>
             <ServiceItem>Announcements</ServiceItem>
             <ServiceItem>Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem>Communion</ServiceItem>
-            <ServiceItem subtext={<ScriptureLink reference="Ephesians 1:3-6" text={scriptureReading} />}>Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey" sermonNotes=''>Sermon - "Chosen out of Love to be in Christ"</ServiceItem>
+            <ServiceItem subtext={<ScriptureLink reference="Ephesians 1:4-8" text={scriptureReading} />}>Scripture Reading</ServiceItem>
+            <ServiceItem person="Dan Kasey" sermonNotes=''>Sermon</ServiceItem>
             <ServiceItem>Closing Song</ServiceItem>
             <ServiceItem>Benediction</ServiceItem>
         </div>
