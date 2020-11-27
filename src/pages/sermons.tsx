@@ -4,12 +4,15 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">November 15th, 2020</h2>
+        <h2 className="lc-sermons__date" role="heading">November 22th, 2020</h2>
         <div className="lc-sermons__video">
-            <Sermon link="https://fb.watch/1VCx2JzO9D/">Chosen out of Love to be in Christ</Sermon>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8txJZn_duT0" frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen/>
         </div>
         <div className="lc-sermons__previous">
             <h2 role="heading">Previous Sermons</h2>
+            <Sermon link="https://fb.watch/1VCx2JzO9D/">Nov 15th, 2020 - Chosen out of Love to be in Christ</Sermon>
             <Sermon link="https://fb.watch/1VCzESHhca/">Nov 8th, 2020 - Beginning the Journey in Ephesians</Sermon>
             <Sermon link="https://fb.watch/1MnaS-4BQs/">Nov 1st, 2020 - God's Abounding Steadfast Love</Sermon>
             <Sermon link="https://youtu.be/X-XcdLaiijs">Oct 25th, 2020 - A Life Worth Living</Sermon>

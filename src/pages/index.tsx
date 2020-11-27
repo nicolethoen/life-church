@@ -22,19 +22,8 @@ export default () => {
 
     return (
         <div className="lc-welcome-message">
-            {smallVideo ? (
-                <iframe
-                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=400&appId=612285882769039&height=517"
-                    width="400" height="517" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder={0}
-                    allowFullScreen={true}
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"/>
-            ) : (
-                <iframe
-                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F171537451305417&show_text=true&width=552&appId=612285882769039&height=517"
-                    width="552" height="536" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder={0}
-                    allowFullScreen={true}
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" />
-            )}
+            <h1><a href="https://youtu.be/TVUa2dLOAEg" target="_blank">Click HERE to join our live stream for Nov 29th!</a></h1>
+            <h3>If the youtube stream is misbehaving, try viewing it on our <a href="https://www.facebook.com/LifeChurchAyer" target="_blank">Facebook page</a></h3>
         </div>
     )
 }
