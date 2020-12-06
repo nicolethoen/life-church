@@ -1228,14 +1228,13 @@ __webpack_require__.r(__webpack_exports__);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-welcome-message"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
-    width: "560",
-    height: "315",
-    src: "https://www.youtube.com/embed/TVUa2dLOAEg",
-    frameBorder: "0",
-    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-    allowFullScreen: true
-  }));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "https://youtu.be/dsOG8t6X7Fk",
+    target: "_blank"
+  }, "Click HERE to join our live stream for Dec 6th!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "If the youtube stream is misbehaving, try viewing it on our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "https://www.facebook.com/LifeChurchAyer",
+    target: "_blank"
+  }, "Facebook page")));
 });
 
 /***/ }),
@@ -1617,20 +1616,24 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
   }, "November 29, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dan Kasey"
+    person: "Dawn Provost"
   }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost"
+    person: "Andre and Julia Wu"
   }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Tara Kasey"
+    person: "Aaron Claussen"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Nicole Thoen"
+    person: "Tara Kasey"
   }, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre Wu"
-  }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Ryan Fields",
-    sermonNotes: ""
-  }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Hunter and Nicole Thoen"
+  }, "Advent Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Dan Kasey"
+  }, "Communion"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dawn Provost"
+  }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Dan Kasey",
+    sermonNotes: "God\u2019s Glorious Plan"
+  }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Andre and Julia Wu"
   }, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey"
   }, "Benediction"));
@@ -1670,15 +1673,27 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "November 15th, 2020"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "November 29th, 2020"), /*#__PURE__*/external_react_default.a.createElement("h3", {
+    className: "lc-sermons__date",
+    role: "heading"
+  }, "Ryan Fields: 2 Corinthians 1:3-11"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
-  }, /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://fb.watch/1VCx2JzO9D/"
-  }, "Chosen out of Love to be in Christ")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/TVUa2dLOAEg",
+    frameBorder: 0,
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+    allowFullScreen: true
+  })), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__previous"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://fb.watch/2bLf_xBRRd/"
+  }, "Nov 22nd, 2020 - Ephesians 1:4-8"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://fb.watch/1VCx2JzO9D/"
+  }, "Nov 15th, 2020 - Chosen out of Love to be in Christ"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://fb.watch/1VCzESHhca/"
   }, "Nov 8th, 2020 - Beginning the Journey in Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://fb.watch/1MnaS-4BQs/"

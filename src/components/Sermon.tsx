@@ -6,6 +6,6 @@ interface SermonProps {
 }
 
 const Sermon: React.FunctionComponent<SermonProps> = ({ children, link }) => {
-    return <a className="lc-sermons__link" href={link}>{children}</a>;
+    return <a className="lc-sermons__link" href={link} target="_blank">{children}</a>;
 };
 export default Sermon;

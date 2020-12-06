@@ -14,13 +14,12 @@ export default () => {
     //         <p><ScriptureDecorator variant="verse">All:</ScriptureDecorator> We give praise and glory.</p>
     //     </>
     // );
-    // const worshipSongs = (
-    //     <>
-    //         <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=EYrTqBioaZ4" target="_blank">Come Thou Fount</a></div>
-    //         <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=k7OR3W-as38" target="_blank">Heart of Worship</a></div>
-    //         <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=113XpysHskA" target="_blank">Psalm 99</a></div>
-    //     </>
-    // );
+    const worshipSongs = (
+        <>
+            <div className="lc-worship-song">Joy to the World</div>
+            <div className="lc-worship-song">Hark the Herald Angels Sing</div>
+        </>
+    );
 
     const scriptureReading = (
         <>
@@ -99,20 +98,22 @@ export default () => {
     //     </>
     // );
     //
-    // const closingSong = (
-    //     <div className="lc-worship-song"><a href="https://www.youtube.com/watch?v=PiGFSOAb3Vo" target="_blank">At the Cross</a></div>
-    // );
+    const closingSong = (
+        <div className="lc-worship-song">Soon</div>
+    );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">November 29, 2020</h2>
+            <h2 className="lc-order-of-worship__date">December 6th, 2020</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Dan Kasey">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Dawn Provost">Worship</ServiceItem>
-            <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
-            <ServiceItem person="Nicole Thoen">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Andre Wu">Scripture Reading</ServiceItem>
-            <ServiceItem person="Ryan Fields" sermonNotes=''>Sermon</ServiceItem>
-            <ServiceItem person="Dawn Provost">Closing Song</ServiceItem>
+            <ServiceItem person="Dawn Provost">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Andre and Julia Wu" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem person="Aaron Claussen">Announcements</ServiceItem>
+            <ServiceItem person="Tara Kasey">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Hunter and Nicole Thoen">Advent Prayer</ServiceItem>
+            <ServiceItem person="Dan Kasey">Communion</ServiceItem>
+            <ServiceItem person="Dawn Provost">Scripture Reading</ServiceItem>
+            <ServiceItem person="Dan Kasey" sermonNotes='God’s Glorious Plan'>Sermon</ServiceItem>
+            <ServiceItem person="Andre and Julia Wu" subtext={closingSong}>Closing Song</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
     );

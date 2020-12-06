@@ -22,7 +22,7 @@ export default () => {
 
     return (
         <div className="lc-welcome-message">
-            <h1><a href="https://youtu.be/TVUa2dLOAEg" target="_blank">Click HERE to join our live stream for Nov 29th!</a></h1>
+            <h1><a href="https://youtu.be/dsOG8t6X7Fk" target="_blank">Click HERE to join our live stream for Dec 6th!</a></h1>
             <h3>If the youtube stream is misbehaving, try viewing it on our <a href="https://www.facebook.com/LifeChurchAyer" target="_blank">Facebook page</a></h3>
         </div>
     )
