@@ -4,12 +4,13 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">November 29th, 2020</h2>
+        <h2 className="lc-sermons__date" role="heading">December 6th, 2020</h2>
         <div className="lc-sermons__video">
-            <Sermon link="https://www.youtube.com/watch?v=TVUa2dLOAEg">Ryan Fields: 2 Corinthians 1:3-11</Sermon>
+            <Sermon link="https://youtu.be/dsOG8t6X7Fk">Ephesians 1:5-10 - God's Glorious Plan</Sermon>
         </div>
         <div className="lc-sermons__previous">
             <h2 role="heading">Previous Sermons</h2>
+            <Sermon link="https://fb.watch/2bLf_xBRRd/">Nov 29nd, 2020 - Ryan Fields: 2 Corinthians 1:3-11</Sermon>
             <Sermon link="https://fb.watch/2bLf_xBRRd/">Nov 22nd, 2020 - Ephesians 1:4-8</Sermon>
             <Sermon link="https://fb.watch/1VCx2JzO9D/">Nov 15th, 2020 - Chosen out of Love to be in Christ</Sermon>
             <Sermon link="https://fb.watch/1VCzESHhca/">Nov 8th, 2020 - Beginning the Journey in Ephesians</Sermon>
