@@ -4,6 +4,7 @@ import * as img2 from '../assets/announcement2.png';
 import * as img3 from '../assets/announcement3.png';
 import * as img4 from '../assets/announcement4.png';
 import * as img5 from '../assets/announcement5.png';
+import * as img6 from '../assets/announcement6.png';
 
 export default () => (
     <div className="lc-announcement-flyer">
@@ -16,9 +17,9 @@ export default () => (
         <div className="visible-to-screen-reader">
             Wednesday evenings we dig into scripture and build transparent community at 7:00pm eastern. Email Julia Wu for Zoom link at LifeChurch.Ayer@gmail.com.
         </div>
-        <img aria-hidden="true" src={img3} alt="Senior Pastor Candidate announcement" width={600}/>
+        <img aria-hidden="true" src={img3} alt="Journey to Bethlehem video experience" width={600}/>
         <div className="visible-to-screen-reader">
-            Senior Pastor Candidate for FEFC will be preaching the Sunday morning service for Life Church on Nov 29th.
+            19 minute YouTube video experience in lieu of the annual live nativity.
         </div>
         <img aria-hidden="true" src={img4} alt="Stone Soup announcement" width={600}/>
         <div className="visible-to-screen-reader">
@@ -28,5 +29,10 @@ export default () => (
         <div className="visible-to-screen-reader">
             Support Haitian young adults serve in their own country to celebrate Christmas.
         </div>
+        <img aria-hidden="true" src={img6} alt="Tithes and offerings" width={600}/>
+        <div className="visible-to-screen-reader">
+            Visit https://tithe.ly/user to create an account and search for Life Church Ayer.ß
+        </div>
+
     </div>
 )
