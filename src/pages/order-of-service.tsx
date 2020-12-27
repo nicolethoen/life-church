@@ -16,9 +16,8 @@ export default () => {
     // );
     const worshipSongs = (
         <>
-            <div className="lc-worship-song">Come Thou Long Expected Jesus</div>
-            <div className="lc-worship-song">Oh Holy Night</div>
-            <div className="lc-worship-song">Joyful, Joyful</div>
+            <div className="lc-worship-song">O Come All Thee Faithful</div>
+            <div className="lc-worship-song">To God be the Glory</div>
         </>
     );
 
@@ -100,19 +99,20 @@ export default () => {
     // );
     //
     const closingSong = (
-        <div className="lc-worship-song">Soon</div>
+        <div className="lc-worship-song">Now Thank We All Our God</div>
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">December 20th, 2020</h2>
+            <h2 className="lc-order-of-worship__date">December 27th, 2020</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Lovingsky Jasmin">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Tara Kasey & Jazmyn Kasey">Worship</ServiceItem>
-            <ServiceItem person="Dawn Provost">Announcements</ServiceItem>
-            <ServiceItem person="Nicole Thoen">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Kasey Family">Scripture Reading</ServiceItem>
+            <ServiceItem person="">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Andre & Julia Wu" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
+            <ServiceItem person="Dawn Provost">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="">Scripture Reading</ServiceItem>
             <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
-            <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
+            <ServiceItem person="Andre & Julia Wu" subtext={closingSong}>Closing Song</ServiceItem>
+            <ServiceItem person="">Benediction</ServiceItem>
         </div>
     );
 }
