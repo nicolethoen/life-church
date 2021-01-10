@@ -1239,9 +1239,9 @@ __webpack_require__.r(__webpack_exports__);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-welcome-message"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "https://youtu.be/9H7zkYNZfIo",
+    href: "https://youtu.be/GVej-OcfzqY",
     target: "_blank"
-  }, "Click HERE to join our live stream for Jan 3rd!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "If the youtube stream is misbehaving, try viewing it on our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Click HERE to join our live stream for Jan 10th!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "If the youtube stream is misbehaving, try viewing it on our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.facebook.com/LifeChurchAyer",
     target: "_blank"
   }, "Facebook page")));
@@ -1373,9 +1373,11 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   // );
   var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "Lifted High"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "Jesus Paid It All"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "Remembrance"));
+  }, "Tis So Sweet"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, "At the Cross"));
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
   }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
@@ -1461,26 +1463,21 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "January 3rd, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre Wu"
+  }, "January 10th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Dawn Provost"
   }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost",
+    person: "Hunter Thoen",
     subtext: worshipSongs
   }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dan Kasey"
-  }, "Communion"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Julia Wu"
+    person: "Nicole Thoen"
+  }, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Tara Kasey"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre Wu"
+    person: "Dawn Provost"
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey"
   }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Tara Kasey"
-  }, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost",
-    subtext: closingSong
-  }, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: ""
+    person: "Dan Kasey"
   }, "Benediction"));
 });
 
@@ -1681,15 +1678,17 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "December 27th, 2020"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "January 3rd, 2021"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/ONvXzfUSqF0"
-  }, "Psalm 23")), /*#__PURE__*/external_react_default.a.createElement("div", {
+    link: "https://youtu.be/9H7zkYNZfIo"
+  }, "Continuing in Ephesians")), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__previous"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/ONvXzfUSqF0"
+  }, "Dec 27th, 2020 - Psalm 23"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/QxHakwy4cDk"
   }, "Dec 20th, 2020 - God and Sinner Reconciled"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/dsOG8t6X7Fk"
