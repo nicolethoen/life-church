@@ -111,7 +111,7 @@ export default () => {
             <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
             <ServiceItem person="Nicole Thoen">Scripture Reading</ServiceItem>
             <ServiceItem person="Dan Kasey" subtext="The Walking Dead Made Alive in Christ">Sermon</ServiceItem>
-            <ServiceItem person="Andre Wu" subtext={closingSongs}>Closing Song</ServiceItem>
+            <ServiceItem person="Andre Wu" subtext={closingSong}>Closing Song</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
     );
