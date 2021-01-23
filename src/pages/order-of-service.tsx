@@ -104,7 +104,7 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">January 10th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">January 24th, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
             <ServiceItem person="Dawn Provost">Call to Worship & Opening Prayer</ServiceItem>
             <ServiceItem person="Hunter Thoen" subtext={worshipSongs}>Worship</ServiceItem>
