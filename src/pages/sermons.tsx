@@ -10,7 +10,7 @@ export default () => (
         </div>
         <div className="lc-sermons__previous">
             <h2 role="heading">Previous Sermons</h2>
-            <Sermon link=https://youtu.be/Qt4qunDskgc">January 17th, 2021 - The Walking Dead Made Alive in Christ</Sermon>
+            <Sermon link="https://youtu.be/Qt4qunDskgc">January 17th, 2021 - The Walking Dead Made Alive in Christ</Sermon>
             <Sermon link="https://youtu.be/GVej-OcfzqY">January 10th, 2021 - Eyes of our Hearts Enlightened</Sermon>
             <Sermon link="https://youtu.be/9H7zkYNZfIo">January 3rd, 2021 - Continuing in Ephesians</Sermon>
             <Sermon link="https://youtu.be/ONvXzfUSqF0">Dec 27th, 2020 - Psalm 23</Sermon>
