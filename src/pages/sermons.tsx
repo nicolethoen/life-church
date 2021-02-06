@@ -4,12 +4,13 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">January 24th, 2021</h2>
+        <h2 className="lc-sermons__date" role="heading">January 31st, 2021</h2>
         <div className="lc-sermons__video">
-            <Sermon link="https://youtu.be/IWrk_DTe18A">The United Community in Christ</Sermon>
+            <Sermon link="https://youtu.be/RCuxfW16sw0">The Divine Detour</Sermon>
         </div>
         <div className="lc-sermons__previous">
             <h2 role="heading">Previous Sermons</h2>
+            <Sermon link="https://youtu.be/IWrk_DTe18A">January 24th, 2021 - The United Community in Christ</Sermon>
             <Sermon link="https://youtu.be/Qt4qunDskgc">January 17th, 2021 - The Walking Dead Made Alive in Christ</Sermon>
             <Sermon link="https://youtu.be/GVej-OcfzqY">January 10th, 2021 - Eyes of our Hearts Enlightened</Sermon>
             <Sermon link="https://youtu.be/9H7zkYNZfIo">January 3rd, 2021 - Continuing in Ephesians</Sermon>
