@@ -16,9 +16,9 @@ export default () => {
     // );
     const worshipSongs = (
         <>
-            <div className="lc-worship-song">Here I Am to Worship</div>
-            <div className="lc-worship-song">Song that the Angels Can't Sing</div>
-            <div className="lc-worship-song">I Stand Amazed</div>
+            <div className="lc-worship-song">Crown Him with Many Crowns</div>
+            <div className="lc-worship-song">Lion of Judah</div>
+            <div className="lc-worship-song">This is My Father's World</div>
         </>
     );
 
@@ -104,15 +104,15 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">February 6th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">February 21st, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Aaron Claussen">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Hunter Thoen">Worship</ServiceItem>
-            <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
-            <ServiceItem person="Dawn Provost">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Jazmyn Kasey" subtext="Ephesians 4:1-6">Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey" subtext="Walk this way, unite this way">Sermon</ServiceItem>
-            <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
+            <ServiceItem person="Nicole Thoen" subtext={worshipSongs}>Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Nicole Thoen">Worship</ServiceItem>
+            <ServiceItem person="Dawn Provost">Announcements</ServiceItem>
+            <ServiceItem person="Andre Wu">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Nicole Thoen" subtext="Colossians 1:15-23">Scripture Reading</ServiceItem>
+            <ServiceItem person="Ryan Fields" subtext="Jesus Christ: Lord of All">Sermon</ServiceItem>
+            <ServiceItem person="Ryan Fields">Benediction</ServiceItem>
         </div>
     );
 }
