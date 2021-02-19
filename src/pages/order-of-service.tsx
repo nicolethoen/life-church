@@ -106,8 +106,8 @@ export default () => {
         <div className="lc-order-of-worship">
             <h2 className="lc-order-of-worship__date">February 21st, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Nicole Thoen" subtext={worshipSongs}>Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Nicole Thoen">Worship</ServiceItem>
+            <ServiceItem person="Nicole Thoen">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Nicole Thoen" subtext={worshipSongs}>Worship</ServiceItem>
             <ServiceItem person="Dawn Provost">Announcements</ServiceItem>
             <ServiceItem person="Andre Wu">Thanksgiving and Prayer</ServiceItem>
             <ServiceItem person="Nicole Thoen" subtext="Colossians 1:15-23">Scripture Reading</ServiceItem>
