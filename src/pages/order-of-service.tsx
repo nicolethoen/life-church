@@ -16,9 +16,9 @@ export default () => {
     // );
     const worshipSongs = (
         <>
-            <div className="lc-worship-song">O Church Arise</div>
-            <div className="lc-worship-song">Yet Not I But Through Christ In Me</div>
-            <div className="lc-worship-song">Anything You Ask</div>
+            <div className="lc-worship-song">Here is Love as Vast as the Ocean</div>
+            <div className="lc-worship-song">I Surrender All</div>
+            <div className="lc-worship-song">It is Well</div>
         </>
     );
 
@@ -104,14 +104,15 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">February 28th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">March 7th, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Dawn Provost">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Andre Wu" subtext={worshipSongs}>Worship</ServiceItem>
-            <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
-            <ServiceItem person="Nicole Thoen">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Dawn Provost" subtext="Colossians 1:15-23">Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey" subtext="God's Grace in our Gifting">Sermon</ServiceItem>
+            <ServiceItem person="Tara Kasey">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Dawn Provost" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem person="Andre Wu">Communion</ServiceItem>
+            <ServiceItem person="Aaron Claussen">Announcements</ServiceItem>
+            <ServiceItem person="Hunter Thoen">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Tara Kasey">Scripture Reading</ServiceItem>
+            <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
     );
