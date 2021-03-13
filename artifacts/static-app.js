@@ -1195,9 +1195,9 @@ __webpack_require__.r(__webpack_exports__);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-welcome-message"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://youtu.be/I5o3PzHph24",
+    href: "https://youtu.be/YXBQWtTPnVk",
     target: "_blank"
-  }, "Click HERE to join our live stream for March 7th!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "If the youtube stream is misbehaving, try viewing it on our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "Click HERE to join our live stream for March 14th!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "If the youtube stream is misbehaving, try viewing it on our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.facebook.com/LifeChurchAyer",
     target: "_blank"
   }, "Facebook page")));
@@ -1329,11 +1329,11 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   // );
   var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "Here is Love as Vast as the Ocean"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "Day by Day"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "I Surrender All"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "All Creature of our God and King"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "It is Well"));
+  }, "Doxology"));
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
   }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
@@ -1414,27 +1414,30 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
 
   var closingSong = /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "All Creatures of Our God and King");
+  }, "Yet Not I but through Christ in Me");
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "March 7th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Tara Kasey"
+  }, "March 14th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Andre Wu"
   }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost",
+    person: "Nicole Thoen",
     subtext: worshipSongs
   }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre Wu"
-  }, "Communion"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Aaron Claussen"
+    person: "Dawn Provost"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hunter Thoen"
+    person: "Aaron Claussen"
   }, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Tara Kasey"
+    person: "Julia Wu",
+    subtext: "Ephesians 4:17-24"
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dan Kasey"
+    person: "Dan Kasey",
+    subtext: "A New Look for a New Society"
   }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Nicole Thoen",
+    subtext: closingSong
+  }, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey"
   }, "Benediction"));
 });
@@ -1636,15 +1639,17 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "February 28th, 2021"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "March 7th, 2021"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/zObg_1Bd9N4"
-  }, "God's Grace in our Gifting")), /*#__PURE__*/external_react_default.a.createElement("div", {
+    link: "https://youtu.be/I5o3PzHph24"
+  }, "Growing in Maturity and Unity")), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__previous"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/zObg_1Bd9N4"
+  }, "February 28th, 2021 - God's Grace in our Gifting"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/orMYPTR09yk"
   }, "February 21st, 2021 - Ryan Fields: Jesus Christ, Lord of All"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/EQNhcshLCrk"

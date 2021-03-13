@@ -16,9 +16,9 @@ export default () => {
     // );
     const worshipSongs = (
         <>
-            <div className="lc-worship-song">Here is Love as Vast as the Ocean</div>
-            <div className="lc-worship-song">I Surrender All</div>
-            <div className="lc-worship-song">It is Well</div>
+            <div className="lc-worship-song">Day by Day</div>
+            <div className="lc-worship-song">All Creature of our God and King</div>
+            <div className="lc-worship-song">Doxology</div>
         </>
     );
 
@@ -100,19 +100,19 @@ export default () => {
     // );
     //
     const closingSong = (
-        <div className="lc-worship-song">All Creatures of Our God and King</div>
+        <div className="lc-worship-song">Yet Not I but through Christ in Me</div>
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">March 7th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">March 14th, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Tara Kasey">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Dawn Provost" subtext={worshipSongs}>Worship</ServiceItem>
-            <ServiceItem person="Andre Wu">Communion</ServiceItem>
-            <ServiceItem person="Aaron Claussen">Announcements</ServiceItem>
-            <ServiceItem person="Hunter Thoen">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Tara Kasey">Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
+            <ServiceItem person="Andre Wu">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Nicole Thoen" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem person="Dawn Provost">Announcements</ServiceItem>
+            <ServiceItem person="Aaron Claussen">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Julia Wu" subtext="Ephesians 4:17-24">Scripture Reading</ServiceItem>
+            <ServiceItem person="Dan Kasey" subtext="A New Look for a New Society">Sermon</ServiceItem>
+            <ServiceItem person="Nicole Thoen" subtext={closingSong}>Closing Song</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
     );
