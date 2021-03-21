@@ -4,6 +4,7 @@ import ActionButton from "./ActionButton";
 import logoSrc from 'assets/LifeChurchLogo.png';
 import { Transition } from 'react-transition-group';
 import MenuIcon from 'assets/menu.svg';
+import NavItem from "./NavItem";
 
 interface HeaderProps {}
 
@@ -34,31 +35,22 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
             <div className="lc-menu-toggle lc-link" onClick={() => setInProp(true)}>
                <MenuIcon />
             </div>
-            <div className="lc-action-buttons">
-                <ActionButton className="primary">
-                    <Link to="/order-of-service">Order of service</Link>
-                </ActionButton>
-                <ActionButton>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link" target="_blank">Visitor Form</a>
-                </ActionButton>
-            </div>
             <div className="lc-menu" role="navigation">
                 <ul aria-label="Navigation">
-                    <li className="lc-live-stream-link">
-                        <Link to="/">LIVE STREAM</Link>
-                    </li>
-                    <li>
-                        <Link to="/announcement-flyer">Announcements</Link>
-                    </li>
-                    <li>
-                        <Link to="/facebook-feed">Facebook feed</Link>
-                    </li>
-                    <li>
-                        <Link to="/stone-soup">Support Stone Soup</Link>
-                    </li>
-                    <li>
-                        <Link to="/sermons">Sermons</Link>
-                    </li>
+                    <NavItem itemText="Sunday Worship" submenuItems={[
+                        <NavItem itemText="Sermons" linkTo="/sermons" />,
+                        <NavItem itemText="Live stream" linkTo="/" />,
+                        <NavItem itemText="Digital Bulletin" linkTo="/order-of-service" />
+                    ]}/>
+                    <NavItem itemText="Announcements" submenuItems={[
+                        <NavItem itemText="Stone Soup" linkTo="/stone-soup" />,
+                        <NavItem itemText="Latest announcements" linkTo="/announcement-flyer" />
+                    ]}/>
+                    <NavItem itemText="Events" linkTo="/stone-soup"/>
+                    <NavItem itemText="Contact us" submenuItems={[
+                        <NavItem itemText="Visitor Form" href="https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link" />,
+                        <NavItem itemText="Facebook page" href="https://www.facebook.com/LifeChurchAyer" />
+                    ]}/>
                 </ul>
             </div>
             <Transition in={inProp} timeout={duration}>

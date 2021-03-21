@@ -20,6 +20,7 @@ export default {
         <title>Life Church</title>
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="icon" href="favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
       </Head>
       <Body>{children}</Body>
     </Html>

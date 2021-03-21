@@ -4,10 +4,9 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">March 14th, 2021 - A New Look for Society</h2>
+        <h2 className="lc-sermons__date" role="heading">March 14th, 2021</h2>
         <div className="lc-sermons__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YXBQWtTPnVk"
-                    title="YouTube video player" frameBorder="0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YXBQWtTPnVk" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen></iframe>
         </div>

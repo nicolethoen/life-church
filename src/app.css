@@ -1,6 +1,5 @@
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-    'Lucida Grande', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0;
@@ -27,6 +26,11 @@ body {
 
 @media screen and (min-width: 600px) {
   header {
+    height: 10em;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
     -ms-grid-rows: 20px 120px auto 20px;
     grid-template-rows: 20px 120px auto 20px;
     -ms-grid-columns: 10px auto auto auto 10px;
@@ -46,9 +50,12 @@ body {
     width: auto;
   }
 
-  .lc-action-buttons {
+  .lc-menu {
     align-items: center;
     display: flex;
+    height: 60px;
+    margin-top: 70px;
+    text-align: center;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
@@ -56,17 +63,6 @@ body {
     -ms-grid-column-span: 1;
     grid-column: 4/5;
     justify-content: flex-end;
-  }
-
-  .lc-menu {
-    display: flex;
-    flex-grow: 1;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 3;
-    grid-column: 2/5;
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    grid-row: 3/4;
   }
 
   .lc-menu ul {
@@ -85,20 +81,38 @@ body {
     position: relative;
   }
 
-  .lc-menu ul>li>a {
+  .lc-menu ul>li>.lc-menu-item-link {
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
     padding: 15px 0;
-    color: #555555;
+    color: black;
+    width: 11em;
   }
 
-  .lc-live-stream-link a {
-    color: #c11010 !important;
+  .lc-menu .lc-menu-item-link:hover, .lc-menu .lc-menu-item-link:focus {
+    background-color: #cc2418;
+    color: white !important;
+    outline: none;
+    cursor: pointer;
   }
 
-  .lc-live-stream-link a:hover {
-    color: #7a0a7a !important;
+  .lc-menu .lc-menu-item-link .lc-menu-item-submenu {
+    margin-top: 1em;
+    margin-left: -1em;
+    display: none;
+    background-color: #f9f9f9;
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+  }
+
+  .lc-menu .lc-menu-item-link .lc-menu-item-submenu a {
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    width: 11em;
   }
 
 
@@ -119,7 +133,7 @@ a, .lc-link {
   font-weight: bold;
 }
 
-a:hover, .lc-link:hover, .lc-menu ul>li>a:hover {
+a:hover, .lc-link:hover {
   color: #7a0a7a;
   cursor: pointer;
 }
@@ -377,9 +391,9 @@ footer {
   height: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .lc-logo img {
-    height: 50px;
+    height: 80px;
   }
 
   nav {
@@ -494,5 +508,11 @@ footer {
 
   h2.lc-scripture-decorator {
     font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lc-logo img {
+    height: 50px;
   }
 }
