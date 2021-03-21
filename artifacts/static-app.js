@@ -1195,9 +1195,9 @@ __webpack_require__.r(__webpack_exports__);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-welcome-message"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://youtu.be/YXBQWtTPnVk",
+    href: "https://youtu.be/lN91L2dt0CM",
     target: "_blank"
-  }, "Click HERE to join our live stream for March 14th!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "If the youtube stream is misbehaving, try viewing it on our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "Click HERE to join our live stream for March 21st!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "If the youtube stream is misbehaving, try viewing it on our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.facebook.com/LifeChurchAyer",
     target: "_blank"
   }, "Facebook page")));
@@ -1254,6 +1254,168 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 22 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
+var slicedToArray_ = __webpack_require__(7);
+var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/objectDestructuringEmpty"
+var objectDestructuringEmpty_ = __webpack_require__(8);
+var objectDestructuringEmpty_default = /*#__PURE__*/__webpack_require__.n(objectDestructuringEmpty_);
+
+// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/FacebookPost.tsx
+
+
+var FacebookPost_FacebookPost = function FacebookPost(_ref) {
+  var children = _ref.children;
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-facebook-feed__post"
+  }, children);
+};
+
+/* harmony default export */ var components_FacebookPost = (FacebookPost_FacebookPost);
+// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx
+
+
+
+
+var FacebookFeed_FacebookFeed = function FacebookFeed(_ref) {
+  objectDestructuringEmpty_default()(_ref);
+
+  var _React$useState = external_react_default.a.useState(0),
+      _React$useState2 = slicedToArray_default()(_React$useState, 2),
+      feedItemWidth = _React$useState2[0],
+      setFeedItemWidth = _React$useState2[1];
+
+  external_react_default.a.useEffect(function () {
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setFeedItemWidth(window.innerWidth < 600 ? window.innerWidth - 20 : 580);
+    } // Add event listener
+
+
+    window.addEventListener("resize", handleResize); // Call handler right away so state gets updated with initial window size
+
+    handleResize(); // Remove event listener on cleanup
+
+    return function () {
+      return window.removeEventListener("resize", handleResize);
+    };
+  }, []); // Empty array ensures that effect is only run on mount
+
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-facebook-feed"
+  }, /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F176248987500930&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=528"),
+    width: feedItemWidth,
+    height: "528",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: 0,
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F170503711408791&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=557"),
+    width: feedItemWidth,
+    height: "557",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allowFullScreen: true,
+    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=468"),
+    width: feedItemWidth,
+    height: "475",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F161920842267078&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=238"),
+    width: feedItemWidth,
+    height: "238",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=579"),
+    width: feedItemWidth,
+    height: "600",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158169699308859&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=580"),
+    width: feedItemWidth,
+    height: "580",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153750056417490&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=578"),
+    width: feedItemWidth,
+    height: "590",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153749486417547&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=735"),
+    width: feedItemWidth,
+    height: "765",
+    style: {
+      border: 'none',
+      overflow: 'hidden'
+    },
+    scrolling: "no",
+    frameBorder: "0",
+    allow: "encrypted-media"
+  })));
+};
+// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx
+
+
+/* harmony default export */ var facebook_feed = __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/external_react_default.a.createElement(FacebookFeed_FacebookFeed, null);
+});
+
+/***/ }),
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1443,168 +1605,6 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
 });
 
 /***/ }),
-/* 23 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(7);
-var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
-
-// EXTERNAL MODULE: external "@babel/runtime/helpers/objectDestructuringEmpty"
-var objectDestructuringEmpty_ = __webpack_require__(8);
-var objectDestructuringEmpty_default = /*#__PURE__*/__webpack_require__.n(objectDestructuringEmpty_);
-
-// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/FacebookPost.tsx
-
-
-var FacebookPost_FacebookPost = function FacebookPost(_ref) {
-  var children = _ref.children;
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-facebook-feed__post"
-  }, children);
-};
-
-/* harmony default export */ var components_FacebookPost = (FacebookPost_FacebookPost);
-// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/FacebookFeed.tsx
-
-
-
-
-var FacebookFeed_FacebookFeed = function FacebookFeed(_ref) {
-  objectDestructuringEmpty_default()(_ref);
-
-  var _React$useState = external_react_default.a.useState(0),
-      _React$useState2 = slicedToArray_default()(_React$useState, 2),
-      feedItemWidth = _React$useState2[0],
-      setFeedItemWidth = _React$useState2[1];
-
-  external_react_default.a.useEffect(function () {
-    // Handler to call on window resize
-    function handleResize() {
-      // Set window width/height to state
-      setFeedItemWidth(window.innerWidth < 600 ? window.innerWidth - 20 : 580);
-    } // Add event listener
-
-
-    window.addEventListener("resize", handleResize); // Call handler right away so state gets updated with initial window size
-
-    handleResize(); // Remove event listener on cleanup
-
-    return function () {
-      return window.removeEventListener("resize", handleResize);
-    };
-  }, []); // Empty array ensures that effect is only run on mount
-
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-facebook-feed"
-  }, /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F176248987500930&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=528"),
-    width: feedItemWidth,
-    height: "528",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: 0,
-    allowFullScreen: true,
-    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F170503711408791&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=557"),
-    width: feedItemWidth,
-    height: "557",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: "0",
-    allowFullScreen: true,
-    allow: "autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F160675805724915&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=468"),
-    width: feedItemWidth,
-    height: "475",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: "0",
-    allow: "encrypted-media"
-  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F161920842267078&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=238"),
-    width: feedItemWidth,
-    height: "238",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: "0",
-    allow: "encrypted-media"
-  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158795292579633&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=579"),
-    width: feedItemWidth,
-    height: "600",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: "0",
-    allow: "encrypted-media"
-  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F158169699308859&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=580"),
-    width: feedItemWidth,
-    height: "580",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: "0",
-    allow: "encrypted-media"
-  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153750056417490&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=578"),
-    width: feedItemWidth,
-    height: "590",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: "0",
-    allow: "encrypted-media"
-  })), /*#__PURE__*/external_react_default.a.createElement(components_FacebookPost, null, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLifeChurchAyer%2Fposts%2F153749486417547&show_text=true&width=".concat(feedItemWidth, "&appId=612285882769039&height=735"),
-    width: feedItemWidth,
-    height: "765",
-    style: {
-      border: 'none',
-      overflow: 'hidden'
-    },
-    scrolling: "no",
-    frameBorder: "0",
-    allow: "encrypted-media"
-  })));
-};
-// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/pages/facebook-feed.tsx
-
-
-/* harmony default export */ var facebook_feed = __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/external_react_default.a.createElement(FacebookFeed_FacebookFeed, null);
-});
-
-/***/ }),
 /* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1639,15 +1639,23 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "March 7th, 2021"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "March 14th, 2021 - A New Look for Society"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
-  }, /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/I5o3PzHph24"
-  }, "Growing in Maturity and Unity")), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/YXBQWtTPnVk",
+    title: "YouTube video player",
+    frameBorder: "0",
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+    allowFullScreen: true
+  })), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__previous"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/I5o3PzHph24"
+  }, "March 7th, 2021 - Growing in Maturity and Unity"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/zObg_1Bd9N4"
   }, "February 28th, 2021 - God's Grace in our Gifting"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/orMYPTR09yk"
@@ -2080,7 +2088,7 @@ t_2.template = '__react_static_root__/src/pages/blog.tsx';
 var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/facebook-feed.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/facebook-feed.tsx */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/facebook-feed.tsx */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2088,7 +2096,7 @@ var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/facebook-feed.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(23);
+    return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/facebook-feed.tsx";
@@ -2116,7 +2124,7 @@ t_4.template = '__react_static_root__/src/pages/index.tsx';
 var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/order-of-service.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/order-of-service.tsx */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/order-of-service.tsx */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2124,7 +2132,7 @@ var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/order-of-service.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(22);
+    return /*require.resolve*/(23);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/order-of-service.tsx";
