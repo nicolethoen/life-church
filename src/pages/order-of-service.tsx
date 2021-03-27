@@ -99,20 +99,39 @@ export default () => {
     //     </>
     // );
     //
+
+    const sermonNotes = (
+        <div>
+            <p>Introduction</p>
+
+            <p>
+                Three Offers of Peace
+                <ol>
+                    <li>The Garden of Eden</li>
+                    <li>The Triumphal Entry</li>
+                    <li>God's Ultimate Peace</li>
+                </ol>
+            </p>
+            <p>Conclusion</p>
+        </div>
+    );
     const closingSong = (
         <div className="lc-worship-song">Yet Not I but through Christ in Me</div>
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">March 14th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">March 28th, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Nicole Thoen">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Tara and Jazmyn Kasey">Worship</ServiceItem>
-            <ServiceItem person="Aaron Claussen">Announcements</ServiceItem>
-            <ServiceItem person="Dawn Provost">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Nicole Thoen" >Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
-            <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
+            <ServiceItem person="Andre Wu">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Tara Kasey">Worship</ServiceItem>
+            <ServiceItem person="Nicole Thoen">Announcements</ServiceItem>
+            <ServiceItem person="Lovinsky Jasmin">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Andre Wu" subtext="Luke 19:28-42 ">Scripture Reading</ServiceItem>
+            <ServiceItem person="Brad Johnson" subtext="The Triumph Jesus Offers - Peace" sermonNotes={sermonNotes}>Sermon</ServiceItem>
+            <ServiceItem person="Brad Johnson">Benediction</ServiceItem>
         </div>
     );
+
+
+
 }

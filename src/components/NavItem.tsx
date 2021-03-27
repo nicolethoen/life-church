@@ -1,15 +1,17 @@
 import React from 'react'
 import {Link} from "@reach/router";
 import ActionButton from "./ActionButton";
+import { Transition } from 'react-transition-group';
 
 interface NavItemProps {
     linkTo?: string;
     href?: string;
     itemText: React.ReactNode;
     submenuItems?: React.ReactNode[];
+    isSubMenuItem?: boolean;
 }
 
-const NavItem: React.FunctionComponent<NavItemProps> = ({ linkTo = "", href = "", itemText, submenuItems = [] as React.ReactNode[] }) => {
+const NavItem: React.FunctionComponent<NavItemProps> = ({ linkTo = "", href = "", itemText, isSubMenuItem = false, submenuItems = [] as React.ReactNode[] }) => {
 
     const [showSubmenu, setShowSubmenu] = React.useState(false);
     const hasSubMenu = submenuItems.length > 0;
@@ -31,10 +33,29 @@ const NavItem: React.FunctionComponent<NavItemProps> = ({ linkTo = "", href = ""
         exited:  { visibility: 'hidden', opacity: '0', transition: `visibility 0s linear 300ms, opacity ${duration}ms ease-in-out` },
     };
 
-    return (
-        <li className="lc-menu-item">
+    return isSubMenuItem ? (
+        <div className={"lc-menu-item" + (inProp ? " focused" : "")}
+            onMouseEnter={() => setInProp(true)}
+            onMouseLeave={() => setInProp(false)}
+        >
+            {linkTo && (
+                <Link className="lc-menu-item-submenu-link" to={linkTo}>{itemText}</Link>
+            )}
+            {href && (
+                <a href={href} target="_blank">{itemText}</a>
+            )}
+        </div>
+    ) : (
+        <li className={"lc-menu-item" + (inProp ? " focused" : "")}
+            onMouseEnter={() => setInProp(true)}
+            onMouseLeave={() => setInProp(false)}
+        >
             {hasSubMenu && (
-                <div className="lc-menu-item-link" tabIndex={0} onClick={() => setInProp(!inProp)}>{itemText}</div>
+                <div
+                    className="lc-menu-item-link"
+                    tabIndex={0}
+                    //onKeyDown={() => setInProp(!inProp)}
+                >{itemText}</div>
             )}
             {linkTo && (
                 <Link className="lc-menu-item-link" to={linkTo}>{itemText}</Link>
@@ -42,9 +63,19 @@ const NavItem: React.FunctionComponent<NavItemProps> = ({ linkTo = "", href = ""
             {href && (
                 <a href={href} target="_blank">{itemText}</a>
             )}
-            <Transition in={inProp} timeout={duration}>
-                {(state: string) => ()}
-            </Transition>
+            {submenuItems.length > 0 && (
+                <Transition in={inProp} timeout={duration}>
+                    {(state: string) => (
+                        <div className={`lc-menu-item-submenu fade fade-${state}`}
+                             style={{
+                                 ...defaultStyle,
+                                 ...transitionStyles[state]
+                             }}>
+                            {submenuItems}
+                        </div>
+                    )}
+                </Transition>
+            )}
         </li>
     );
 };

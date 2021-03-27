@@ -1,6 +1,5 @@
 import {Link} from "@reach/router";
 import React from "react";
-import ActionButton from "./ActionButton";
 import logoSrc from 'assets/LifeChurchLogo.png';
 import { Transition } from 'react-transition-group';
 import MenuIcon from 'assets/menu.svg';
@@ -38,18 +37,20 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
             <div className="lc-menu" role="navigation">
                 <ul aria-label="Navigation">
                     <NavItem itemText="Sunday Worship" submenuItems={[
-                        <NavItem itemText="Sermons" linkTo="/sermons" />,
-                        <NavItem itemText="Live stream" linkTo="/" />,
-                        <NavItem itemText="Digital Bulletin" linkTo="/order-of-service" />
+                        <NavItem itemText="Live stream" linkTo="/live-stream" isSubMenuItem key={0} />,
+                        <NavItem itemText="Digital Bulletin" linkTo="/order-of-service" isSubMenuItem key={1} />,
+                        <NavItem itemText="Service Information" linkTo="/service-information" isSubMenuItem key={1} />,
+                        <NavItem itemText="Sermons" linkTo="/sermons" isSubMenuItem key={2} />,
+                        <NavItem itemText="Service Sign Up" href="https://docs.google.com/spreadsheets/d/1A57V2SGXO3aKTPP3lzzXZ6tkKFnnomvZ/edit" isSubMenuItem key={3} />
                     ]}/>
                     <NavItem itemText="Announcements" submenuItems={[
-                        <NavItem itemText="Stone Soup" linkTo="/stone-soup" />,
-                        <NavItem itemText="Latest announcements" linkTo="/announcement-flyer" />
+                        <NavItem itemText="Stone Soup" linkTo="/stone-soup" isSubMenuItem key={0} />,
+                        <NavItem itemText="Latest announcements" linkTo="/announcement-flyer" isSubMenuItem key={1} />
                     ]}/>
-                    <NavItem itemText="Events" linkTo="/stone-soup"/>
+                    <NavItem itemText="Events" linkTo="/calendar"/>
                     <NavItem itemText="Contact us" submenuItems={[
-                        <NavItem itemText="Visitor Form" href="https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link" />,
-                        <NavItem itemText="Facebook page" href="https://www.facebook.com/LifeChurchAyer" />
+                        <NavItem itemText="Visitor Form" href="https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link" isSubMenuItem key={0} />,
+                        <NavItem itemText="Facebook page" href="https://www.facebook.com/LifeChurchAyer" isSubMenuItem key={1} />
                     ]}/>
                 </ul>
             </div>
@@ -66,19 +67,19 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
                         </span>
                         <ul>
                             <li>
-                                <Link to="/" onClick={() => setInProp(false)}>LIVE FEED</Link>
+                                <Link to="/live-stream" onClick={() => setInProp(false)}>LIVE STREAM</Link>
                             </li>
                             <li>
-                                <Link to="/announcement-flyer" onClick={() => setInProp(false)}>Announcements</Link>
-                            </li>
-                            <li>
-                                <Link to="/facebook-feed" onClick={() => setInProp(false)}>Facebook feed</Link>
+                                <Link to="/order-of-service" onClick={() => setInProp(false)}>Digital Bulletin</Link>
                             </li>
                             <li>
                                 <Link to="/stone-soup" onClick={() => setInProp(false)}>Support Stone Soup</Link>
                             </li>
                             <li>
                                 <Link to="/sermons" onClick={() => setInProp(false)}>Sermons</Link>
+                            </li>
+                            <li>
+                                <Link to="/calendar" onClick={() => setInProp(false)}>Events</Link>
                             </li>
                         </ul>
                     </div>
