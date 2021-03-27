@@ -5,8 +5,8 @@
   ],
   "version": "4.44.2",
   "hash": "12c3d108e4003d23e7e0",
-  "time": 5214,
-  "builtAt": 1616870173692,
+  "time": 5266,
+  "builtAt": 1616870766621,
   "publicPath": "/",
   "outputPath": "/Users/nthoen/Projects/life-church/dist",
   "assetsByChunkName": {
@@ -8740,9 +8740,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -9144,9 +9144,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "issuerId": null,
-              "issuerName": "/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "issuerId": 55,
+              "issuerName": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
               "issuerPath": [
                 {
                   "id": 65,
@@ -9164,9 +9164,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": null,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+                  "id": 55,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
                 }
               ],
               "failed": false,
@@ -9423,9 +9423,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": null,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+                  "id": 55,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
                 },
                 {
                   "id": null,
@@ -9508,9 +9508,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": null,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+                  "id": 55,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
                 },
                 {
                   "id": null,
@@ -9584,9 +9584,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": null,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+                  "id": 55,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
                 },
                 {
                   "id": null,
@@ -9807,9 +9807,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": null,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+                  "id": 55,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
                 },
                 {
                   "id": null,
@@ -10107,9 +10107,9 @@
           "chunks": [
             13
           ],
-          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 121,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 66,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 65,
@@ -10117,9 +10117,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -10515,9 +10515,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -10627,9 +10627,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -10937,9 +10937,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -11983,9 +11983,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12049,9 +12049,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12120,9 +12120,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12186,9 +12186,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12252,9 +12252,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12328,9 +12328,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12409,9 +12409,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12485,9 +12485,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12632,9 +12632,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12713,9 +12713,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12799,9 +12799,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12875,9 +12875,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12951,9 +12951,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -13379,9 +13379,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -14978,9 +14978,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15035,9 +15035,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15097,9 +15097,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15159,9 +15159,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15221,9 +15221,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15283,9 +15283,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15350,9 +15350,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15422,9 +15422,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15494,9 +15494,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15571,9 +15571,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15643,9 +15643,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15720,9 +15720,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15802,9 +15802,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15879,9 +15879,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15961,9 +15961,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16043,9 +16043,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16120,9 +16120,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16197,9 +16197,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16274,9 +16274,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16341,9 +16341,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16408,9 +16408,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16473,9 +16473,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 121,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 66,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -17148,9 +17148,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -17220,9 +17220,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -17297,9 +17297,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -19105,9 +19105,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-              "issuerId": 157,
-              "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
+              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+              "issuerId": 156,
+              "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
               "issuerPath": [
                 {
                   "id": 65,
@@ -19140,9 +19140,9 @@
                   "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/index.js"
                 },
                 {
-                  "id": 157,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-                  "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js"
+                  "id": 156,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+                  "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js"
                 }
               ],
               "failed": false,
@@ -23814,9 +23814,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -24218,9 +24218,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-          "issuerId": null,
-          "issuerName": "/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+          "issuerId": 55,
+          "issuerName": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
           "issuerPath": [
             {
               "id": 65,
@@ -24238,9 +24238,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             }
           ],
           "failed": false,
@@ -24497,9 +24497,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -24582,9 +24582,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -24658,9 +24658,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -24881,9 +24881,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+              "id": 55,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
             },
             {
               "id": null,
@@ -25181,9 +25181,9 @@
       "chunks": [
         13
       ],
-      "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 121,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 66,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 65,
@@ -25191,9 +25191,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -25589,9 +25589,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -25701,9 +25701,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": null,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+          "id": 55,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
         },
         {
           "id": null,
@@ -26011,9 +26011,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -27549,9 +27549,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -27615,9 +27615,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -27686,9 +27686,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -27752,9 +27752,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -27818,9 +27818,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -27894,9 +27894,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -27975,9 +27975,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28051,9 +28051,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28198,9 +28198,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28279,9 +28279,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28365,9 +28365,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28441,9 +28441,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28517,9 +28517,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28945,9 +28945,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": null,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+          "id": 55,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
         },
         {
           "id": null,
@@ -32388,9 +32388,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32445,9 +32445,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32507,9 +32507,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32569,9 +32569,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32631,9 +32631,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32693,9 +32693,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32760,9 +32760,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32832,9 +32832,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32904,9 +32904,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32981,9 +32981,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33053,9 +33053,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33130,9 +33130,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33212,9 +33212,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33289,9 +33289,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33371,9 +33371,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33453,9 +33453,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33530,9 +33530,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33607,9 +33607,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33684,9 +33684,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33751,9 +33751,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33818,9 +33818,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33883,9 +33883,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 121,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 66,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -34558,9 +34558,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": null,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+          "id": 55,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
         },
         {
           "id": null,
@@ -34630,9 +34630,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": null,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+          "id": 55,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
         },
         {
           "id": null,
@@ -34707,9 +34707,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": null,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
+          "id": 55,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
         },
         {
           "id": null,
@@ -36849,9 +36849,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-          "issuerId": 157,
-          "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
+          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+          "issuerId": 156,
+          "issuerName": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
           "issuerPath": [
             {
               "id": 65,
@@ -36884,9 +36884,9 @@
               "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/index.js"
             },
             {
-              "id": 157,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js",
-              "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/TransitionGroup.js"
+              "id": 156,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-3-0!/Users/nthoen/Projects/life-church/node_modules/react-hot-loader/webpack.js!/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js",
+              "name": "/Users/nthoen/Projects/life-church/node_modules/react-transition-group/esm/SwitchTransition.js"
             }
           ],
           "failed": false,
