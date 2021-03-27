@@ -1,12 +1,10 @@
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-    'Lucida Grande', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background: url('assets/sky-background-2.jpg') no-repeat center center fixed; ;
-  background-size: cover;
+  background-color: #f1f2f2;
 }
 
 .visible-to-screen-reader {
@@ -20,13 +18,81 @@ body {
   overflow: hidden !important;
 }
 
-.lc-content {
+.lc-body {
   min-height: calc(100vh - 70px);
   margin-bottom: 20px;
 }
 
+.lc-highlights {
+  height: 250px;
+}
+
+.lc-highlight-small {
+  width: 25%;
+  height: 10em;
+  position: relative;
+  display: block;
+  float: left;
+  margin: 3em 0 3em 4.8em;
+}
+
+.lc-highlight-small a {
+  display: block;
+  width: 300px;
+  height: 110px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200%;
+  padding-top: 50px;
+}
+
+.lc-highlight-small a:hover {
+  color: black;
+  background-color: white;
+  opacity: 70%;
+}
+
+.highlight1 {
+  background-image: url("assets/worship_indoor.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.highlight3 {
+  background-image: url("assets/playground.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.highlight2 {
+  background-image: url("assets/preaching.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.lc-highlight-large {
+  text-align: left;
+  padding: 1.5em 4em;
+  background-color: #cc2418;
+  color: white;
+}
+
+.lc-highlight-large:last-child {
+  background-color: #e0ae75;
+}
+
+.lc-highlight-large img {
+  padding: .5em 1em .5em 0;
+}
+
 @media screen and (min-width: 600px) {
   header {
+    height: 10em;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
     -ms-grid-rows: 20px 120px auto 20px;
     grid-template-rows: 20px 120px auto 20px;
     -ms-grid-columns: 10px auto auto auto 10px;
@@ -46,9 +112,12 @@ body {
     width: auto;
   }
 
-  .lc-action-buttons {
+  .lc-menu {
     align-items: center;
     display: flex;
+    height: 60px;
+    margin-top: 70px;
+    text-align: center;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
@@ -56,17 +125,6 @@ body {
     -ms-grid-column-span: 1;
     grid-column: 4/5;
     justify-content: flex-end;
-  }
-
-  .lc-menu {
-    display: flex;
-    flex-grow: 1;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 3;
-    grid-column: 2/5;
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    grid-row: 3/4;
   }
 
   .lc-menu ul {
@@ -81,26 +139,74 @@ body {
   .lc-menu ul>li {
     align-items: center;
     display: flex;
-    margin-right: 20px;
+    margin-right: 5px;
     position: relative;
   }
 
-  .lc-menu ul>li>a {
+  .lc-menu ul>li>.lc-menu-item-link {
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 15px 0;
-    color: #555555;
+    padding: 15px;
+    color: black;
   }
 
-  .lc-live-stream-link a {
-    color: #c11010 !important;
+  .lc-menu .lc-menu-item.focused>.lc-menu-item-link, .lc-menu .lc-menu-item-link:focus {
+    background-color: #cc2418;
+    color: white !important;
+    outline: none;
+    cursor: pointer;
   }
 
-  .lc-live-stream-link a:hover {
-    color: #7a0a7a !important;
+  .lc-menu .lc-menu-item-submenu {
+    margin-top: 1.5em;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
   }
 
+  .lc-menu .lc-menu-item-submenu div {
+    text-decoration: none;
+    display: block;
+  }
+
+  .lc-menu .lc-menu-item-submenu div a {
+    display: block;
+    padding: 1em;
+    color: black;
+  }
+
+  .lc-menu .lc-menu-item-submenu div a:hover {
+    background-color: #e0ae75;
+    color: white;
+  }
+
+  .lc-menu .lc-menu-item-link .lc-menu-item-submenu div {
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+  }
+
+  .lc-content {
+    max-width: 75em;
+    margin: auto;
+    text-align: center;
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+  }
+
+  .lc-splash-image {
+    width: 100%;
+    margin: auto;
+    background-image: url('assets/outdoors.jpg');
+    background-position: 50% 30%;
+    height: 25em;
+  }
 
   .lc-welcome-message {
     -ms-grid-column: 2;
@@ -119,7 +225,7 @@ a, .lc-link {
   font-weight: bold;
 }
 
-a:hover, .lc-link:hover, .lc-menu ul>li>a:hover {
+a:hover, .lc-link:hover {
   color: #7a0a7a;
   cursor: pointer;
 }
@@ -150,32 +256,31 @@ nav a:hover {
   text-decoration: none;
 }
 
-.lc-welcome-message {
-  text-align: center;
-  font-style: italic;
-}
-
 .lc-menu-toggle, .lc-mobile-menu {
   display: none;
 }
 
+.lc-action-buttons {
+  padding-top: 8em;
+}
+
 .lc-action-buttons__button {
-  background-color: #eeeeee;
-  border: 2px solid #c11010;
-  border-radius: 30px;
+  border-radius: 4px;
   box-sizing: border-box;
   display: inline-block;
   font-weight: 900;
   min-width: 125px;
-  padding: 10px 25px;
+  padding: 36px 76px;
+  opacity: .9;
+  background-color: white;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .lc-action-buttons__button:hover {
-  background-color: #8B63BB;
-  border-color: #7a0a7a;
+  background-color: #e0ae75;
+  border-color: #e0ae75;
 }
 
 .lc-action-buttons__button:hover a {
@@ -184,6 +289,9 @@ nav a:hover {
 
 .lc-action-buttons__button a {
   color: #c11010;
+  font-size: 200%;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .lc-action-buttons__button a:hover {
@@ -192,16 +300,22 @@ nav a:hover {
 }
 
 .lc-action-buttons__button.primary {
-  margin-right: 20px;
+  margin-right: 215px;
   background-color: #c11010;
 }
 
 .lc-action-buttons__button.primary:hover {
-  background-color: #7a0a7a;
+  background-color: #e0ae75;
 }
 
 .lc-action-buttons__button.primary a {
   color: white;
+}
+
+.lc-tagline {
+  font-family: 'Roboto Slab', serif;
+  padding: 3em 2em 1em;
+  font-size: 200%;
 }
 
 .lc-service-item {
@@ -217,8 +331,12 @@ nav a:hover {
   padding-left: 1em;
 }
 
-.lc-service-item__subtext, .lc-service-item__sermon-notes {
+.lc-service-item__subtext {
   padding-left: 2em;
+}
+
+.lc-service-item__sermon-notes {
+  padding-left: 3em;
 }
 
 .lc-facebook-feed {
@@ -254,10 +372,12 @@ nav a:hover {
   opacity: 0.9;
   background-color: #eeeeee;
   padding: 1em;
+  text-align: left;
 }
 
 .lc-order-of-worship {
   width: 600px;
+  text-align: left;
   margin: auto;
   opacity: 0.9;
   background-color: #eeeeee;
@@ -350,6 +470,7 @@ nav a:hover {
   opacity: 0.9;
   background-color: #eeeeee;
   padding: 1em;
+  text-align: left;
 }
 
 .lc-sermons__date{
@@ -357,7 +478,7 @@ nav a:hover {
 }
 
 .lc-sermons__video {
-
+  text-align: center;
 }
 
 .lc-sermons__link {
@@ -365,7 +486,11 @@ nav a:hover {
 }
 
 .lc-sermons__previous {
+}
 
+.lc-calendar {
+  background-color: white;
+  padding: 1em;
 }
 
 footer {
@@ -377,9 +502,17 @@ footer {
   height: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .lc-logo img {
-    height: 50px;
+    height: 80px;
+  }
+
+  header {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    padding-top: .6em;
   }
 
   nav {
@@ -392,6 +525,25 @@ footer {
     padding: 0.35rem;
   }
 
+  .lc-action-buttons__button {
+    padding: 15px;
+  }
+
+  .lc-action-buttons__button.primary {
+    margin-right: 40px;
+  }
+
+  .lc-action-buttons__button a {
+    font-size: 170%;
+  }
+
+  .lc-content {
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+  }
+
   .lc-announcement-flyer img {
     width: 80%;
     border: 25px #bbbbbb solid;
@@ -401,6 +553,7 @@ footer {
   .lc-stone-soup {
     width: 90%;
     margin: auto;
+    text-align: left;
   }
 
   .lc-order-of-worship {
@@ -425,9 +578,39 @@ footer {
   }
 
   .lc-action-buttons {
-    margin: 15px 23px 15px;
+    margin: 0 23px 15px;
     display: flex;
     justify-content: center;
+    padding-top: 2em;
+  }
+
+  .lc-tagline {
+    padding: 1em;
+    font-size: 120%;
+  }
+
+  .lc-highlights {
+    height: auto;
+    display: block;
+  }
+
+  .lc-highlight-small {
+    display: block;
+    width: auto;
+    max-width: 300px;
+    float: none;
+    margin: 2.5em auto;
+  }
+
+  .lc-highlight-small a {
+    display:block;
+    width: auto;
+    text-align: center;
+  }
+
+  .lc-highlight-large {
+    margin: 0;
+    padding: 1.5em 3em;
   }
 
   .lc-mobile-menu {
@@ -494,5 +677,22 @@ footer {
 
   h2.lc-scripture-decorator {
     font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lc-logo img {
+    height: 50px;
+  }
+
+  header {
+    height: 4em;
+  }
+
+  .lc-splash-image {
+    height: 10em;
+    background-image: url('assets/outdoors_small.jpg');
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
   }
 }
