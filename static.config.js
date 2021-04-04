@@ -17,6 +17,9 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Life Church exists in Ayer to be a transformed people, loving God, and loving others, sharing life in and through community. Affiliated with the Evangelical Free Church of America." />
+        <link rel="canonical" href="http://www.lifechurchayer.com/" />
+        <meta name="robots" content="index, follow" />
         <title>Life Church</title>
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="icon" href="favicon.ico" />

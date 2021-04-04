@@ -38,6 +38,9 @@ export default () => (
                 Email: <a href="mailto:lifechurch.ayer@gmail.com">lifechurch.ayer@gmail.com</a>
             </p>
             <p>
+                Phone: <a href="tel:978-391-9324">(978) 391-9324</a>
+            </p>
+            <p>
                 Daughter church of <a href="http://www.faithevfree.org">Faith Evangelical Free Church</a> in Acton, MA
             </p>
             <p>

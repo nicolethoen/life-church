@@ -5,8 +5,8 @@
   ],
   "version": "4.44.2",
   "hash": "12c3d108e4003d23e7e0",
-  "time": 5266,
-  "builtAt": 1616870766621,
+  "time": 10737,
+  "builtAt": 1617495675847,
   "publicPath": "/",
   "outputPath": "/Users/nthoen/Projects/life-church/dist",
   "assetsByChunkName": {
@@ -9144,9 +9144,9 @@
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "issuerId": 55,
-              "issuerName": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+              "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "issuerId": null,
+              "issuerName": "/Users/nthoen/Projects/life-church/src/pages/index.tsx",
               "issuerPath": [
                 {
                   "id": 65,
@@ -9164,9 +9164,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 55,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+                  "id": null,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
                 }
               ],
               "failed": false,
@@ -9423,9 +9423,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 55,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+                  "id": null,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
                 },
                 {
                   "id": null,
@@ -9508,9 +9508,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 55,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+                  "id": null,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
                 },
                 {
                   "id": null,
@@ -9584,9 +9584,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 55,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+                  "id": null,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
                 },
                 {
                   "id": null,
@@ -9807,9 +9807,9 @@
                   "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
                 },
                 {
-                  "id": 55,
-                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-                  "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+                  "id": null,
+                  "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+                  "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
                 },
                 {
                   "id": null,
@@ -10627,9 +10627,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -13379,9 +13379,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -17148,9 +17148,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -17220,9 +17220,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -17297,9 +17297,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -24218,9 +24218,9 @@
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-          "issuerId": 55,
-          "issuerName": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
+          "issuer": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+          "issuerId": null,
+          "issuerName": "/Users/nthoen/Projects/life-church/src/pages/index.tsx",
           "issuerPath": [
             {
               "id": 65,
@@ -24238,9 +24238,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             }
           ],
           "failed": false,
@@ -24497,9 +24497,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -24582,9 +24582,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -24658,9 +24658,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -24881,9 +24881,9 @@
               "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
             },
             {
-              "id": 55,
-              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-              "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+              "id": null,
+              "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+              "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
             },
             {
               "id": null,
@@ -25701,9 +25701,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": 55,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+          "id": null,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
         },
         {
           "id": null,
@@ -28945,9 +28945,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": 55,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+          "id": null,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
         },
         {
           "id": null,
@@ -34558,9 +34558,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": 55,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+          "id": null,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
         },
         {
           "id": null,
@@ -34630,9 +34630,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": 55,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+          "id": null,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
         },
         {
           "id": null,
@@ -34707,9 +34707,9 @@
           "name": "/Users/nthoen/Projects/life-church/artifacts/react-static-templates.js"
         },
         {
-          "id": 55,
-          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/blog.tsx",
-          "name": "/Users/nthoen/Projects/life-church/src/pages/blog.tsx"
+          "id": null,
+          "identifier": "/Users/nthoen/Projects/life-church/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/nthoen/Projects/life-church/src/pages/index.tsx",
+          "name": "/Users/nthoen/Projects/life-church/src/pages/index.tsx"
         },
         {
           "id": null,
