@@ -122,15 +122,14 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">March 28th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">April 11th, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
             <ServiceItem person="Hunter Thoen">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Andre & Julia Wu" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem person="Dawn Provost">Worship</ServiceItem>
             <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
-            <ServiceItem person="Nicole Thoen">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Dawn Provost" >Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey" subtext="The Good Catastrophe">Sermon</ServiceItem>
-            <ServiceItem person="Andre & Julia Wu" subtext={closingSong}>Closing Song</ServiceItem>
+            <ServiceItem person="">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Hunter Thoen" >Scripture Reading</ServiceItem>
+            <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
     );

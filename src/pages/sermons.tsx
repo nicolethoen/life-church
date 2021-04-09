@@ -6,7 +6,7 @@ export default () => (
         <h1>Sermons</h1>
         <h2 className="lc-sermons__date" role="heading">March 28th, 2021</h2>
         <div className="lc-sermons__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ix8TKa0Ven0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7QBhHLujj2c"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen/>
@@ -14,6 +14,7 @@ export default () => (
         <h1>Previous Sermons</h1>
         <div className="lc-sermons__previous">
             <h2 role="heading">Ephesians</h2>
+            <Sermon link="https://youtu.be/Ix8TKa0Ven0">March 28th, 2021 - Turning up the Contrast</Sermon>
             <Sermon link="https://youtu.be/lN91L2dt0CM">March 21st, 2021 - Turning up the Contrast</Sermon>
             <Sermon link="https://youtu.be/YXBQWtTPnVk">March 14th, 2021 - A New Look for a New Society</Sermon>
             <Sermon link="https://youtu.be/I5o3PzHph24">March 7th, 2021 - Growing in Maturity and Unity</Sermon>
