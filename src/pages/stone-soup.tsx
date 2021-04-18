@@ -1,4 +1,5 @@
 import React from 'react'
+import * as img from '../assets/stone-soup.jpg';
 
 export default () => (
     <div className="lc-stone-soup">
@@ -6,6 +7,8 @@ export default () => (
         <div className="lc-stone-soup__donate">
             To contribute monetarily to weekly produce delivery as part of your church giving, write the check out to Faith Evangelical Free Church, with 'Stone Soup' in the memo.
         </div>
+        <br/>
+        <img aria-hidden="true" src={img} alt="Produce donation" width={600}/>
         <div className="lc-stone-soup__donation-details">
             <p>List of items Stone Soup is always collection:</p>
             <ul className="lc-stone-soup__donation-list">
