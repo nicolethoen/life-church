@@ -29,7 +29,7 @@ export default () => {
                 We do not yet have a designated indoor space to meet. The pandemic has slowed our search, since meeting indoors is not as much of an option.
             </p>
             <p>
-                Currently, we stream the services on Facebook and YouTube each Sunday. Every week once the Sunday service is over we gather on Zoom for a time of fellowship.
+                Currently, we stream the services on Facebook and YouTube each Sunday. If we are not meeting in person, once the virtual Sunday service is over we gather on Zoom for a time of fellowship.
             </p>
             <p>
                 Now that it is spring, whenever the weather forecast seems to allow it, we will additionally gather outside at The Hidden Park in Devens, MA. We will still stream the services for those unable to attend when meeting in person. Outdoor worship services will be announced via email and on our Facebook page.

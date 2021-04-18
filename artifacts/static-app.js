@@ -1443,10 +1443,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-live-stream"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for April 11th, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for April 18th, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
     width: "560",
     height: "315",
-    src: "https://www.youtube.com/embed/m5GWImDutps",
+    src: "https://www.youtube.com/embed/iY8Xnr7urcw",
     title: "YouTube video player",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
@@ -1598,10 +1598,11 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   // );
   var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
-    target: "_blank"
-  }, "Lyrics")));
+  }, "Day by Day"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, "How Firm a Foundation"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, "Turn Your Eyes upon Jesus"));
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
   }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
@@ -1683,145 +1684,33 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   var sermonNotes = /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("p", null, "Introduction"), /*#__PURE__*/external_react_default.a.createElement("p", null, "Three Offers of Peace", /*#__PURE__*/external_react_default.a.createElement("ol", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "The Garden of Eden"), /*#__PURE__*/external_react_default.a.createElement("li", null, "The Triumphal Entry"), /*#__PURE__*/external_react_default.a.createElement("li", null, "God's Ultimate Peace"))), /*#__PURE__*/external_react_default.a.createElement("p", null, "Conclusion"));
   var closingSong = /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
-    target: "_blank"
-  }, "Lyrics"));
+  }, "Amazing Love");
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "April 11th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hunter Thoen"
-  }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost"
-  }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+  }, "April 18th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Tara Kasey"
+  }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Nicole Thoen"
+  }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Aaron Claussen"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: ""
+    person: "Dawn Provost"
   }, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hunter Thoen"
+    person: "Julia Wu"
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey"
   }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Nicole Thoen",
+    subtext: closingSong
+  }, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey"
   }, "Benediction"));
 });
 
 /***/ }),
 /* 27 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/Sermon.tsx
-
-
-var Sermon_Sermon = function Sermon(_ref) {
-  var children = _ref.children,
-      link = _ref.link;
-  return /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "lc-sermons__link",
-    href: link,
-    target: "_blank"
-  }, children);
-};
-
-/* harmony default export */ var components_Sermon = (Sermon_Sermon);
-// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/pages/sermons.tsx
-
-
-/* harmony default export */ var sermons = __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-sermons"
-  }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
-    className: "lc-sermons__date",
-    role: "heading"
-  }, "March 28th, 2021"), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-sermons__video"
-  }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
-    width: "560",
-    height: "315",
-    src: "https://www.youtube.com/embed/7QBhHLujj2c",
-    title: "YouTube video player",
-    frameBorder: "0",
-    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-    allowFullScreen: true
-  })), /*#__PURE__*/external_react_default.a.createElement("h1", null, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-sermons__previous"
-  }, /*#__PURE__*/external_react_default.a.createElement("h2", {
-    role: "heading"
-  }, "Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/Ix8TKa0Ven0"
-  }, "March 28th, 2021 - Turning up the Contrast"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/lN91L2dt0CM"
-  }, "March 21st, 2021 - Turning up the Contrast"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/YXBQWtTPnVk"
-  }, "March 14th, 2021 - A New Look for a New Society"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/I5o3PzHph24"
-  }, "March 7th, 2021 - Growing in Maturity and Unity"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/zObg_1Bd9N4"
-  }, "February 28th, 2021 - God's Grace in our Gifting"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/EQNhcshLCrk"
-  }, "February 14th, 2021 - Walk this way, unite this way"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/RCuxfW16sw0"
-  }, "February 7th, 2021 - Prayer for Strength"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/RCuxfW16sw0"
-  }, "January 31th, 2021 - The Divine Detour"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/IWrk_DTe18A"
-  }, "January 24th, 2021 - The United Community in Christ"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/Qt4qunDskgc"
-  }, "January 17th, 2021 - The Walking Dead Made Alive in Christ"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/GVej-OcfzqY"
-  }, "January 10th, 2021 - Eyes of our Hearts Enlightened"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/9H7zkYNZfIo"
-  }, "January 3rd, 2021 - Continuing in Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/dsOG8t6X7Fk"
-  }, "Dec 13th, 2020 - Ephesians 1:11-14 - God's Guarantee"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/dsOG8t6X7Fk"
-  }, "Dec 6th, 2020 - Ephesians 1:5-10 - God's Glorious Plan"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://fb.watch/2bLf_xBRRd/"
-  }, "Nov 22nd, 2020 - Ephesians 1:4-8"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://fb.watch/1VCx2JzO9D/"
-  }, "Nov 15th, 2020 - Chosen out of Love to be in Christ"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://fb.watch/1VCzESHhca/"
-  }, "Nov 8th, 2020 - Beginning the Journey in Ephesians"), /*#__PURE__*/external_react_default.a.createElement("h2", {
-    role: "heading"
-  }, "Jonah"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://fb.watch/1MnaS-4BQs/"
-  }, "Nov 1st, 2020 - God's Abounding Steadfast Love"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/X-XcdLaiijs"
-  }, "Oct 25th, 2020 - A Life Worth Living"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/D8iSoEgy4n8"
-  }, "Oct 18th, 2020 - Angry with God"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/D8iSoEgy4n8"
-  }, "Sept 27th, 2020 - A Battle of Wills"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/5P-fpeqRH2E"
-  }, "Sept 20th, 2020 - Introduction to Jonah"), /*#__PURE__*/external_react_default.a.createElement("h2", {
-    role: "heading"
-  }, "Special Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/orMYPTR09yk"
-  }, "February 21st, 2021 - Ryan Fields: Jesus Christ, Lord of All"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/ONvXzfUSqF0"
-  }, "Dec 27th, 2020 - Psalm 23"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/QxHakwy4cDk"
-  }, "Dec 20th, 2020 - God and Sinner Reconciled"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/TVUa2dLOAEg"
-  }, "Nov 29nd, 2020 - Ryan Fields: 2 Corinthians 1:3-11"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/RcfiGyRD1uQ"
-  }, "Sept 13th, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
-    link: "https://youtu.be/_TlI5iw0Oyg"
-  }, "Sept 6th, 2020")));
-});
-
-/***/ }),
-/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1917,6 +1806,120 @@ var ServiceInformation = __webpack_require__(10);
     src: youtube,
     "aria-label": "YouTube channel link"
   })))));
+});
+
+/***/ }),
+/* 28 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/Sermon.tsx
+
+
+var Sermon_Sermon = function Sermon(_ref) {
+  var children = _ref.children,
+      link = _ref.link;
+  return /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "lc-sermons__link",
+    href: link,
+    target: "_blank"
+  }, children);
+};
+
+/* harmony default export */ var components_Sermon = (Sermon_Sermon);
+// CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/pages/sermons.tsx
+
+
+/* harmony default export */ var sermons = __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-sermons"
+  }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
+    className: "lc-sermons__date",
+    role: "heading"
+  }, "April 11th, 2021 - The Stockholm Syndrome"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-sermons__video"
+  }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/m5GWImDutps",
+    title: "YouTube video player",
+    frameBorder: "0",
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+    allowFullScreen: true
+  })), /*#__PURE__*/external_react_default.a.createElement("h1", null, "Previous Sermons"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-sermons__previous"
+  }, /*#__PURE__*/external_react_default.a.createElement("h2", {
+    role: "heading"
+  }, "Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/lN91L2dt0CM"
+  }, "March 21st, 2021 - Turning up the Contrast"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/YXBQWtTPnVk"
+  }, "March 14th, 2021 - A New Look for a New Society"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/I5o3PzHph24"
+  }, "March 7th, 2021 - Growing in Maturity and Unity"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/zObg_1Bd9N4"
+  }, "February 28th, 2021 - God's Grace in our Gifting"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/EQNhcshLCrk"
+  }, "February 14th, 2021 - Walk this way, unite this way"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/RCuxfW16sw0"
+  }, "February 7th, 2021 - Prayer for Strength"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/RCuxfW16sw0"
+  }, "January 31th, 2021 - The Divine Detour"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/IWrk_DTe18A"
+  }, "January 24th, 2021 - The United Community in Christ"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/Qt4qunDskgc"
+  }, "January 17th, 2021 - The Walking Dead Made Alive in Christ"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/GVej-OcfzqY"
+  }, "January 10th, 2021 - Eyes of our Hearts Enlightened"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/9H7zkYNZfIo"
+  }, "January 3rd, 2021 - Continuing in Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/dsOG8t6X7Fk"
+  }, "Dec 13th, 2020 - Ephesians 1:11-14 - God's Guarantee"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/dsOG8t6X7Fk"
+  }, "Dec 6th, 2020 - Ephesians 1:5-10 - God's Glorious Plan"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://fb.watch/2bLf_xBRRd/"
+  }, "Nov 22nd, 2020 - Ephesians 1:4-8"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://fb.watch/1VCx2JzO9D/"
+  }, "Nov 15th, 2020 - Chosen out of Love to be in Christ"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://fb.watch/1VCzESHhca/"
+  }, "Nov 8th, 2020 - Beginning the Journey in Ephesians"), /*#__PURE__*/external_react_default.a.createElement("h2", {
+    role: "heading"
+  }, "Jonah"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://fb.watch/1MnaS-4BQs/"
+  }, "Nov 1st, 2020 - God's Abounding Steadfast Love"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/X-XcdLaiijs"
+  }, "Oct 25th, 2020 - A Life Worth Living"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/D8iSoEgy4n8"
+  }, "Oct 18th, 2020 - Angry with God"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/D8iSoEgy4n8"
+  }, "Sept 27th, 2020 - A Battle of Wills"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/5P-fpeqRH2E"
+  }, "Sept 20th, 2020 - Introduction to Jonah"), /*#__PURE__*/external_react_default.a.createElement("h2", {
+    role: "heading"
+  }, "Special Sermons"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/7QBhHLujj2c"
+  }, "April 4th, 2021 - The Good Catastrophe - Easter"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/Ix8TKa0Ven0"
+  }, "March 28th, 2021 - Pastor Brad Johnson The Triumph Jesus Offers"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/orMYPTR09yk"
+  }, "February 21st, 2021 - Ryan Fields: Jesus Christ, Lord of All"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/ONvXzfUSqF0"
+  }, "Dec 27th, 2020 - Psalm 23"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/QxHakwy4cDk"
+  }, "Dec 20th, 2020 - God and Sinner Reconciled"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/TVUa2dLOAEg"
+  }, "Nov 29nd, 2020 - Ryan Fields: 2 Corinthians 1:3-11"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/RcfiGyRD1uQ"
+  }, "Sept 13th, 2020"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/_TlI5iw0Oyg"
+  }, "Sept 6th, 2020")));
 });
 
 /***/ }),
@@ -2329,7 +2332,7 @@ t_3.template = '__react_static_root__/src/pages/calendar.tsx';
 var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/index.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index.tsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index.tsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2337,7 +2340,7 @@ var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/index.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(28);
+    return /*require.resolve*/(27);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/index.tsx";
@@ -2383,7 +2386,7 @@ t_6.template = '__react_static_root__/src/pages/order-of-service.tsx';
 var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/sermons.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/sermons.tsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/sermons.tsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2391,7 +2394,7 @@ var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/sermons.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(27);
+    return /*require.resolve*/(28);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/sermons.tsx";

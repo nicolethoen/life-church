@@ -4,9 +4,9 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">March 28th, 2021</h2>
+        <h2 className="lc-sermons__date" role="heading">April 11th, 2021 - The Stockholm Syndrome</h2>
         <div className="lc-sermons__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7QBhHLujj2c"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m5GWImDutps"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen/>
@@ -14,7 +14,6 @@ export default () => (
         <h1>Previous Sermons</h1>
         <div className="lc-sermons__previous">
             <h2 role="heading">Ephesians</h2>
-            <Sermon link="https://youtu.be/Ix8TKa0Ven0">March 28th, 2021 - Turning up the Contrast</Sermon>
             <Sermon link="https://youtu.be/lN91L2dt0CM">March 21st, 2021 - Turning up the Contrast</Sermon>
             <Sermon link="https://youtu.be/YXBQWtTPnVk">March 14th, 2021 - A New Look for a New Society</Sermon>
             <Sermon link="https://youtu.be/I5o3PzHph24">March 7th, 2021 - Growing in Maturity and Unity</Sermon>
@@ -38,6 +37,8 @@ export default () => (
             <Sermon link="https://youtu.be/D8iSoEgy4n8">Sept 27th, 2020 - A Battle of Wills</Sermon>
             <Sermon link="https://youtu.be/5P-fpeqRH2E">Sept 20th, 2020 - Introduction to Jonah</Sermon>
             <h2 role="heading">Special Sermons</h2>
+            <Sermon link="https://youtu.be/7QBhHLujj2c">April 4th, 2021 - The Good Catastrophe - Easter</Sermon>
+            <Sermon link="https://youtu.be/Ix8TKa0Ven0">March 28th, 2021 - Pastor Brad Johnson The Triumph Jesus Offers</Sermon>
             <Sermon link="https://youtu.be/orMYPTR09yk">February 21st, 2021 - Ryan Fields: Jesus Christ, Lord of All</Sermon>
             <Sermon link="https://youtu.be/ONvXzfUSqF0">Dec 27th, 2020 - Psalm 23</Sermon>
             <Sermon link="https://youtu.be/QxHakwy4cDk">Dec 20th, 2020 - God and Sinner Reconciled</Sermon>
