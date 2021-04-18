@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 40);
+/******/ 	return __webpack_require__(__webpack_require__.s = 39);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -183,7 +183,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(46);
+var _requireUniversalModule = __webpack_require__(45);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -198,7 +198,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(48);
+var _reportChunks = __webpack_require__(47);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -220,13 +220,13 @@ var _hoistNonReactStatics = __webpack_require__(17);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(49);
+var _vm = __webpack_require__(48);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
 var _utils = __webpack_require__(13);
 
-var _helpers = __webpack_require__(50);
+var _helpers = __webpack_require__(49);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -621,7 +621,7 @@ function universal(asyncModule) {
     report: _propTypes2["default"].func
   }, _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(45)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(44)(module)))
 
 /***/ }),
 /* 5 */
@@ -631,12 +631,6 @@ module.exports = require("@babel/runtime/helpers/slicedToArray");
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-static");
-
-/***/ }),
-/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -650,13 +644,19 @@ var _utils = __webpack_require__(13);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(47)("" + id);
+    return __webpack_require__(46)("" + id);
   }
 
   return __webpack_require__('' + id);
 };
 
 exports["default"] = requireById;
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-static");
 
 /***/ }),
 /* 8 */
@@ -706,7 +706,7 @@ module.exports = require("react-transition-group");
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-highlight-large",
     id: "service-information"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Service Information"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Sunday Mornings at 10:30am"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We do not yet have a designated indoor space to meet. The pandemic has slowed our search, since meeting indoors is not as much of an option."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Currently, we stream the services on Facebook and YouTube each Sunday. Every week once the Sunday service is over we gather on Zoom for a time of fellowship."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Now that it is spring, whenever the weather forecast seems to allow it, we will additionally gather outside at The Hidden Park in Devens, MA. We will still stream the services for those unable to attend when meeting in person. Outdoor worship services will be announced via email and on our Facebook page."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Service Information"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Sunday Mornings at 10:30am"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We do not yet have a designated indoor space to meet. The pandemic has slowed our search, since meeting indoors is not as much of an option."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Currently, we stream the services on Facebook and YouTube each Sunday. If we are not meeting in person, once the virtual Sunday service is over we gather on Zoom for a time of fellowship."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Now that it is spring, whenever the weather forecast seems to allow it, we will additionally gather outside at The Hidden Park in Devens, MA. We will still stream the services for those unable to attend when meeting in person. Outdoor worship services will be announced via email and on our Facebook page."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "lc-outdoor-location"
   }, smallVideo ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
     src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.2445339800483!2d-71.61165464882482!3d42.5501002309691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3eb055d5357a3%3A0xfee010927702a67e!2sThe%20Hidden%20Park!5e0!3m2!1sen!2sus!4v1616867869897!5m2!1sen!2sus",
@@ -740,7 +740,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(6);
+var external_react_static_ = __webpack_require__(7);
 
 // EXTERNAL MODULE: external "@reach/router"
 var router_ = __webpack_require__(3);
@@ -762,18 +762,18 @@ var slicedToArray_ = __webpack_require__(5);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/objectDestructuringEmpty"
-var objectDestructuringEmpty_ = __webpack_require__(31);
+var objectDestructuringEmpty_ = __webpack_require__(29);
 var objectDestructuringEmpty_default = /*#__PURE__*/__webpack_require__.n(objectDestructuringEmpty_);
 
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/assets/LifeChurchLogo.png
-var LifeChurchLogo = __webpack_require__(32);
+var LifeChurchLogo = __webpack_require__(30);
 var LifeChurchLogo_default = /*#__PURE__*/__webpack_require__.n(LifeChurchLogo);
 
 // EXTERNAL MODULE: external "react-transition-group"
 var external_react_transition_group_ = __webpack_require__(9);
 
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/assets/menu.svg
-var menu = __webpack_require__(33);
+var menu = __webpack_require__(31);
 var menu_default = /*#__PURE__*/__webpack_require__.n(menu);
 
 // CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/components/NavItem.tsx
@@ -1054,7 +1054,7 @@ var Header_Header = function Header(_ref) {
 
 /* harmony default export */ var components_Header = (Header_Header);
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/app.css
-var app = __webpack_require__(59);
+var app = __webpack_require__(58);
 
 // CONCATENATED MODULE: /Users/nthoen/Projects/life-church/src/App.tsx
 
@@ -1124,7 +1124,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(7);
+var _requireById = __webpack_require__(6);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -1299,13 +1299,13 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_announcement1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(34);
+/* harmony import */ var _assets_announcement1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(32);
 /* harmony import */ var _assets_announcement1_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_announcement1_png__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_announcement2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(35);
+/* harmony import */ var _assets_announcement2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(33);
 /* harmony import */ var _assets_announcement2_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_announcement2_png__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_announcement4_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(36);
+/* harmony import */ var _assets_announcement4_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(34);
 /* harmony import */ var _assets_announcement4_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_announcement4_png__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _assets_announcement6_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(37);
+/* harmony import */ var _assets_announcement6_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(35);
 /* harmony import */ var _assets_announcement6_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_announcement6_png__WEBPACK_IMPORTED_MODULE_4__);
 
 
@@ -1348,34 +1348,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 20 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var _useRouteData = Object(react_static__WEBPACK_IMPORTED_MODULE_1__["useRouteData"])(),
-      posts = _useRouteData.posts;
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "It's blog time."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "All Posts:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, posts.map(function (post) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      key: post.id
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "/blog/post/".concat(post.id, "/")
-    }, post.title));
-  })));
-});
-
-/***/ }),
-/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1432,7 +1404,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1443,7 +1415,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-live-stream"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for April 18th, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for April 18th, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "DUE TO WET WEATHER, WE ARE NOT MEETING IN PERSON - COMPLETELY VIRTUAL SERVICE", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Sermon: Spiritually Vigilant", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Scripture: Ephesians: 5:15-21", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Preacher: Pastor Dan Kasey", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
     width: "560",
     height: "315",
     src: "https://www.youtube.com/embed/iY8Xnr7urcw",
@@ -1458,7 +1430,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1473,13 +1445,16 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_stone_soup_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(38);
+/* harmony import */ var _assets_stone_soup_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_stone_soup_jpg__WEBPACK_IMPORTED_MODULE_1__);
+
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1490,7 +1465,12 @@ __webpack_require__.r(__webpack_exports__);
     target: "_blank"
   }, "Stone Soup Kitchen Ministry's Website")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-stone-soup__donate"
-  }, "To contribute monetarily to weekly produce delivery as part of your church giving, write the check out to Faith Evangelical Free Church, with 'Stone Soup' in the memo."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "To contribute monetarily to weekly produce delivery as part of your church giving, write the check out to Faith Evangelical Free Church, with 'Stone Soup' in the memo."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    "aria-hidden": "true",
+    src: _assets_stone_soup_jpg__WEBPACK_IMPORTED_MODULE_1__,
+    alt: "Produce donation",
+    width: 600
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-stone-soup__donation-details"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "List of items Stone Soup is always collection:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "lc-stone-soup__donation-list"
@@ -1498,31 +1478,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 25 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var _useRouteData = Object(react_static__WEBPACK_IMPORTED_MODULE_1__["useRouteData"])(),
-      post = _useRouteData.post;
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/blog/"
-  }, '<', " Back"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, post.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, post.body));
-});
-
-/***/ }),
-/* 26 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1598,11 +1554,11 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   // );
   var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "Day by Day"), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
   }, "How Firm a Foundation"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "Turn Your Eyes upon Jesus"));
+  }, "Turn Your Eyes upon Jesus"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, "Day by Day"));
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
   }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
@@ -1692,7 +1648,8 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   }, "April 18th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Tara Kasey"
   }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Nicole Thoen"
+    person: "Nicole Thoen",
+    subtext: worshipSongs
   }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Aaron Claussen"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
@@ -1710,7 +1667,7 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
 });
 
 /***/ }),
-/* 27 */
+/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1739,10 +1696,10 @@ var ActionButton_ActionButton = function ActionButton(_ref) {
 var router_ = __webpack_require__(3);
 
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/assets/facebook.png
-var facebook = __webpack_require__(38);
+var facebook = __webpack_require__(36);
 
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/assets/youtube.png
-var youtube = __webpack_require__(39);
+var youtube = __webpack_require__(37);
 
 // EXTERNAL MODULE: /Users/nthoen/Projects/life-church/src/components/ServiceInformation.tsx
 var ServiceInformation = __webpack_require__(10);
@@ -1809,7 +1766,7 @@ var ServiceInformation = __webpack_require__(10);
 });
 
 /***/ }),
-/* 28 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1923,7 +1880,7 @@ var Sermon_Sermon = function Sermon(_ref) {
 });
 
 /***/ }),
-/* 29 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1936,7 +1893,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(6);
+var _reactStatic = __webpack_require__(7);
 
 var _router = __webpack_require__(3);
 
@@ -2049,25 +2006,25 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 30 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 31 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectDestructuringEmpty");
 
 /***/ }),
-/* 32 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/LifeChurchLogo.853be0ce.png";
 
 /***/ }),
-/* 33 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(0);
@@ -2084,59 +2041,65 @@ Menu.default = Menu;
 
 
 /***/ }),
-/* 34 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/announcement1.c3647eeb.png";
 
 /***/ }),
-/* 35 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/announcement2.8ca9e32e.png";
 
 /***/ }),
-/* 36 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/announcement4.29ae56e9.png";
 
 /***/ }),
-/* 37 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/announcement6.2572b4be.png";
 
 /***/ }),
-/* 38 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,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"
 
 /***/ }),
-/* 39 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,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"
 
 /***/ }),
-/* 40 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(41);
-__webpack_require__(43);
-module.exports = __webpack_require__(51);
+module.exports = __webpack_require__.p + "static/stone-soup.fe58d607.jpg";
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(40);
+__webpack_require__(42);
+module.exports = __webpack_require__(50);
 
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(42)["default"];
+var plugins = __webpack_require__(41)["default"];
 
 var _require = __webpack_require__(15),
     registerPlugins = _require.registerPlugins;
@@ -2146,12 +2109,12 @@ registerPlugins(plugins);
 if (false) {}
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29);
+/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(27);
 /* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -2189,7 +2152,7 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2199,7 +2162,7 @@ var plugins = [{
 var _require = __webpack_require__(15),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(44),
+var _require2 = __webpack_require__(43),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -2208,7 +2171,7 @@ registerTemplates(templates, notFoundTemplate);
 if (false) {}
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2222,10 +2185,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
 /* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_universal_component__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
 
 
 
@@ -2294,27 +2253,9 @@ var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
 }), universalOptions);
 t_1.template = '__react_static_root__/src/pages/announcement-flyer.tsx';
 var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "__react_static_root__/src/pages/blog.tsx",
-  load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/blog.tsx */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
-      return proms[0];
-    });
-  },
-  path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/blog.tsx');
-  },
-  resolve: function resolve() {
-    return /*require.resolve*/(20);
-  },
-  chunkName: function chunkName() {
-    return "__react_static_root__/src/pages/blog.tsx";
-  }
-}), universalOptions);
-t_2.template = '__react_static_root__/src/pages/blog.tsx';
-var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/calendar.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/calendar.tsx */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/calendar.tsx */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2322,17 +2263,17 @@ var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/calendar.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(21);
+    return /*require.resolve*/(20);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/calendar.tsx";
   }
 }), universalOptions);
-t_3.template = '__react_static_root__/src/pages/calendar.tsx';
-var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_2.template = '__react_static_root__/src/pages/calendar.tsx';
+var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/index.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index.tsx */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index.tsx */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2340,17 +2281,17 @@ var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/index.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(27);
+    return /*require.resolve*/(25);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/index.tsx";
   }
 }), universalOptions);
-t_4.template = '__react_static_root__/src/pages/index.tsx';
-var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_3.template = '__react_static_root__/src/pages/index.tsx';
+var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/live-stream.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/live-stream.tsx */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/live-stream.tsx */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2358,17 +2299,17 @@ var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/live-stream.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(22);
+    return /*require.resolve*/(21);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/live-stream.tsx";
   }
 }), universalOptions);
-t_5.template = '__react_static_root__/src/pages/live-stream.tsx';
-var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_4.template = '__react_static_root__/src/pages/live-stream.tsx';
+var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/order-of-service.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/order-of-service.tsx */).then(__webpack_require__.bind(null, 26))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/order-of-service.tsx */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2376,17 +2317,17 @@ var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/order-of-service.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(26);
+    return /*require.resolve*/(24);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/order-of-service.tsx";
   }
 }), universalOptions);
-t_6.template = '__react_static_root__/src/pages/order-of-service.tsx';
-var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_5.template = '__react_static_root__/src/pages/order-of-service.tsx';
+var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/sermons.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/sermons.tsx */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/sermons.tsx */).then(__webpack_require__.bind(null, 26))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2394,17 +2335,17 @@ var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/sermons.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(28);
+    return /*require.resolve*/(26);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/sermons.tsx";
   }
 }), universalOptions);
-t_7.template = '__react_static_root__/src/pages/sermons.tsx';
-var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_6.template = '__react_static_root__/src/pages/sermons.tsx';
+var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/service-information.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/service-information.tsx */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/service-information.tsx */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2412,17 +2353,17 @@ var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/service-information.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(23);
+    return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/service-information.tsx";
   }
 }), universalOptions);
-t_8.template = '__react_static_root__/src/pages/service-information.tsx';
-var t_9 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_7.template = '__react_static_root__/src/pages/service-information.tsx';
+var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/stone-soup.tsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/stone-soup.tsx */).then(__webpack_require__.bind(null, 24))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/stone-soup.tsx */).then(__webpack_require__.bind(null, 23))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2430,51 +2371,31 @@ var t_9 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/stone-soup.tsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(24);
+    return /*require.resolve*/(23);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/stone-soup.tsx";
   }
 }), universalOptions);
-t_9.template = '__react_static_root__/src/pages/stone-soup.tsx';
-var t_10 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "__react_static_root__/src/containers/Post",
-  load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/containers/Post */).then(__webpack_require__.bind(null, 25))]).then(function (proms) {
-      return proms[0];
-    });
-  },
-  path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/containers/Post');
-  },
-  resolve: function resolve() {
-    return /*require.resolve*/(25);
-  },
-  chunkName: function chunkName() {
-    return "__react_static_root__/src/containers/Post";
-  }
-}), universalOptions);
-t_10.template = '__react_static_root__/src/containers/Post'; // Template Map
+t_8.template = '__react_static_root__/src/pages/stone-soup.tsx'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   '__react_static_root__/src/pages/404.tsx': t_0,
   '__react_static_root__/src/pages/announcement-flyer.tsx': t_1,
-  '__react_static_root__/src/pages/blog.tsx': t_2,
-  '__react_static_root__/src/pages/calendar.tsx': t_3,
-  '__react_static_root__/src/pages/index.tsx': t_4,
-  '__react_static_root__/src/pages/live-stream.tsx': t_5,
-  '__react_static_root__/src/pages/order-of-service.tsx': t_6,
-  '__react_static_root__/src/pages/sermons.tsx': t_7,
-  '__react_static_root__/src/pages/service-information.tsx': t_8,
-  '__react_static_root__/src/pages/stone-soup.tsx': t_9,
-  '__react_static_root__/src/containers/Post': t_10
+  '__react_static_root__/src/pages/calendar.tsx': t_2,
+  '__react_static_root__/src/pages/index.tsx': t_3,
+  '__react_static_root__/src/pages/live-stream.tsx': t_4,
+  '__react_static_root__/src/pages/order-of-service.tsx': t_5,
+  '__react_static_root__/src/pages/sermons.tsx': t_6,
+  '__react_static_root__/src/pages/service-information.tsx': t_7,
+  '__react_static_root__/src/pages/stone-soup.tsx': t_8
 }); // Not Found Template
 
 var notFoundTemplate = "__react_static_root__/src/pages/404.tsx";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 45 */
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -2503,7 +2424,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 46 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2714,14 +2635,14 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 47 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 7,
-	"./": 7,
-	"./index": 7,
-	"./index.js": 7
+	".": 6,
+	"./": 6,
+	"./index": 6,
+	"./index.js": 6
 };
 
 
@@ -2742,10 +2663,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 47;
+webpackContext.id = 46;
 
 /***/ }),
-/* 48 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2854,13 +2775,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 49 */
+/* 48 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 50 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2927,28 +2848,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 51 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(52);
+var _interopRequireWildcard = __webpack_require__(51);
 
-var _interopRequireDefault = __webpack_require__(53);
+var _interopRequireDefault = __webpack_require__(52);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(54));
+var _extends2 = _interopRequireDefault(__webpack_require__(53));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(55));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(54));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(56);
+var _useStaticInfo = __webpack_require__(55);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -2969,7 +2890,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(57)["default"];
+var App = __webpack_require__(56)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -2982,37 +2903,37 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 52 */
+/* 51 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 53 */
+/* 52 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 54 */
+/* 53 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 55 */
+/* 54 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 56 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/nthoen/Projects/life-church/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 57 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3021,7 +2942,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(30);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(11);
 
@@ -3049,10 +2970,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(58)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(57)(module)))
 
 /***/ }),
-/* 58 */
+/* 57 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -3082,17 +3003,17 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 59 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(60)(false);
+exports = module.exports = __webpack_require__(59)(false);
 // Imports
-var urlEscape = __webpack_require__(61);
-var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(62));
-var ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(63));
-var ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(64));
-var ___CSS_LOADER_URL___3___ = urlEscape(__webpack_require__(65));
-var ___CSS_LOADER_URL___4___ = urlEscape(__webpack_require__(66));
+var urlEscape = __webpack_require__(60);
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(61));
+var ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(62));
+var ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(63));
+var ___CSS_LOADER_URL___3___ = urlEscape(__webpack_require__(64));
+var ___CSS_LOADER_URL___4___ = urlEscape(__webpack_require__(65));
 
 // Module
 exports.push([module.i, "body {\n  font-family: 'Montserrat', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  background-color: #f1f2f2;\n}\n\n.visible-to-screen-reader {\n  position: absolute;\n  height: 1px;\n  width: 1px;\n  clip: rect(1px 1px 1px 1px);\n  clip: rect(1px,1px,1px,1px);\n  clip-path: polygon(0px 0px, 0px 0px, 0px 0px);\n  -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);\n  overflow: hidden !important;\n}\n\n.lc-body {\n  min-height: calc(100vh - 70px);\n  margin-bottom: 20px;\n}\n\n.lc-highlights {\n  height: 250px;\n}\n\n.lc-highlight-small {\n  width: 25%;\n  height: 10em;\n  position: relative;\n  display: block;\n  float: left;\n  margin: 3em 0 3em 4.8em;\n}\n\n.lc-highlight-small a {\n  display: block;\n  width: 300px;\n  height: 110px;\n  color: white;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 200%;\n  padding-top: 50px;\n}\n\n.lc-highlight-small a:hover {\n  color: black;\n  background-color: white;\n  opacity: 70%;\n}\n\n.highlight1 {\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-position: center center;\n  background-repeat: no-repeat;\n}\n\n.highlight3 {\n  background-image: url(" + ___CSS_LOADER_URL___1___ + ");\n  background-position: center center;\n  background-repeat: no-repeat;\n}\n\n.highlight2 {\n  background-image: url(" + ___CSS_LOADER_URL___2___ + ");\n  background-position: center center;\n  background-repeat: no-repeat;\n}\n\n.lc-highlight-large {\n  text-align: left;\n  padding: 1.5em 4em;\n  background-color: #cc2418;\n  color: white;\n}\n\n.lc-highlight-large:last-child {\n  background-color: #e0ae75;\n}\n\n.lc-highlight-large img {\n  padding: .5em 1em .5em 0;\n}\n\n@media screen and (min-width: 600px) {\n  header {\n    height: 10em;\n    border-width: 0 0 1px 0;\n    border-style: solid;\n    border-color: #dddddd;\n    background-color: #ffffff;\n    -ms-grid-rows: 20px 120px auto 20px;\n    grid-template-rows: 20px 120px auto 20px;\n    -ms-grid-columns: 10px auto auto auto 10px;\n    grid-template-columns: 10px auto auto auto 10px;\n    display: grid;\n  }\n\n  .lc-logo {\n    align-items: center;\n    display: flex;\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 1;\n    grid-column: 2/3;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    width: auto;\n  }\n\n  .lc-menu {\n    align-items: center;\n    display: flex;\n    height: 60px;\n    margin-top: 70px;\n    text-align: center;\n    -ms-grid-row: 2;\n    -ms-grid-row-span: 1;\n    grid-row: 2/3;\n    -ms-grid-column: 4;\n    -ms-grid-column-span: 1;\n    grid-column: 4/5;\n    justify-content: flex-end;\n  }\n\n  .lc-menu ul {\n    display: flex;\n    height: 100%;\n    justify-content: space-around;\n    list-style: none;\n    padding: 0 0 0 15px;\n    margin: 0 auto;\n  }\n\n  .lc-menu ul>li {\n    align-items: center;\n    display: flex;\n    margin-right: 5px;\n    position: relative;\n  }\n\n  .lc-menu ul>li>.lc-menu-item-link {\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 15px;\n    color: black;\n  }\n\n  .lc-menu .lc-menu-item.focused>.lc-menu-item-link, .lc-menu .lc-menu-item-link:focus {\n    background-color: #cc2418;\n    color: white !important;\n    outline: none;\n    cursor: pointer;\n  }\n\n  .lc-menu .lc-menu-item-submenu {\n    margin-top: 1.5em;\n    background-color: #f9f9f9;\n    position: absolute;\n    top: 50%;\n    overflow: auto;\n    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);\n    z-index: 1;\n  }\n\n  .lc-menu .lc-menu-item-submenu div {\n    text-decoration: none;\n    display: block;\n  }\n\n  .lc-menu .lc-menu-item-submenu div a {\n    display: block;\n    padding: 1em;\n    color: black;\n  }\n\n  .lc-menu .lc-menu-item-submenu div a:hover {\n    background-color: #e0ae75;\n    color: white;\n  }\n\n  .lc-menu .lc-menu-item-link .lc-menu-item-submenu div {\n    padding: 1em;\n    text-decoration: none;\n    display: block;\n  }\n\n  .lc-content {\n    max-width: 75em;\n    margin: auto;\n    text-align: center;\n    border-width: 0 1px 0 1px;\n    border-style: solid;\n    border-color: #dddddd;\n    background-color: #ffffff;\n  }\n\n  .lc-splash-image {\n    width: 100%;\n    margin: auto;\n    background-image: url(" + ___CSS_LOADER_URL___3___ + ");\n    background-position: 50% 30%;\n    height: 25em;\n  }\n\n  .lc-welcome-message {\n    -ms-grid-column: 2;\n    -ms-grid-column-span: 3;\n    grid-column: 2/5;\n    -ms-grid-row: 4;\n    -ms-grid-row-span: 1;\n    grid-row: 4/5;\n    padding: 0;\n  }\n}\n\na, .lc-link {\n  text-decoration: none;\n  color: #c11010;\n  font-weight: bold;\n}\n\na:hover, .lc-link:hover {\n  color: #7a0a7a;\n  cursor: pointer;\n}\n\n.lc-logo img {\n  display: block;\n  max-height: 100px;\n  max-width: 100%;\n  width: auto;\n  height: auto;\n}\n\nnav {\n  width: 100%;\n  background: #606060;\n  display: flex;\n  justify-content: flex-end;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n}\n\nnav a:hover {\n  background-color: #909090;\n  color: white;\n  text-decoration: none;\n}\n\n.lc-menu-toggle, .lc-mobile-menu {\n  display: none;\n}\n\n.lc-action-buttons {\n  padding-top: 8em;\n}\n\n.lc-action-buttons__button {\n  border-radius: 4px;\n  box-sizing: border-box;\n  display: inline-block;\n  font-weight: 900;\n  min-width: 125px;\n  padding: 36px 76px;\n  opacity: .9;\n  background-color: white;\n  text-align: center;\n  text-decoration: none;\n  text-transform: uppercase;\n}\n\n.lc-action-buttons__button:hover {\n  background-color: #e0ae75;\n  border-color: #e0ae75;\n}\n\n.lc-action-buttons__button:hover a {\n  color: white;\n}\n\n.lc-action-buttons__button a {\n  color: #c11010;\n  font-size: 200%;\n  font-weight: bold;\n  font-style: normal;\n}\n\n.lc-action-buttons__button a:hover {\n  text-decoration: none;\n  color: white;\n}\n\n.lc-action-buttons__button.primary {\n  margin-right: 215px;\n  background-color: #c11010;\n}\n\n.lc-action-buttons__button.primary:hover {\n  background-color: #e0ae75;\n}\n\n.lc-action-buttons__button.primary a {\n  color: white;\n}\n\n.lc-tagline {\n  font-family: 'Roboto Slab', serif;\n  padding: 3em 2em 1em;\n  font-size: 200%;\n}\n\n.lc-service-item {\n  padding-bottom: .7rem;\n}\n\n.lc-service-item__item {\n  font-size: 1.2em;\n}\n\n.lc-service-item__person {\n  font-style: italic;\n  padding-left: 1em;\n}\n\n.lc-service-item__subtext {\n  padding-left: 2em;\n}\n\n.lc-service-item__sermon-notes {\n  padding-left: 3em;\n}\n\n.lc-facebook-feed {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.lc-facebook-feed__post {\n  align-self: center;\n  padding: 2em;\n  background-color: #bbbbbb;\n  margin-top: 1em;\n}\n\n.lc-facebook-feed__post iframe {\n  background-color: white;\n}\n\n.lc-announcement-flyer {\n  text-align: center;\n}\n\n.lc-announcement-flyer img {\n  width: 600px;\n  border: 25px #bbbbbb solid;\n  margin-top: 10px;\n}\n\n.lc-stone-soup {\n  width: 600px;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n  text-align: left;\n}\n\n.lc-order-of-worship {\n  width: 600px;\n  text-align: left;\n  margin: auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n}\n\n.lc-order-of-worship__date {\n  color: #c11010;\n  margin: 0;\n}\n\n.lc-order-of-worship__faithlife-bulletin {\n  margin-bottom: .83em;\n  font-style: italic;\n}\n\n.lc-pop-up {\n  background-color: rgba(3, 3, 3, 0.62);\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 400;\n}\n\n.lc-pop-up__content {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n\n.lc-pop-up__modal {\n  background-color: rgb(255, 255, 255);\n  box-shadow: rgba(3, 3, 3, 0.16) 0 16px 32px 0, rgba(3, 3, 3, 0.1) 0px 0px 8px 0px;\n  box-sizing: border-box;\n  width: 600px;\n  min-height: 24px;\n  padding: 0 24px 24px 16px;\n  overflow-x: hidden;\n  overflow-y: auto;\n  -ms-scroll-chaining: none;\n  overscroll-behavior: contain;\n  word-break: break-word;\n  position: relative;\n}\n\n.lc-pop-up__modal br {\n\n}\n\n.lc-pop-up__close {\n  align-items:flex-start;\n  -webkit-appearance:none;\n     -moz-appearance:none;\n          appearance:none;\n  background-color:rgba(0, 0, 0, 0);\n  border: none;\n  box-sizing:border-box;\n  color:rgb(106, 110, 115);\n  font-size:16px;\n  font-stretch:100%;\n  font-weight:400;\n  height:36px;\n  letter-spacing:normal;\n  line-height:24px;\n  margin: 0;\n  padding: 6px 16px;\n  position:absolute;\n  right:16px;\n  text-align:center;\n  top:23px;\n  -webkit-user-select:none;\n     -moz-user-select:none;\n      -ms-user-select:none;\n          user-select:none;\n  white-space:nowrap;\n  width:48px;\n  word-spacing:0px;\n  -ms-writing-mode:lr-tb;\n      writing-mode:horizontal-tb;\n  -webkit-border-image:none;\n}\n\n.lc-scripture-decorator {\n  color: #7a0a7a;\n  font-weight: bold;\n}\n\n.lc-sermons {\n  width: 700px;\n  margin: 0 auto 20px auto;\n  opacity: 0.9;\n  background-color: #eeeeee;\n  padding: 1em;\n  text-align: left;\n}\n\n.lc-sermons__date{\n\n}\n\n.lc-sermons__video {\n  text-align: center;\n}\n\n.lc-sermons__link {\n  display: block;\n}\n\n.lc-sermons__previous {\n}\n\n.lc-calendar {\n  background-color: white;\n  padding: 1em;\n}\n\nfooter {\n  background-color: darkgray;\n  color: white;\n  padding: 2em;\n  font-size: .8em;\n  font-weight: bold;\n  height: 30px;\n}\n\n@media screen and (max-width: 1000px) {\n  .lc-logo img {\n    height: 80px;\n  }\n\n  header {\n    border-width: 0 0 1px 0;\n    border-style: solid;\n    border-color: #dddddd;\n    background-color: #ffffff;\n    padding-top: .6em;\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    height: auto;\n    padding-left: .2em;\n  }\n  nav a {\n    padding: 0.35rem;\n  }\n\n  .lc-action-buttons__button {\n    padding: 15px;\n  }\n\n  .lc-action-buttons__button.primary {\n    margin-right: 40px;\n  }\n\n  .lc-action-buttons__button a {\n    font-size: 170%;\n  }\n\n  .lc-content {\n    border-width: 0 1px 0 1px;\n    border-style: solid;\n    border-color: #dddddd;\n    background-color: #ffffff;\n  }\n\n  .lc-announcement-flyer img {\n    width: 80%;\n    border: 25px #bbbbbb solid;\n    margin-top: 10px;\n  }\n\n  .lc-stone-soup {\n    width: 90%;\n    margin: auto;\n    text-align: left;\n  }\n\n  .lc-order-of-worship {\n    width: 90%;\n    padding: 1em;\n  }\n\n  .lc-menu {\n    display:none;\n  }\n\n  .lc-menu-toggle {\n    display: flex;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n    border-radius: 5px;\n  }\n\n  .lc-menu-toggle:hover {\n    background-color: #bbbbbb;\n  }\n\n  .lc-action-buttons {\n    margin: 0 23px 15px;\n    display: flex;\n    justify-content: center;\n    padding-top: 2em;\n  }\n\n  .lc-tagline {\n    padding: 1em;\n    font-size: 120%;\n  }\n\n  .lc-highlights {\n    height: auto;\n    display: block;\n  }\n\n  .lc-highlight-small {\n    display: block;\n    width: auto;\n    max-width: 300px;\n    float: none;\n    margin: 2.5em auto;\n  }\n\n  .lc-highlight-small a {\n    display:block;\n    width: auto;\n    text-align: center;\n  }\n\n  .lc-highlight-large {\n    margin: 0;\n    padding: 1.5em 3em;\n  }\n\n  .lc-mobile-menu {\n    display: inherit;\n    background: rgba(0,0,0,.9);\n    bottom: 0;\n    height: 100vh;\n    left: 0;\n    position: absolute;\n    right: 0;\n    top: 0;\n    z-index: 2;\n  }\n\n  .lc-mobile-menu__close {\n    color: #fff;\n    cursor: pointer;\n    font-size: 26px;\n    position: absolute;\n    right: 10px;\n    top: 10px;\n  }\n\n  .lc-mobile-menu ul {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 100vh;\n    justify-content: center;\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n\n  .lc-mobile-menu li {\n    padding: 15px 0;\n  }\n\n  .lc-mobile-menu li a {\n    color: #fff;\n    font-size: 22px;\n    font-weight: 900;\n    text-decoration: none;\n    text-transform: uppercase;\n  }\n\n  .lc-live-stream-link a {\n    color: #c11010 !important;\n  }\n\n  .lc-live-stream-link a:hover {\n    color: #7a0a7a !important;\n  }\n\n  .lc-pop-up__modal {\n    max-height:calc(100% - 48px);\n    max-width:calc(100% - 32px);\n  }\n\n  h1.lc-scripture-decorator {\n    font-size: 150%;\n    margin-top: 25px;\n  }\n\n  h2.lc-scripture-decorator {\n    font-size: 120%;\n  }\n}\n\n@media screen and (max-width: 600px) {\n  .lc-logo img {\n    height: 50px;\n  }\n\n  header {\n    height: 4em;\n  }\n\n  .lc-splash-image {\n    height: 10em;\n    background-image: url(" + ___CSS_LOADER_URL___4___ + ");\n    background-position: 50% 30%;\n    background-repeat: no-repeat;\n  }\n}", ""]);
@@ -3100,7 +3021,7 @@ exports.push([module.i, "body {\n  font-family: 'Montserrat', sans-serif;\n  fon
 
 
 /***/ }),
-/* 60 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3191,7 +3112,7 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 61 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3217,31 +3138,31 @@ module.exports = function escape(url, needQuotes) {
 };
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/worship_indoor.123850ce.jpg";
 
 /***/ }),
-/* 63 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/playground.3b7cbc81.jpeg";
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/preaching.1f1f759b.jpg";
 
 /***/ }),
-/* 65 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/outdoors.09f54de6.jpg";
 
 /***/ }),
-/* 66 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/outdoors_small.32cda7df.jpg";
