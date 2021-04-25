@@ -16,9 +16,9 @@ export default () => {
     // );
     const worshipSongs = (
         <>
-            <div className="lc-worship-song">How Firm a Foundation</div>
-            <div className="lc-worship-song">Turn Your Eyes upon Jesus</div>
-            <div className="lc-worship-song">Day by Day</div>
+            <div className="lc-worship-song">Come Thou Fount</div>
+            <div className="lc-worship-song">Ancient of Days</div>
+            <div className="lc-worship-song">I Love You, Lord</div>
             {
                 //            <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Lyrics</a></div>
                 //<div className="lc-worship-song">All Creature of our God and King</div>
@@ -125,15 +125,14 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">April 18th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">April 25th, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Tara Kasey">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Nicole Thoen" subtext={worshipSongs}>Worship</ServiceItem>
-            <ServiceItem person="Aaron Claussen">Announcements</ServiceItem>
-            <ServiceItem person="Dawn Provost">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Julia Wu" >Scripture Reading</ServiceItem>
+            <ServiceItem>Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Julia Wu" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem person="Dawn Provost">Announcements</ServiceItem>
+            <ServiceItem person="Hunter Thoen">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Hannah Colby" >Scripture Reading</ServiceItem>
             <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
-            <ServiceItem person="Nicole Thoen" subtext={closingSong}>Closing Song</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
     );
