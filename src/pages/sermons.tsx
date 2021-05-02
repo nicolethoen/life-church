@@ -4,16 +4,17 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">April 18th, 2021 - Spiritually Vigilant</h2>
+        <h2 className="lc-sermons__date" role="heading">April 25th, 2021 - The Marriage Motif</h2>
         <div className="lc-sermons__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iY8Xnr7urcw"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j2AxO90NgHU"
                     title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen />
+                    allowFullScreen/>
         </div>
         <h1>Previous Sermons</h1>
         <div className="lc-sermons__previous">
             <h2 role="heading">Ephesians</h2>
+            <Sermon link="https://youtu.be/m5GWImDutps">April 18th, 2021 - Spiritually Vigilant</Sermon>
             <Sermon link="https://youtu.be/m5GWImDutps">April 11th, 2021 - The Stockholm Syndrome</Sermon>
             <Sermon link="https://youtu.be/lN91L2dt0CM">March 21st, 2021 - Turning up the Contrast</Sermon>
             <Sermon link="https://youtu.be/YXBQWtTPnVk">March 14th, 2021 - A New Look for a New Society</Sermon>

@@ -16,11 +16,8 @@ export default () => {
     // );
     const worshipSongs = (
         <>
-            <div className="lc-worship-song">Come Thou Fount</div>
-            <div className="lc-worship-song">Ancient of Days</div>
-            <div className="lc-worship-song">I Love You, Lord</div>
+            <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Lyrics</a></div>
             {
-                //            <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Lyrics</a></div>
                 //<div className="lc-worship-song">All Creature of our God and King</div>
                 //<div className="lc-worship-song">Doxology</div>
             }
@@ -110,11 +107,19 @@ export default () => {
             <p>Introduction</p>
 
             <p>
-                Three Offers of Peace
+                Children
                 <ol>
-                    <li>The Garden of Eden</li>
-                    <li>The Triumphal Entry</li>
-                    <li>God's Ultimate Peace</li>
+                    <li>Obey your parents (vs 1)</li>
+                    <li>Honor your parents (vs 2)</li>
+                    <li>Your promise (vs 3)</li>
+                </ol>
+            </p>
+            <p>
+                Parents
+                <ol>
+                    <li>Do not provoke your children to anger (vs 4)</li>
+                    <li>Discipline them</li>
+                    <li>Instruct / council them</li>
                 </ol>
             </p>
             <p>Conclusion</p>
@@ -125,15 +130,15 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">April 25th, 2021</h2>
+            <h2 className="lc-order-of-worship__date">May 2nd, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem>Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="Julia Wu" subtext={worshipSongs}>Worship</ServiceItem>
-            <ServiceItem person="Dawn Provost">Announcements</ServiceItem>
-            <ServiceItem person="Hunter Thoen">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Hannah Colby" >Scripture Reading</ServiceItem>
-            <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
-            <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
+            <ServiceItem person="Dawn Provost">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Tara Kasey, Jazmyn Kasey, Hannah Colby" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem person="Andre Wu">Announcements</ServiceItem>
+            <ServiceItem person="Aaron Claussen">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem person="Dawn Provost" subtext="Ephesians 6:1-4">Scripture Reading</ServiceItem>
+            <ServiceItem person="Lovingsky Jasmin" subtext="Duties of Children and Parents" sermonNotes={sermonNotes}>Sermon</ServiceItem>
+            <ServiceItem>Benediction</ServiceItem>
         </div>
     );
 

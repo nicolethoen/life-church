@@ -1415,10 +1415,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-live-stream"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for April 25th, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "DUE TO WET WEATHER, WE ARE NOT MEETING IN PERSON - COMPLETELY VIRTUAL SERVICE", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Sermon: The Marriage Motif", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Scripture: Ephesians: 5:22-33", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Preacher: Pastor Dan Kasey", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for May 2nd, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We will be gathering at Hidden Park this Sunday. Hopefully streaming from the field goes smoothly.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Preacher: Lovingsky Jasmin", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Title: Duties of Children and Parents", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Scripture reading: Ephesians 6:1-4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
     width: "560",
     height: "315",
-    src: "https://www.youtube.com/embed/j2AxO90NgHU",
+    src: "https://www.youtube.com/embed/KgPL5q3yQXo",
     title: "YouTube video player",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
@@ -1554,11 +1554,10 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   // );
   var worshipSongs = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "Come Thou Fount"), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, "Ancient of Days"), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "lc-worship-song"
-  }, "I Love You, Lord"));
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
+    target: "_blank"
+  }, "Lyrics")));
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
   }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
@@ -1637,7 +1636,7 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   // );
   //
 
-  var sermonNotes = /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("p", null, "Introduction"), /*#__PURE__*/external_react_default.a.createElement("p", null, "Three Offers of Peace", /*#__PURE__*/external_react_default.a.createElement("ol", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "The Garden of Eden"), /*#__PURE__*/external_react_default.a.createElement("li", null, "The Triumphal Entry"), /*#__PURE__*/external_react_default.a.createElement("li", null, "God's Ultimate Peace"))), /*#__PURE__*/external_react_default.a.createElement("p", null, "Conclusion"));
+  var sermonNotes = /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("p", null, "Introduction"), /*#__PURE__*/external_react_default.a.createElement("p", null, "Children", /*#__PURE__*/external_react_default.a.createElement("ol", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "Obey your parents (vs 1)"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Honor your parents (vs 2)"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Your promise (vs 3)"))), /*#__PURE__*/external_react_default.a.createElement("p", null, "Parents", /*#__PURE__*/external_react_default.a.createElement("ol", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "Do not provoke your children to anger (vs 4)"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Discipline them"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Instruct / council them"))), /*#__PURE__*/external_react_default.a.createElement("p", null, "Conclusion"));
   var closingSong = /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
   }, "Amazing Love");
@@ -1645,22 +1644,23 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "April 25th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hunter Thoen"
+  }, "May 2nd, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Dawn Provost"
   }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Julia Wu",
+    person: "Tara Kasey, Jazmyn Kasey, Hannah Colby",
     subtext: worshipSongs
   }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dawn Provost"
+    person: "Andre Wu"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hunter Thoen"
+    person: "Aaron Claussen"
   }, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Hannah Colby"
+    person: "Dawn Provost",
+    subtext: "Ephesians 6:1-4"
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dan Kasey"
-  }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Dan Kasey"
-  }, "Benediction"));
+    person: "Lovingsky Jasmin",
+    subtext: "Duties of Children and Parents",
+    sermonNotes: sermonNotes
+  }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Benediction"));
 });
 
 /***/ }),
@@ -1797,12 +1797,12 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "April 18th, 2021 - Spiritually Vigilant"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "April 25th, 2021 - The Marriage Motif"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
     width: "560",
     height: "315",
-    src: "https://www.youtube.com/embed/iY8Xnr7urcw",
+    src: "https://www.youtube.com/embed/j2AxO90NgHU",
     title: "YouTube video player",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
@@ -1812,6 +1812,8 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/m5GWImDutps"
+  }, "April 18th, 2021 - Spiritually Vigilant"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/m5GWImDutps"
   }, "April 11th, 2021 - The Stockholm Syndrome"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/lN91L2dt0CM"
