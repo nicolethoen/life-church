@@ -312,6 +312,13 @@ nav a:hover {
   color: white;
 }
 
+.lc-announcement-banner {
+  background-color: #c11010;
+  color: white;
+  padding: 1em;
+  margin: 0;
+}
+
 .lc-tagline {
   font-family: 'Roboto Slab', serif;
   padding: 3em 2em 1em;
@@ -500,6 +507,14 @@ footer {
   font-size: .8em;
   font-weight: bold;
   height: 30px;
+}
+
+@media screen and (min-width: 999px) {
+  .lc-flex {
+    display: flex;
+    padding: 1em;
+  }
+
 }
 
 @media screen and (max-width: 1000px) {

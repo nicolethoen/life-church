@@ -1415,10 +1415,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "lc-live-stream"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for May 9th, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We will be gathering at Hidden Park this Sunday. Hopefully streaming from the field goes smoothly.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Preacher: Pastor Dan Kasey", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Title: Glorifying God in our Work", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Scripture reading: Ephesians 6:5-9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Live stream for May 25th, 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We will be gathering at Hidden Park this Sunday. Hopefully streaming from the field goes smoothly.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Preacher: Pastor Dan Kasey", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
     width: "560",
     height: "315",
-    src: "https://www.youtube.com/embed/7iQd0i_b-vM",
+    src: "https://www.youtube.com/embed/H9-BDw_lpVU",
     title: "YouTube video player",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
@@ -1557,7 +1557,13 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub",
     target: "_blank"
-  }, "Lyrics")));
+  }, "Lyrics")), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, "Doxology"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, "Cornerstone"), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-worship-song"
+  }, "Open the Eyes of My Heart"));
   var scriptureReading = /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
     variant: "verse"
   }, "4"), " even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love", /*#__PURE__*/external_react_default.a.createElement(components_ScriptureDecorator, {
@@ -1639,27 +1645,30 @@ var ScriptureDecorator_ScriptureDecorator = function ScriptureDecorator(_ref) {
   var sermonNotes = /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("p", null, "Introduction"), /*#__PURE__*/external_react_default.a.createElement("p", null, "Children", /*#__PURE__*/external_react_default.a.createElement("ol", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "Obey your parents (vs 1)"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Honor your parents (vs 2)"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Your promise (vs 3)"))), /*#__PURE__*/external_react_default.a.createElement("p", null, "Parents", /*#__PURE__*/external_react_default.a.createElement("ol", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "Do not provoke your children to anger (vs 4)"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Discipline them"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Instruct / council them"))), /*#__PURE__*/external_react_default.a.createElement("p", null, "Conclusion"));
   var closingSong = /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-worship-song"
-  }, "Amazing Love");
+  }, "Yet Not I But Through Christ In Me");
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-order-of-worship"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-order-of-worship__date"
-  }, "May 9th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Andre Wu"
+  }, "May 15th, 2021"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, null, "Welcome"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Dan Kasey",
+    subtext: "Psalm 42:1-5"
   }, "Call to Worship & Opening Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Tara Kasey, Jazmyn Kasey",
+    person: "Dawn Provost",
     subtext: worshipSongs
   }, "Worship"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Tara Kasey"
   }, "Announcements"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Daniel Mullane"
+    person: "Tara Kasey"
   }, "Thanksgiving and Prayer"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
-    person: "Julia Wu",
-    subtext: "Ephesians 6:5-9"
+    person: "Colbys"
   }, "Scripture Reading"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey",
     subtext: "Glorifying God in our Work"
   }, "Sermon"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
+    person: "Dawn Provost",
+    subtext: closingSong
+  }, "Closing Song"), /*#__PURE__*/external_react_default.a.createElement(components_ServiceItem, {
     person: "Dan Kasey"
   }, "Benediction"));
 });
@@ -1724,6 +1733,8 @@ var ServiceInformation = __webpack_require__(10);
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link",
     target: "_blank"
   }, "Visitor Form")))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "lc-announcement-banner"
+  }, "We will be gathering at Hidden Park this Sunday. Please join us in person, or watch the live stream."), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-tagline"
   }, "Life Church exists in Ayer to be a transformed people, loving God, and loving others, sharing life in and through community."), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-highlights"
@@ -1798,12 +1809,12 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Sermons"), /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-sermons__date",
     role: "heading"
-  }, "May 2nd, 2021 - Duties of Children and Parents"), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "May 9th, 2021 - Glorifying God in our Work"), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-sermons__video"
   }, /*#__PURE__*/external_react_default.a.createElement("iframe", {
     width: "560",
     height: "315",
-    src: "https://www.youtube.com/embed/KgPL5q3yQXo",
+    src: "https://www.youtube.com/embed/7iQd0i_b-vM",
     title: "YouTube video player",
     frameBorder: "0",
     allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
@@ -1813,6 +1824,8 @@ var Sermon_Sermon = function Sermon(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     role: "heading"
   }, "Ephesians"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
+    link: "https://youtu.be/j2AxO90NgHU"
+  }, "May 2nd, 2021 - Duties of Children and Parents"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/j2AxO90NgHU"
   }, "April 25th, 2021 - Spiritually Vigilant"), /*#__PURE__*/external_react_default.a.createElement(components_Sermon, {
     link: "https://youtu.be/m5GWImDutps"

@@ -38,7 +38,6 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
                 <ul aria-label="Navigation">
                     <NavItem itemText="Sunday Worship" submenuItems={[
                         <NavItem itemText="Live stream" linkTo="/live-stream" isSubMenuItem key={0} />,
-                        <NavItem itemText="Digital Bulletin" linkTo="/order-of-service" isSubMenuItem key={1} />,
                         <NavItem itemText="Service Information" linkTo="/service-information" isSubMenuItem key={1} />,
                         <NavItem itemText="Sermons" linkTo="/sermons" isSubMenuItem key={2} />,
                         <NavItem itemText="Service Sign Up" href="https://docs.google.com/spreadsheets/d/1A57V2SGXO3aKTPP3lzzXZ6tkKFnnomvZ/edit" isSubMenuItem key={3} />

@@ -4,16 +4,17 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">May 2nd, 2021 - Duties of Children and Parents</h2>
+        <h2 className="lc-sermons__date" role="heading">May 9th, 2021 - Glorifying God in our Work</h2>
         <div className="lc-sermons__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KgPL5q3yQXo"
-                    title="YouTube video player" frameBorder="0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7iQd0i_b-vM" title="YouTube video player"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen/>
         </div>
         <h1>Previous Sermons</h1>
         <div className="lc-sermons__previous">
             <h2 role="heading">Ephesians</h2>
+            <Sermon link="https://youtu.be/j2AxO90NgHU">May 2nd, 2021 - Duties of Children and Parents</Sermon>
             <Sermon link="https://youtu.be/j2AxO90NgHU">April 25th, 2021 - Spiritually Vigilant</Sermon>
             <Sermon link="https://youtu.be/m5GWImDutps">April 18th, 2021 - Spiritually Vigilant</Sermon>
             <Sermon link="https://youtu.be/m5GWImDutps">April 11th, 2021 - The Stockholm Syndrome</Sermon>
