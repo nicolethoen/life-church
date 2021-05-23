@@ -4,19 +4,20 @@ import Sermon from "../components/Sermon";
 export default () => (
     <div className="lc-sermons">
         <h1>Sermons</h1>
-        <h2 className="lc-sermons__date" role="heading">May 9th, 2021 - Glorifying God in our Work</h2>
+        <h2 className="lc-sermons__date" role="heading">May 16th, 2021 - The Belt of Truth</h2>
         <div className="lc-sermons__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7iQd0i_b-vM" title="YouTube video player"
-                    frameBorder="0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H9-BDw_lpVU"
+                    title="YouTube video player" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen/>
         </div>
         <h1>Previous Sermons</h1>
         <div className="lc-sermons__previous">
             <h2 role="heading">Ephesians</h2>
-            <Sermon link="https://youtu.be/j2AxO90NgHU">May 2nd, 2021 - Duties of Children and Parents</Sermon>
-            <Sermon link="https://youtu.be/j2AxO90NgHU">April 25th, 2021 - Spiritually Vigilant</Sermon>
-            <Sermon link="https://youtu.be/m5GWImDutps">April 18th, 2021 - Spiritually Vigilant</Sermon>
+            <Sermon link="https://youtu.be/7iQd0i_b-vM">May 9th, 2021 - Glorifying God in our Work</Sermon>
+            <Sermon link="https://youtu.be/KgPL5q3yQXo">May 2nd, 2021 - Duties of Children and Parents</Sermon>
+            <Sermon link="https://youtu.be/j2AxO90NgHU">April 25th, 2021 - The Marriage Motif</Sermon>
+            <Sermon link="https://youtu.be/iY8Xnr7urcw">April 18th, 2021 - Spiritually Vigilant</Sermon>
             <Sermon link="https://youtu.be/m5GWImDutps">April 11th, 2021 - The Stockholm Syndrome</Sermon>
             <Sermon link="https://youtu.be/lN91L2dt0CM">March 21st, 2021 - Turning up the Contrast</Sermon>
             <Sermon link="https://youtu.be/YXBQWtTPnVk">March 14th, 2021 - A New Look for a New Society</Sermon>
