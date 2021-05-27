@@ -8,8 +8,8 @@ import ServiceInformation from "../components/ServiceInformation";
 export default () => (
     <div className="lc-welcome-message">
         <h2 className="lc-announcement-banner">
-            We will be gathering at Hidden Park this Sunday, May 22nd. <br />
-            Please join us in person, or watch the live stream.
+            This Sunday, May 30th, we have still not determined whether or not we will be meeting in person. <br />
+            Please check your email for an update, or watch the live stream.
         </h2>
         <div className="lc-splash-image">
             <div className="lc-action-buttons">

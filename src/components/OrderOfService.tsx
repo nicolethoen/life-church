@@ -17,9 +17,6 @@ export default () => {
     const worshipSongs = (
         <>
             <div className="lc-worship-song"><a href="https://docs.google.com/document/d/e/2PACX-1vQwSPcRQhJYtfFZhqA7MNfL-3jU3EbC2dqHysYqugLCgtvxzoe8oyfbh4MXANQ6qwro0pKcHQ3VzRyt/pub" target="_blank">Lyrics</a></div>
-            <div className="lc-worship-song">Oh For a Thousand Tongues to Sing</div>
-            <div className="lc-worship-song">Amazing Grace</div>
-            <div className="lc-worship-song">Jesus Loves Me</div>
         </>
     );
 
@@ -129,13 +126,13 @@ export default () => {
     );
     return (
         <div className="lc-order-of-worship">
-            <h2 className="lc-order-of-worship__date">May 22nd, 2021</h2>
+            <h2 className="lc-order-of-worship__date">May 30th, 2021</h2>
             <ServiceItem>Welcome</ServiceItem>
-            <ServiceItem person="Andre Wu">Call to Worship & Opening Prayer</ServiceItem>
-            <ServiceItem person="The Thoens" subtext={worshipSongs}>Worship</ServiceItem>
-            <ServiceItem person="Tara Kasey">Announcements</ServiceItem>
-            <ServiceItem person="Lovingsky Jasmin">Thanksgiving and Prayer</ServiceItem>
-            <ServiceItem person="Nicole Thoen">Scripture Reading</ServiceItem>
+            <ServiceItem person="Julia Wu">Call to Worship & Opening Prayer</ServiceItem>
+            <ServiceItem person="Dawn Provost" subtext={worshipSongs}>Worship</ServiceItem>
+            <ServiceItem >Announcements</ServiceItem>
+            <ServiceItem person="Andre Wu">Thanksgiving and Prayer</ServiceItem>
+            <ServiceItem >Scripture Reading</ServiceItem>
             <ServiceItem person="Dan Kasey">Sermon</ServiceItem>
             <ServiceItem person="Dan Kasey">Benediction</ServiceItem>
         </div>
