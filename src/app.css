@@ -319,6 +319,14 @@ nav a:hover {
   margin: 0;
 }
 
+.lc-announcement-banner a {
+  color: #7a0a7a;
+}
+
+.lc-announcement-banner a:hover {
+  text-decoration: underline;
+}
+
 .lc-tagline {
   font-family: 'Roboto Slab', serif;
   padding: 3em 2em 1em;

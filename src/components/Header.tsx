@@ -37,14 +37,14 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
             <div className="lc-menu" role="navigation">
                 <ul aria-label="Navigation">
                     <NavItem itemText="Sunday Worship" submenuItems={[
-                        <NavItem itemText="Live stream" linkTo="/live-stream" isSubMenuItem key={0} />,
                         <NavItem itemText="Service Information" linkTo="/service-information" isSubMenuItem key={1} />,
                         <NavItem itemText="Sermons" linkTo="/sermons" isSubMenuItem key={2} />,
                         <NavItem itemText="Service Sign Up" href="https://docs.google.com/spreadsheets/d/1A57V2SGXO3aKTPP3lzzXZ6tkKFnnomvZ/edit" isSubMenuItem key={3} />
                     ]}/>
                     <NavItem itemText="Announcements" submenuItems={[
-                        <NavItem itemText="Stone Soup" linkTo="/stone-soup" isSubMenuItem key={0} />,
-                        <NavItem itemText="Latest announcements" linkTo="/announcement-flyer" isSubMenuItem key={1} />
+                        <NavItem itemText="Give Online" href="https://tithe.ly/give?c=1445617" isSubMenuItem key={0} />,
+                        <NavItem itemText="Stone Soup" linkTo="/stone-soup" isSubMenuItem key={1} />,
+                        <NavItem itemText="Latest Announcements" linkTo="/announcement-flyer" isSubMenuItem key={2} />
                     ]}/>
                     <NavItem itemText="Events" linkTo="/calendar"/>
                     <NavItem itemText="Contact us" submenuItems={[
@@ -66,10 +66,7 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
                         </span>
                         <ul>
                             <li>
-                                <Link to="/live-stream" onClick={() => setInProp(false)}>LIVE STREAM</Link>
-                            </li>
-                            <li>
-                                <Link to="/order-of-service" onClick={() => setInProp(false)}>Digital Bulletin</Link>
+                                <Link to="/service-information" onClick={() => setInProp(false)}>Service Information</Link>
                             </li>
                             <li>
                                 <Link to="/stone-soup" onClick={() => setInProp(false)}>Support Stone Soup</Link>
@@ -79,6 +76,9 @@ const Header: React.FunctionComponent<HeaderProps> = ({}: HeaderProps) => {
                             </li>
                             <li>
                                 <Link to="/calendar" onClick={() => setInProp(false)}>Events</Link>
+                            </li>
+                            <li>
+                                <a href="https://tithe.ly/give?c=1445617">Give Online</a>
                             </li>
                         </ul>
                     </div>

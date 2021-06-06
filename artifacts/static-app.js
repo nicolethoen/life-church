@@ -706,7 +706,7 @@ module.exports = require("react-transition-group");
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "lc-highlight-large",
     id: "service-information"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Service Information"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Sunday Mornings at 10:30am"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We do not yet have a designated indoor space to meet. The pandemic has slowed our search, since meeting indoors is not as much of an option."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Currently, we stream the services on Facebook and YouTube each Sunday. If we are not meeting in person, once the virtual Sunday service is over we gather on Zoom for a time of fellowship."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Now that it is spring, whenever the weather forecast seems to allow it, we will additionally gather outside at The Hidden Park in Devens, MA. We will still stream the services for those unable to attend when meeting in person. Outdoor worship services will be announced via email and on our Facebook page."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Summer worship update"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Life Church,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We appreciate everyone for joining Life Church Sunday Worship Services throughout the course of 2020-2021. We want to inform you that Life Church is planning to change our format for our Sunday worship services on June 6 and 13 and not formally meet for worship from June 20 \u2013 August 16. Our current Senior Pastor from our mother church, Faith Evangelical Free Church (FEFC), is retiring this summer, and the church is transitioning to its new Senior Pastor. Some integral members of Life Church are planning to be present at FEFC and support that transition. Life Church hopes to plan other events that will meet in-person throughout the summer. We will send out an email announcement/invitation to those events because we would love you to join us and stay connected with us throughout the summer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Also, during this summer, we will be looking for a building for Life Church to meet in. We have some leads, but please feel free to let us know if you know of any good locations."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "We also would like to get your feedback on whether or not you have joined the live stream services and plan to continue doing so. We will only be recording and posting the audio of the services on June 6 and 13, so we encourage you to join us in person. Please respond to this email and let us know if you would be interested in still having the sermons live-streamed in the future and any other feedback you may have. We realize that we have had technical difficulties when we have live-streamed from Hidden Park. It\u2019s often beyond our control when that happens, but we do apologize for that inconvenience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Thank you for your continued support. We look forward to connecting with you and the Ayer community this summer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Soli Deo Gloria,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Dan Kasey"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "lc-outdoor-location"
   }, smallVideo ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
     src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2939.2445339800483!2d-71.61165464882482!3d42.5501002309691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3eb055d5357a3%3A0xfee010927702a67e!2sThe%20Hidden%20Park!5e0!3m2!1sen!2sus!4v1616867869897!5m2!1sen!2sus",
@@ -1135,11 +1135,6 @@ var Header_Header = function Header(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement(components_NavItem, {
     itemText: "Sunday Worship",
     submenuItems: [/*#__PURE__*/external_react_default.a.createElement(components_NavItem, {
-      itemText: "Live stream",
-      linkTo: "/live-stream",
-      isSubMenuItem: true,
-      key: 0
-    }), /*#__PURE__*/external_react_default.a.createElement(components_NavItem, {
       itemText: "Service Information",
       linkTo: "/service-information",
       isSubMenuItem: true,
@@ -1198,16 +1193,11 @@ var Header_Header = function Header(_ref) {
         return setInProp(false);
       }
     }, "X"), /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-      to: "/live-stream",
+      to: "/service-information",
       onClick: function onClick() {
         return setInProp(false);
       }
-    }, "LIVE STREAM")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-      to: "/order-of-service",
-      onClick: function onClick() {
-        return setInProp(false);
-      }
-    }, "Digital Bulletin")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    }, "Service Information")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
       to: "/stone-soup",
       onClick: function onClick() {
         return setInProp(false);
@@ -1222,7 +1212,9 @@ var Header_Header = function Header(_ref) {
       onClick: function onClick() {
         return setInProp(false);
       }
-    }, "Events"))));
+    }, "Events")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+      href: "https://tithe.ly/give?c=1445617"
+    }, "Give Online"))));
   }));
 };
 
@@ -1720,15 +1712,17 @@ var ServiceInformation = __webpack_require__(10);
     className: "lc-welcome-message"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", {
     className: "lc-announcement-banner"
-  }, "This Sunday, May 30th, we have still not determined whether or not we will be meeting in person. ", /*#__PURE__*/external_react_default.a.createElement("br", null), "Please check your email for an update, or watch the live stream."), /*#__PURE__*/external_react_default.a.createElement("div", {
+  }, "Throughout the months of June, July, and August - we will not be streaming our services.", /*#__PURE__*/external_react_default.a.createElement("br", null), "Visit ", /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
+    to: "/service-information"
+  }, "this page"), " for more information."), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-splash-image"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "lc-action-buttons"
   }, /*#__PURE__*/external_react_default.a.createElement(components_ActionButton, {
     className: "primary"
-  }, /*#__PURE__*/external_react_default.a.createElement(router_["Link"], {
-    to: "/live-stream"
-  }, "Live Stream")), /*#__PURE__*/external_react_default.a.createElement(components_ActionButton, null, /*#__PURE__*/external_react_default.a.createElement("a", {
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://tithe.ly/give?c=1445617"
+  }, "Give Online")), /*#__PURE__*/external_react_default.a.createElement(components_ActionButton, null, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link",
     target: "_blank"
   }, "Visitor Form")))), /*#__PURE__*/external_react_default.a.createElement("div", {

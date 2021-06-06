@@ -8,13 +8,13 @@ import ServiceInformation from "../components/ServiceInformation";
 export default () => (
     <div className="lc-welcome-message">
         <h2 className="lc-announcement-banner">
-            This Sunday, May 30th, we have still not determined whether or not we will be meeting in person. <br />
-            Please check your email for an update, or watch the live stream.
+            Throughout the months of June, July, and August - we will not be streaming our services.<br />
+            Visit <Link to="/service-information">this page</Link> for more information.
         </h2>
         <div className="lc-splash-image">
             <div className="lc-action-buttons">
                 <ActionButton className="primary">
-                    <Link to="/live-stream">Live Stream</Link>
+                    <a href="https://tithe.ly/give?c=1445617">Give Online</a>
                 </ActionButton>
                 <ActionButton>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRs3sY8J1ZVmjuy_rDzRjs6VI44ywHEFN__nbeRk8wdk2WOA/viewform?usp=sf_link" target="_blank">Visitor Form</a>
